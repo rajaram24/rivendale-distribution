@@ -1,0 +1,766 @@
+{% doc %}
+  @prompt
+    Generate multi column, without image and add option to add more column
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-multi-column-{{ ai_gen_id }} {
+    padding: {{ block.settings.section_padding }}px 0;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-multi-column__container-{{ ai_gen_id }} {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .ai-multi-column__header-{{ ai_gen_id }} {
+    text-align: {{ block.settings.text_alignment }};
+    margin-bottom: {{ block.settings.content_spacing }}px;
+  }
+
+  .ai-multi-column__title-{{ ai_gen_id }} {
+    color: {{ block.settings.heading_color }};
+    font-size: {{ block.settings.heading_size }}px;
+    margin: 0 0 16px;
+  }
+
+  .ai-multi-column__subtitle-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.text_size }}px;
+    margin: 0;
+  }
+
+  .ai-multi-column__grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat({{ block.settings.columns_desktop }}, 1fr);
+    gap: {{ block.settings.column_gap }}px;
+    margin-top: {{ block.settings.content_spacing }}px;
+  }
+
+  .ai-multi-column__item-{{ ai_gen_id }} {
+    text-align: {{ block.settings.column_text_alignment }};
+    padding: {{ block.settings.column_padding }}px;
+    background-color: {{ block.settings.column_background_color }};
+    border-radius: {{ block.settings.column_border_radius }}px;
+    border: {{ block.settings.column_border_width }}px solid {{ block.settings.column_border_color }};
+  }
+
+  .ai-multi-column__item-title-{{ ai_gen_id }} {
+    color: {{ block.settings.heading_color }};
+    font-size: {{ block.settings.item_heading_size }}px;
+    margin: 0 0 12px;
+  }
+
+  .ai-multi-column__item-text-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.text_size }}px;
+    line-height: 1.5;
+    margin: 0 0 16px;
+  }
+
+  .ai-multi-column__item-button-{{ ai_gen_id }} {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: {{ block.settings.button_color }};
+    color: {{ block.settings.button_text_color }};
+    text-decoration: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    transition: background-color 0.3s ease;
+  }
+
+  .ai-multi-column__item-button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_color }};
+  }
+
+  @media screen and (max-width: 768px) {
+    .ai-multi-column__grid-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.columns_mobile }}, 1fr);
+      gap: {{ block.settings.column_gap | times: 0.75 }}px;
+    }
+
+    .ai-multi-column__container-{{ ai_gen_id }} {
+      padding: 0 16px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .ai-multi-column__grid-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+    }
+  }
+{% endstyle %}
+
+<multi-column-{{ ai_gen_id }} class="ai-multi-column-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-multi-column__container-{{ ai_gen_id }}">
+    {% if block.settings.heading != blank or block.settings.subtitle != blank %}
+      <div class="ai-multi-column__header-{{ ai_gen_id }}">
+        {% if block.settings.heading != blank %}
+          <h2 class="ai-multi-column__title-{{ ai_gen_id }}">{{ block.settings.heading }}</h2>
+        {% endif %}
+        {% if block.settings.subtitle != blank %}
+          <div class="ai-multi-column__subtitle-{{ ai_gen_id }}">{{ block.settings.subtitle }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="ai-multi-column__grid-{{ ai_gen_id }}" data-columns="{{ block.settings.columns_desktop }}">
+      {% for i in (1..10) %}
+        {% liquid
+          assign title_key = 'column_' | append: i | append: '_title'
+          assign text_key = 'column_' | append: i | append: '_text'
+          assign button_text_key = 'column_' | append: i | append: '_button_text'
+          assign button_link_key = 'column_' | append: i | append: '_button_link'
+
+          assign column_title = block.settings[title_key]
+          assign column_text = block.settings[text_key]
+          assign column_button_text = block.settings[button_text_key]
+          assign column_button_link = block.settings[button_link_key]
+        %}
+
+        {% if column_title != blank or column_text != blank %}
+          <div class="ai-multi-column__item-{{ ai_gen_id }}">
+            {% if column_title != blank %}
+              <h3 class="ai-multi-column__item-title-{{ ai_gen_id }}">{{ column_title }}</h3>
+            {% endif %}
+
+            {% if column_text != blank %}
+              <div class="ai-multi-column__item-text-{{ ai_gen_id }}">{{ column_text }}</div>
+            {% endif %}
+
+            {% if column_button_text != blank and column_button_link != blank %}
+              <a href="{{ column_button_link }}" class="ai-multi-column__item-button-{{ ai_gen_id }}">
+                {{ column_button_text }}
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+
+      <div class="ai-multi-column__item-{{ ai_gen_id }} ai-multi-column__add-column-{{ ai_gen_id }}" style="display: none;">
+        <button class="ai-multi-column__add-button-{{ ai_gen_id }}" type="button">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+          Add Column
+        </button>
+      </div>
+    </div>
+  </div>
+</multi-column-{{ ai_gen_id }}>
+
+<script>
+(function() {
+  class MultiColumn{{ ai_gen_id }} extends HTMLElement {
+    constructor() {
+      super();
+      this.maxColumns = 10;
+      this.currentColumns = 0;
+    }
+
+    connectedCallback() {
+      this.grid = this.querySelector('.ai-multi-column__grid-{{ ai_gen_id }}');
+      this.addButton = this.querySelector('.ai-multi-column__add-button-{{ ai_gen_id }}');
+      this.addColumnItem = this.querySelector('.ai-multi-column__add-column-{{ ai_gen_id }}');
+      
+      this.countVisibleColumns();
+      this.updateAddButtonVisibility();
+      this.setupEventListeners();
+    }
+
+    countVisibleColumns() {
+      const items = this.querySelectorAll('.ai-multi-column__item-{{ ai_gen_id }}:not(.ai-multi-column__add-column-{{ ai_gen_id }})');
+      this.currentColumns = 0;
+      
+      items.forEach(item => {
+        const title = item.querySelector('.ai-multi-column__item-title-{{ ai_gen_id }}');
+        const text = item.querySelector('.ai-multi-column__item-text-{{ ai_gen_id }}');
+        
+        if ((title && title.textContent.trim()) || (text && text.textContent.trim())) {
+          this.currentColumns++;
+        }
+      });
+    }
+
+    updateAddButtonVisibility() {
+      if (this.currentColumns < this.maxColumns) {
+        this.addColumnItem.style.display = 'block';
+      } else {
+        this.addColumnItem.style.display = 'none';
+      }
+    }
+
+    setupEventListeners() {
+      if (this.addButton) {
+        this.addButton.addEventListener('click', () => {
+          this.addNewColumn();
+        });
+      }
+    }
+
+    addNewColumn() {
+      if (this.currentColumns >= this.maxColumns) return;
+
+      const newColumn = document.createElement('div');
+      newColumn.className = 'ai-multi-column__item-{{ ai_gen_id }}';
+      newColumn.innerHTML = `
+        <h3 class="ai-multi-column__item-title-{{ ai_gen_id }}" contenteditable="true" data-placeholder="Enter title...">New Column</h3>
+        <div class="ai-multi-column__item-text-{{ ai_gen_id }}" contenteditable="true" data-placeholder="Enter description...">Add your content here</div>
+        <button class="ai-multi-column__remove-button-{{ ai_gen_id }}" type="button" style="margin-top: 10px; padding: 8px 16px; background: #ff4444; color: white; border: none; border-radius: 4px; cursor: pointer;">Remove</button>
+      `;
+
+      this.grid.insertBefore(newColumn, this.addColumnItem);
+      this.currentColumns++;
+      this.updateAddButtonVisibility();
+
+      const removeButton = newColumn.querySelector('.ai-multi-column__remove-button-{{ ai_gen_id }}');
+      removeButton.addEventListener('click', () => {
+        newColumn.remove();
+        this.currentColumns--;
+        this.updateAddButtonVisibility();
+      });
+
+      const editableElements = newColumn.querySelectorAll('[contenteditable="true"]');
+      editableElements.forEach(element => {
+        element.addEventListener('focus', function() {
+          if (this.textContent === this.getAttribute('data-placeholder') || this.textContent === 'New Column' || this.textContent === 'Add your content here') {
+            this.textContent = '';
+          }
+        });
+
+        element.addEventListener('blur', function() {
+          if (this.textContent.trim() === '') {
+            this.textContent = this.getAttribute('data-placeholder') || 'Enter content...';
+          }
+        });
+      });
+    }
+  }
+
+  customElements.define('multi-column-{{ ai_gen_id }}', MultiColumn{{ ai_gen_id }});
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Multi column",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Multi column"
+    },
+    {
+      "type": "richtext",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "<p>Use this section to highlight key features or benefits</p>"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "columns_desktop",
+      "label": "Columns on desktop",
+      "options": [
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        },
+        {
+          "value": "5",
+          "label": "5"
+        }
+      ],
+      "default": "3"
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "label": "Columns on mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "range",
+      "id": "column_gap",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "label": "Column gap",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "content_spacing",
+      "min": 20,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "label": "Content spacing",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Section padding",
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Column style"
+    },
+    {
+      "type": "select",
+      "id": "column_text_alignment",
+      "label": "Column text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "column_padding",
+      "min": 0,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "label": "Column padding",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "column_border_radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Column border radius",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "column_border_width",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "label": "Column border width",
+      "default": 1
+    },
+    {
+      "type": "color",
+      "id": "column_background_color",
+      "label": "Column background color",
+      "default": "#f9f9f9"
+    },
+    {
+      "type": "color",
+      "id": "column_border_color",
+      "label": "Column border color",
+      "default": "#e5e5e5"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Section background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_color",
+      "label": "Button hover color",
+      "default": "#333333"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Section heading size",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "item_heading_size",
+      "min": 14,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "Column heading size",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Text size",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Button border radius",
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Column 1"
+    },
+    {
+      "type": "text",
+      "id": "column_1_title",
+      "label": "Title",
+      "default": "Feature 1"
+    },
+    {
+      "type": "richtext",
+      "id": "column_1_text",
+      "label": "Text",
+      "default": "<p>Describe your feature or benefit here</p>"
+    },
+    {
+      "type": "text",
+      "id": "column_1_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "column_1_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Column 2"
+    },
+    {
+      "type": "text",
+      "id": "column_2_title",
+      "label": "Title",
+      "default": "Feature 2"
+    },
+    {
+      "type": "richtext",
+      "id": "column_2_text",
+      "label": "Text",
+      "default": "<p>Describe your feature or benefit here</p>"
+    },
+    {
+      "type": "text",
+      "id": "column_2_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "column_2_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Column 3"
+    },
+    {
+      "type": "text",
+      "id": "column_3_title",
+      "label": "Title",
+      "default": "Feature 3"
+    },
+    {
+      "type": "richtext",
+      "id": "column_3_text",
+      "label": "Text",
+      "default": "<p>Describe your feature or benefit here</p>"
+    },
+    {
+      "type": "text",
+      "id": "column_3_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "column_3_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Column 4"
+    },
+    {
+      "type": "text",
+      "id": "column_4_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "column_4_text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "column_4_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "column_4_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Column 5"
+    },
+    {
+      "type": "text",
+      "id": "column_5_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "column_5_text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "column_5_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "column_5_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Column 6"
+    },
+    {
+      "type": "text",
+      "id": "column_6_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "column_6_text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "column_6_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "column_6_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Column 7"
+    },
+    {
+      "type": "text",
+      "id": "column_7_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "column_7_text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "column_7_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "column_7_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Column 8"
+    },
+    {
+      "type": "text",
+      "id": "column_8_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "column_8_text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "column_8_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "column_8_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Column 9"
+    },
+    {
+      "type": "text",
+      "id": "column_9_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "column_9_text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "column_9_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "column_9_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Column 10"
+    },
+    {
+      "type": "text",
+      "id": "column_10_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "column_10_text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "column_10_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "column_10_button_link",
+      "label": "Button link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multi column"
+    }
+  ]
+}
+{% endschema %}

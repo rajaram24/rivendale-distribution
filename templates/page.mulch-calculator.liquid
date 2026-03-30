@@ -1,0 +1,195 @@
+
+{%- comment -%} templates/page.liquid {%- endcomment -%}
+<section class="section">
+	<div class="wrapper" style="margin-top:150px;">
+		<h1 class="page-title text-center">
+			{{- page.title -}}
+		</h1>
+		<div class="rte">
+			{{- page.content -}}
+          	<div class="cstm_from_out">
+          		<div class="form_data">
+              		<h3>Inputs</h3>
+                    <form>
+                      <div class="form-group">
+                     <label>Area in Square Feet:</label>
+                     <input type="text" id="area" name="area" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
+                      </div>
+                        <div class="form-group">
+                     <label>Depth in Inches</label>
+                          <span class="depth_deft">
+                            <div class="depth_deft1"></div>
+                          <select id="depth">
+                          <option selected="selected" value="1">One Inch</option>
+                          <option value="2">Two Inches</option>
+                          <option value="3">Three Inches</option>
+                          <option value="4">Four Inches</option>
+                          </select>
+                          </span>
+                          
+                      </div>
+                       <input name="submit" type="button" value="Calculate" id="calculate">
+					</form>
+              	</div>
+              	<div class="from_output">
+              		<div class="otputbox">
+                      <h3>Outputs</h3>
+                      <div class="outval"><label>Cubic Yards of Product:</label><div id="yards"></div></div>
+                      <div class="outval"><label>Number of 1 Cubic Foot Bags:</label><div id="oneBags"></div></div>
+                      <div class="outval"><label>Number of 1.5 Cubic Foot Bags:</label><div id="onehalfBags"></div></div>
+                      <div class="outval"><label>Number of 2 Cubic Foot Bags:</label><div id="twoBags"></div></div>
+                      <div class="outval"><label>Number of 3 Cubic Foot Bags:</label><div id="threeBags"></div></div>
+                   </div>
+              	</div>
+          	</div>
+		</div>
+	</div>
+</section>
+{% section 'mulch_collection_selector' %}
+<style>
+  .cstm_from_out {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 75%;
+    margin: auto;
+    grid-gap: 4%;
+    margin-top: 60px;
+    }
+  	.depth_deft1::after {
+        content: url(https://cdn.shopify.com/s/files/1/0530/9615/3277/files/arrow-down-sign-to-navigate.png?v=1637308536);
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: 1;
+    }
+  	span.depth_deft {
+        position: relative;
+    }
+    .cstm_from_out .form-group {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        align-items: center;
+    }
+    .cstm_from_out .form-group {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    .cstm_from_out .form_data {
+        border: 1px solid #817878;
+        padding: 12px;
+        background: #f3f1f1;
+    }
+    .cstm_from_out .from_output {
+        border: 1px solid #817878;
+        padding: 12px;
+        background: #f3f1f1;
+    }
+  	.cstm_from_out .from_output .outval div {
+        border: 1px solid #a3a3a3;
+        text-align: center;
+
+    }
+  	
+  	.cstm_from_out .from_output .outval {
+          display: grid;
+          grid-template-columns: 75% 25%;
+          margin-bottom: 10px;
+      }
+      .cstm_from_out .form-group input {
+          padding: 5px;
+      }
+      select#depth {
+          padding: 5px;
+          width : 100%;
+      }
+      input#calculate {
+          
+          cursor: pointer;
+          margin: auto;
+          position: relative;
+          display: inline-block;
+          overflow: hidden;
+          color: var(--button-primary-text);
+          background: var(--button-primary-bg);
+          border: 1px solid var(--button-primary-bg);
+          padding: 11px 22px;
+          line-height: 22px;
+          border-radius: var(---radius);
+          text-transform: uppercase;
+          text-decoration: none;
+          box-shadow: none;
+          font-size: calc(.875rem*var(---font-adjust-body));
+          text-align: center;
+          letter-spacing: .05em;
+          will-change: color,border;
+          transition: color .3s ease,border .3s ease,background 0s linear 0s;
+          z-index: 1;
+          -webkit-tap-highlight-color: initial;
+      }
+  	@media only screen and (max-width : 768px)
+    {
+        .cstm_from_out {
+            display: grid;
+            grid-template-columns: 100%;
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
+            grid-gap: 25px;
+            margin-top: 60px;
+        }
+    }
+  	@media only screen and (min-width : 1200px)
+    {
+    	.cstm_from_out {
+         
+          max-width: 1000px;
+    	}
+    
+    }
+</style>
+<script>
+
+  $(document).ready(function($){
+    $("section#FeaturedCollection--mulch_collection_selector").hide();
+    $("#calculate").on("click",function(){
+
+    var area = $("#area").val();
+    var depth = $("#depth").val();
+    var cubicYards = (area*(depth/12))/27;
+    var cubicYardsone = (cubicYards*27)/1;
+    var cubicYardsonehalf = (cubicYards*27)/1.5;
+    var twoBags = (cubicYards*27)/2;
+    var threeBags = (cubicYards*27)/3;
+
+      var cubicYardsoneOutput = (cubicYardsone.toFixed(2));
+      var cubicYardsonehalfOutput = (cubicYardsonehalf.toFixed(2));
+      var cubicYardsOutput = (cubicYards.toFixed(2));
+      var twoBagsOutput = (twoBags.toFixed(2));
+      var threeBagsOutput = (threeBags.toFixed(2));
+
+        $("#oneBags").html("");
+         $("#oneBags").append(cubicYardsoneOutput);
+      	$("#onehalfBags").html("");
+         $("#onehalfBags").append(cubicYardsonehalfOutput);
+      $("#yards").html("");
+         $("#yards").append(cubicYardsOutput);
+
+
+       $("#twoBags").html("");
+         $("#twoBags").append(twoBagsOutput);
+
+
+       $("#threeBags").html("");
+         $("#threeBags").append(threeBagsOutput);
+		$("section#FeaturedCollection--mulch_collection_selector").show();
+    });
+
+  });
+ 
+
+</script>
+
+
+

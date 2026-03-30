@@ -1,0 +1,722 @@
+{%- if template.name == 'index' -%}
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{shop.url}}/#organization",
+      "name": "Rivendell Distribution",
+      "url": "{{shop.url}}/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{shop.url}}/cdn/shop/files/Primary_Logo_Color_medium_b7c77a2e-6282-47d8-bf19-317b10d0dd2e.png"
+      },
+      "sameAs": [
+        "https://www.facebook.com/RivendellDistribution",
+        "https://twitter.com/RivendellDist1",
+        "https://www.pinterest.com/RivendellDistribution",
+        "https://www.instagram.com/rivendelldistribution/",
+        "https://www.youtube.com/channel/UC7ZHm_lF1No1an6AhXAkWIQ",
+        "https://www.tiktok.com/@rivendelldistribution"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-970-945-2568",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 10,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      }
+    },
+    {
+      "@type": "GardenStore",
+      "@id": "{{shop.url}}/#gardenstore",
+      "name": "Rivendell Distribution",
+      "url": "{{shop.url}}/",
+      "image": "{{shop.url}}/cdn/shop/files/Primary_Logo_Color_medium_b7c77a2e-6282-47d8-bf19-317b10d0dd2e.png",
+      "telephone": "+1-970-945-2568",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3961 County Road 114",
+        "addressLocality": "Glenwood Springs",
+        "addressRegion": "CO",
+        "postalCode": "81601",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.4862,
+        "longitude": -107.2884
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday"
+          ],
+          "opens": "07:00",
+          "closes": "17:00"
+        }
+      ],
+      "parentOrganization": {
+        "@id": "{{shop.url}}/#organization"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{shop.url}}/#website",
+      "url": "{{shop.url}}/",
+      "name": "Rivendell Distribution",
+      "publisher": {
+        "@id": "{{shop.url}}/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{shop.url}}/#webpage",
+      "url": "{{shop.url}}/",
+      "name": "Landscape Supply Company | Landscape Distribution Colorado – Rivendell Distribution",
+      "headline": "Beautiful Landscape Projects Start Here!",
+      "description": "Rivendell Distribution supplies landscape products including soils, mulches, sod, seed, fertilizer, hardscape materials, tools, and more in Colorado.",
+      "isPartOf": {
+        "@id": "{{shop.url}}/#website"
+      },
+      "about": {
+        "@id": "{{shop.url}}/#organization"
+      }
+    }
+  ]
+}
+</script>
+{%- elsif page.handle == 'mulch-calculator' -%}
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{shop.url}}/#organization",
+      "name": "Rivendell Distribution",
+      "url": "{{shop.url}}/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{shop.url}}/cdn/shop/files/Primary_Logo_Color_medium_b7c77a2e-6282-47d8-bf19-317b10d0dd2e.png"
+      },
+      "sameAs": [
+        "https://www.facebook.com/RivendellDistribution",
+        "https://twitter.com/RivendellDist1",
+        "https://www.pinterest.com/RivendellDistribution",
+        "https://www.instagram.com/rivendelldistribution/",
+        "https://www.youtube.com/channel/UC7ZHm_lF1No1an6AhXAkWIQ",
+        "https://www.tiktok.com/@rivendelldistribution"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-970-945-2568",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{shop.url}}/#website",
+      "url": "{{shop.url}}/",
+      "name": "Rivendell Distribution",
+      "publisher": {
+        "@id": "{{shop.url}}/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{shop.url}}{{page.url}}/#webpage",
+      "url": "{{shop.url}}{{page.url}}",
+      "name": "Project Calculator – Mulch, Soil & Compost Bag Estimator | Rivendell Distribution",
+      "description": "Use the Rivendell Distribution project calculator to estimate how many bags of mulch, soil, compost, or potting mix you need based on your project area and desired depth.",
+      "isPartOf": {
+        "@id": "{{shop.url}}/#website"
+      },
+      "about": {
+        "@id": "{{shop.url}}/#organization"
+      },
+      "breadcrumb": {
+        "@id": "{{shop.url}}{{page.url}}/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{shop.url}}{{page.url}}/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "{{shop.url}}/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Project Calculator",
+          "item": "{{shop.url}}{{page.url}}"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "{{shop.url}}{{page.url}}/#calculator",
+      "name": "Project Calculator",
+      "description": "Estimate how many bags of mulch, soil, compost, or potting mix are required for a project based on square footage and desired depth in inches. Outputs cubic yards and bag counts for 1, 1.5, 2, and 3 cubic foot bag sizes.",
+      "url": "{{shop.url}}{{page.url}}",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "provider": {
+        "@id": "{{shop.url}}/#organization"
+      }
+    }
+  ]
+}
+</script>
+{%- elsif page.handle == 'contact-us-1' -%}
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{shop.url}}/#organization",
+      "name": "Rivendell Distribution",
+      "url": "{{shop.url}}/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{shop.url}}/cdn/shop/files/Primary_Logo_Color_medium_b7c77a2e-6282-47d8-bf19-317b10d0dd2e.png"
+      },
+      "sameAs": [
+        "https://www.facebook.com/RivendellDistribution",
+        "https://twitter.com/RivendellDist1",
+        "https://www.pinterest.com/RivendellDistribution",
+        "https://www.instagram.com/rivendelldistribution/",
+        "https://www.youtube.com/channel/UC7ZHm_lF1No1an6AhXAkWIQ",
+        "https://www.tiktok.com/@rivendelldistribution"
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-970-945-2568",
+          "contactType": "customer service",
+          "areaServed": "US",
+          "availableLanguage": "English"
+        },
+        {
+          "@type": "ContactPoint",
+          "email": "office@rivendelldistribution.com",
+          "contactType": "customer service",
+          "areaServed": "US",
+          "availableLanguage": "English"
+        }
+      ],
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 10,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      }
+    },
+    {
+      "@type": "GardenStore",
+      "@id": "{{shop.url}}/#gardenstore",
+      "name": "Rivendell Distribution",
+      "url": "{{shop.url}}/",
+      "image": "{{shop.url}}/cdn/shop/files/Primary_Logo_Color_medium_b7c77a2e-6282-47d8-bf19-317b10d0dd2e.png",
+      "telephone": "+1-970-945-2568",
+      "email": "office@rivendelldistribution.com",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3961 County Road 114",
+        "addressLocality": "Glenwood Springs",
+        "addressRegion": "CO",
+        "postalCode": "81601",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.4862,
+        "longitude": -107.2884
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday"
+          ],
+          "opens": "07:00",
+          "closes": "17:00"
+        }
+      ],
+      "parentOrganization": {
+        "@id": "{{shop.url}}/#organization"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{shop.url}}/#website",
+      "url": "{{shop.url}}/",
+      "name": "Rivendell Distribution",
+      "publisher": {
+        "@id": "{{shop.url}}/#organization"
+      }
+    },
+    {
+      "@type": "ContactPage",
+      "@id": "{{shop.url}}{{page.url}}/#webpage",
+      "url": "{{shop.url}}{{page.url}}",
+      "name": "Contact Us | Rivendell Distribution – Glenwood Springs, CO",
+      "description": "Contact Rivendell Distribution in Glenwood Springs, Colorado. Call (970) 945-2568 or email office@rivendelldistribution.com. Open Monday–Friday 7:00 AM to 5:00 PM.",
+      "isPartOf": {
+        "@id": "{{shop.url}}/#website"
+      },
+      "about": {
+        "@id": "{{shop.url}}/#gardenstore"
+      },
+      "breadcrumb": {
+        "@id": "{{shop.url}}{{page.url}}/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{shop.url}}{{page.url}}/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "{{shop.url}}/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact Us",
+          "item": "{{shop.url}}{{page.url}}"
+        }
+      ]
+    }
+  ]
+}
+</script>
+{%- elsif template contains 'article' -%}
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{shop.url}}/#organization",
+      "name": "Rivendell Distribution",
+      "url": "{{shop.url}}/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{shop.url}}/cdn/shop/files/Primary_Logo_Color_medium_b7c77a2e-6282-47d8-bf19-317b10d0dd2e.png"
+      },
+      "sameAs": [
+        "https://www.facebook.com/RivendellDistribution",
+        "https://twitter.com/RivendellDist1",
+        "https://www.pinterest.com/RivendellDistribution",
+        "https://www.instagram.com/rivendelldistribution/",
+        "https://www.youtube.com/channel/UC7ZHm_lF1No1an6AhXAkWIQ",
+        "https://www.tiktok.com/@rivendelldistribution"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-970-945-2568",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{shop.url}}/#website",
+      "url": "{{shop.url}}/",
+      "name": "Rivendell Distribution",
+      "publisher": {
+        "@id": "{{shop.url}}/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{shop.url}}{{ article.url }}/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "{{shop.url}}/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rivendell's Blog",
+          "item": "{{shop.url}}/blogs/news"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Hydroseeding vs. Sod: Which One Is Right for Your Lawn?",
+          "item": "{{shop.url}}{{ article.url }}"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "{{shop.url}}{{ article.url }}/#article",
+      "mainEntityOfPage": {
+        "@id": "{{shop.url}}{{ article.url }}/#webpage"
+      },
+      "headline": "{{ article.title }}",
+      "description": "{{page_description }}",
+      "image": "{{article.image | image_url: width: 800 }}",
+      "datePublished": "{{article.published_at | date: '%Y-%m-%d'}}",
+      "dateModified": "{{article.updated_at | date: '%Y-%m-%d'}}",
+      "author": {
+        "@type": "Person",
+        "name": "{{article.author}}"
+      },
+      "publisher": {
+        "@id": "{{shop.url}}/#organization"
+      },
+      "isPartOf": {
+        "@id": "{{shop.url}}/#website"
+      },
+      "keywords": ["hydroseeding", "sod", "hydroseeding vs sod", "lawn installation", "Colorado landscaping", "erosion control", "bluegrass sod"]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{shop.url}}{{ article.url }}/#webpage",
+      "url": "{{shop.url}}{{ article.url }}",
+      "name": "{{ article.title }} | Rivendell Distribution",
+      "description": "{{page_description }}",
+      "isPartOf": {
+        "@id": "{{shop.url}}/#website"
+      },
+      "breadcrumb": {
+        "@id": "{{shop.url}}{{ article.url }}/#breadcrumb"
+      }
+    }
+  ]
+}
+</script>
+{% elsif template contains 'collection' %}
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{shop.url}}/#organization",
+      "name": "Rivendell Distribution",
+      "url": "{{shop.url}}/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{shop.url}}/cdn/shop/files/Primary_Logo_Color_medium_b7c77a2e-6282-47d8-bf19-317b10d0dd2e.png"
+      },
+      "sameAs": [
+        "https://www.facebook.com/RivendellDistribution",
+        "https://twitter.com/RivendellDist1",
+        "https://www.pinterest.com/RivendellDistribution",
+        "https://www.instagram.com/rivendelldistribution/",
+        "https://www.youtube.com/channel/UC7ZHm_lF1No1an6AhXAkWIQ",
+        "https://www.tiktok.com/@rivendelldistribution"
+      ],
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 10,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "{{shop.url}}/#localbusiness",
+      "name": "Rivendell Distribution",
+      "url": "{{shop.url}}/",
+      "image": "{{shop.url}}/cdn/shop/collections/IMG_0221.jpg",
+      "telephone": "+1-970-945-2568",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3961 County Road 114",
+        "addressLocality": "Glenwood Springs",
+        "addressRegion": "CO",
+        "postalCode": "81601",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.4862,
+        "longitude": -107.2884
+      },
+      "parentOrganization": {
+        "@id": "{{shop.url}}/#organization"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{shop.url}}/#website",
+      "url": "{{shop.url}}/",
+      "name": "Rivendell Distribution",
+      "publisher": {
+        "@id": "{{shop.url}}/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ shop.url }}{{ collection.url }}#breadcrumb",
+      "itemListElement": [
+        {
+		  "@type": "ListItem",
+		  "position": 1,
+		  "item": {
+			"@id": "{{ shop.url }}",
+			"name": "Home"
+		  }
+		},
+		{
+		  "@type": "ListItem",
+		  "position": 2,
+		  "item": {
+			"@id": "{{ shop.url }}/collections",
+			"name": "Collections"
+		  }
+		},
+		{
+		  "@type": "ListItem",
+		  "position": 3,
+		  "item": {
+			"@id": "{{ shop.url }}{{ collection.url }}",
+			"name": "{{ collection.title }}"
+		  }
+		}
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "{{ shop.url }}{{ collection.url }}#webpage",
+      "url": "{{ shop.url }}{{ collection.url }}",
+      "name": "{{ collection.title | escape }}",
+      "headline": "{{ collection.title | escape }}",
+      "description": "{{ collection.description | strip_html | escape }}",
+      "isPartOf": {
+        "@id": "{{shop.url}}/#website"
+      },
+      "about": {
+        "@id": "{{shop.url}}/#organization"
+      },
+      "breadcrumb": {
+        "@id": "{{ shop.url }}{{ collection.url }}#breadcrumb"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "@id": "{{ shop.url }}{{ collection.url }}#itemlist",
+		"name": "{{ collection.title | escape }} Products",
+        "numberOfItems": {{ collection.products_count }},
+        "itemListElement": [
+          
+          {% for product in collection.products %}
+          {
+            "@type": "ListItem",
+            "position": {{ forloop.index }},
+            "url": "{{ shop.url }}{{ product.url }}",
+            "item": {
+              "@type": "Product",
+              "@id": "{{ shop.url }}{{ product.url }}#product",
+              "name": "{{ product.title | escape }}",
+              "url": "{{ shop.url }}{{ product.url }}",
+              "image": "{{ product.featured_image | image_url }}",
+              "brand": {
+                "@type": "Brand",
+                "name": "{{ product.vendor | escape }}"
+              },
+              "offers": {
+                "@type": "Offer",
+                "url": "{{ shop.url }}{{ product.url }}",
+                "price": {{ product.price  | divided_by: 100.00 | json }},
+                "priceCurrency": "{{ shop.currency }}",
+                "availability": "https://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}",
+                "itemCondition": "https://schema.org/NewCondition"
+              }
+            }
+          }{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+
+        ]
+      }
+    }
+  ]
+}
+</script>
+{% elsif template contains 'product' %}
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "{{shop.url}}/#localbusiness",
+      "name": "Rivendell Distribution",
+      "image": "{{shop.url}}/cdn/shop/files/Primary_Logo_Color_medium_b7c77a2e-6282-47d8-bf19-317b10d0dd2e_180x.png?v=1674908506",
+      "url": "{{shop.url}}/",
+      "telephone": "+1-970-945-2568",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3961 County Road 114",
+        "addressLocality": "Glenwood Springs",
+        "addressRegion": "CO",
+        "postalCode": "81601",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.facebook.com/RivendellDistribution",
+        "https://twitter.com/RivendellDist1",
+        "https://www.pinterest.com/RivendellDistribution",
+        "https://www.instagram.com/rivendelldistribution/",
+        "https://www.youtube.com/channel/UC7ZHm_lF1No1an6AhXAkWIQ",
+        "https://www.tiktok.com/@rivendelldistribution"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{shop.url}}/#website",
+      "url": "{{shop.url}}/",
+      "name": "Rivendell Distribution",
+      "publisher": { "@id": "{{shop.url}}/#localbusiness" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{shop.url}}{{product.url}}#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": { "@id": "{{shop.url}}/", "name": "Home" }
+        },
+        {% if collection != blank %}
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{ collection.title }}",
+          "item": "{{shop.url}}{{ collection.url }}"
+        },
+        {% else %}
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{ collections.all.title }}",
+          "item": "{{shop.url}}{{ routes.all_products_collection_url }}"
+        },
+       {% endif %}
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": { "name": "{{ product.title }} " }
+        }
+      ]
+    }
+  ]
+}
+</script>
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Product",
+    "brand": { "@type": "Brand", "name": {{ product.vendor | json }} },
+    "sku": {{ current_variant.sku | json }},
+    "name": {{ product.title | json }},
+    "description": {{ product.description | strip_html | json }},
+    "url": "{{ shop.url }}{{ product.url }}",
+    {%- if current_variant.barcode -%}
+      "gtin8": "{{ product.variants.first.barcode }}",
+    {%- endif -%}
+    {%- if current_variant.barcode.size == 12 -%}
+      "gtin12": "{{ product.variants.first.barcode }}",
+    {%- endif -%}
+    {%- if current_variant.barcode.size == 13 -%}
+      "gtin13": "{{ product.variants.first.barcode }}",
+    {%- endif -%}
+    {%- if current_variant.barcode.size == 14 -%}
+      "gtin14": "{{ product.variants.first.barcode }}",
+    {%- endif -%}
+    {%- if is_barcode_available and is_valid_gtin_length %}
+      "{{gtin_option}}": {{ current_variant.barcode | json }},
+      "productId": {{ current_variant.barcode | json }},
+    {%- elsif is_barcode_available %}
+      "mpn": {{ current_variant.barcode | json }},
+      "productId": {{ current_variant.barcode | json }},
+    {%- endif -%}
+    "image": {
+      "@type": "ImageObject",
+      "url": "https:{{ product.featured_media.preview_image | img_url: '1024x1024' }}",
+      "image": "https:{{ product.featured_media.preview_image | img_url: '1024x1024' }}",
+      "name": {{ product.title | json }},
+      "width": 1024,
+      "height": 1024
+    },
+    "offers": [
+      {%- for variant in product.variants -%}
+        {
+          "@type" : "Offer",
+          {%- if variant.sku != blank -%}
+            "sku": {{ variant.sku | json }},
+          {%- endif -%}
+          "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+          "price" : {{ variant.price | divided_by: 100.00 | json }},
+          "priceCurrency" : {{ cart.currency.iso_code | json }},
+          "priceValidUntil": "{{ 'now' | date: '%s' | plus: days_price_valid_until | date: '%Y-%m-%d' }}",
+          "url" : {{ shop.url | append: variant.url | json }}
+        }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+     {% assign jdgm_badge = product.metafields.judgeme.badge %}
+
+{% if jdgm_badge contains "data-average-rating" %}
+  {% assign rating = jdgm_badge | split: "data-average-rating='" | last | split: "'" | first %}
+  {% assign review_count = jdgm_badge | split: "data-number-of-reviews='" | last | split: "'" | first %}
+{% endif %}
+    ]{% if review_count != blank and review_count != "0" %}
+      ,"aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "{{ rating }}",
+        "reviewCount": "{{ review_count }}",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+      {% endif %}
+  }
+</script>
+{% endif %}

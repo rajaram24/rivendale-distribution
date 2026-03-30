@@ -1,0 +1,79 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "settings": {
+        "show_date": true,
+        "show_author": true,
+        "show_tags": true,
+        "show_share_button": true,
+        "text": "Share",
+        "padding_top": 100,
+        "padding_bottom": 60
+      }
+    },
+    "8ae77f75-0ff5-4638-a829-4e7d7c8dfa5b": {
+      "type": "section-list-collection",
+      "blocks": {
+        "template--16035509764285__8ae77f75-0ff5-4638-a829-4e7d7c8dfa5b-1674838680b0e5b373-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "organic"
+          }
+        },
+        "template--16035509764285__8ae77f75-0ff5-4638-a829-4e7d7c8dfa5b-1674838680b0e5b373-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "organic-based"
+          }
+        },
+        "template--16035509764285__8ae77f75-0ff5-4638-a829-4e7d7c8dfa5b-1674838680b0e5b373-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "synthetic"
+          }
+        },
+        "template--16035509764285__8ae77f75-0ff5-4638-a829-4e7d7c8dfa5b-1674838680b0e5b373-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "amendments"
+          }
+        }
+      },
+      "block_order": [
+        "template--16035509764285__8ae77f75-0ff5-4638-a829-4e7d7c8dfa5b-1674838680b0e5b373-0",
+        "template--16035509764285__8ae77f75-0ff5-4638-a829-4e7d7c8dfa5b-1674838680b0e5b373-1",
+        "template--16035509764285__8ae77f75-0ff5-4638-a829-4e7d7c8dfa5b-1674838680b0e5b373-2",
+        "template--16035509764285__8ae77f75-0ff5-4638-a829-4e7d7c8dfa5b-1674838680b0e5b373-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Fertilizers & Amendments",
+        "layout": "carousel",
+        "text_size": 100,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "recommended-posts": {
+      "type": "section-recommended-posts",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recommended-posts",
+    "8ae77f75-0ff5-4638-a829-4e7d7c8dfa5b"
+  ]
+}

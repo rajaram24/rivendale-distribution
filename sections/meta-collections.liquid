@@ -1,0 +1,364 @@
+  {% assign features = page.metafields.custom.collection_box.value %}
+  {% if features != blank %}
+{%- liquid
+  assign unique = section.id
+  assign layout = section.settings.layout
+  assign section_width = section.settings.width
+  assign height = section.settings.height
+  assign image_size = section.settings.image_size
+  assign image_shape = section.settings.image_shape
+  assign columns = section.settings.columns
+  assign columns_small = columns | at_most: 4
+  assign columns_mobile = section.settings.columns_mobile | plus: 0 | at_least: 1
+  assign collection_limit = 50
+  assign text_size = section.settings.text_size
+  assign text_color = section.settings.text_color
+  assign has_color_overlay = false
+  assign bg_color = section.settings.bg_color
+  assign bg_color_brightness = bg_color | color_brightness
+  assign animations_enabled = settings.animations_enabled
+  assign animation_anchor = '#ListCollections--' | append: section.id
+
+  assign text_over_image = true
+  if section.settings.overlay_text == false
+    assign text_over_image = false
+  endif
+
+  assign carousel = false
+  if layout == 'carousel'
+    assign carousel = true
+  endif
+
+
+  case columns
+    when 2
+      assign item_width = 'one-half'
+    when 3
+      assign item_width = 'one-third'
+    when 4
+      assign item_width = 'one-quarter'
+    when 5
+      assign item_width = 'one-fifth'
+    when 6
+      assign item_width = 'one-sixth'
+    when 7
+      assign item_width = 'one-seventh'
+    when 8
+      assign item_width = 'one-eighth'
+    else
+      assign item_width = 'one-whole'
+  endcase
+
+  case columns_mobile
+    when 2
+      assign item_width_mobile = 'mobile--one-half'
+    when 3
+      assign item_width_mobile = 'mobile--one-third'
+    else
+      assign item_width_mobile = 'mobile--one-whole'
+  endcase
+
+  assign adjust_heading = text_size | divided_by: 100.0
+
+  assign grid_class = 'grid'
+  if columns > section.blocks.size and section.blocks.size > 0
+    assign grid_class = 'grid--center'
+  endif
+
+  assign carousel = false
+  if layout == 'carousel'
+    assign carousel = true
+  endif
+
+  assign mobile_class = ' grid--mobile'
+  if section.settings.enable_slider_mobile
+    assign mobile_class = ' carousel--mobile'
+  endif
+
+  if image_shape
+    if image_shape != 'rect'
+      assign height = 100
+    else
+      assign height = 75
+    endif
+  endif
+-%}
+
+{%- style -%}
+  {%- if bg_color != 'rgba(0,0,0,0)' and bg_color != blank -%}
+    #ListCollections--{{ section.id }} { background-color: {{ bg_color }}; }
+  {%- endif -%}
+
+   #ListCollections--{{ section.id }} .section__heading { color: {{ text_color }}; }
+
+  #ListCollections--{{ section.id }} {
+    {% comment %} Set a min of 10px top padding to avoid images being cut off when padding top setting is set to less than 10px {% endcomment %}
+    --PT: max(10px, {{ section.settings.padding_top }}px);
+
+    {% comment %} Set a min of 10px bottom padding to avoid images being cut off when padding bottom setting is set to less than 10px and text is over image {% endcomment %}
+    {%- if text_over_image -%}
+      --PB: max(10px, {{ section.settings.padding_bottom }}px);
+    {%- else -%}
+      --PB: {{ section.settings.padding_bottom }}px;
+    {%- endif -%}
+    --overlay-opacity: {{ section.settings.overlay_opacity | times: 0.01 }};
+    --height: {{ height | append: '%' }};
+
+    {%- if image_shape -%}
+      --image-size: {{ image_size | append: '%' }};
+    {%- endif -%}
+  }
+
+  {%- if text_size != blank -%}
+    #ListCollections--{{ section.id }} .list-collections__item__title, #ListCollections--{{ section.id }} .section__heading { --adjust-heading: calc(var(--FONT-ADJUST-HEADING) * {{ adjust_heading }}); }
+  {%- endif -%}
+
+  @media screen and (min-width: 1024px) {
+    #ListCollections--{{ section.id }} { --grid: repeat({{ columns }}, minmax(0, 1fr)); }
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 1023px) {
+    #ListCollections--{{ section.id }} {
+      --grid: repeat({{ columns_small }}, minmax(0, 1fr));
+    }
+  }
+  @media screen and (max-width: 479px) {
+    #ListCollections--{{ section.id }} { --grid-mobile: repeat({{ columns_mobile }}, minmax(0, 1fr)); }
+    {%- if columns_mobile > 1 %}
+      #ListCollections--{{ section.id }} .carousel--mobile { --item-width-mobile: calc(90% / {{ columns_mobile }} - var(--grid-gutter)); }
+    {%- endif %}
+  }
+{%- endstyle -%}
+
+<section id="ListCollections--{{ section.id }}"
+  class="section-padding list-collections-section list-collections-section--{{ layout }}"
+  data-section-type="list-collections"
+  data-section-id="{{ section.id }}"
+  data-columns="{{ columns }}">
+
+  <div class="{{ section_width }}">
+    {%- if section.settings.title != blank -%}
+      <div class="section__header">
+        <h2 class="section__heading h2"
+          {% if animations_enabled %}
+            data-aos="fade-up"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-delay="{{ animation_delay }}"
+            {%- assign animation_delay = animation_delay | plus: 150 -%}
+          {% endif %}>{{ section.settings.title | escape }}</h2>
+
+        {%- if settings.show_spacer_lines -%}
+          <hr class="section__heading-line"
+            {% if animations_enabled %}
+              data-aos="fade-up"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-delay="{{ animation_delay }}"
+              {%- assign animation_delay = animation_delay | plus: 150 -%}
+            {% endif %}>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    <div class="{% if carousel %}carousel__container{% else %}grid__container{% endif %}">
+      <div class="{% if carousel %}carousel{% else %}{{ grid_class }}{% endif %}{{ mobile_class }}"
+        {% if carousel %}
+          data-slider
+          data-slider-id="slider--{{ section.id }}"
+        {% endif %}>
+      
+        {%- liquid
+         
+            for feature in features
+              assign unique = forloop.index
+              assign collection = feature.collecion.value
+              assign custom_collection_image = feature.image.value
+              assign custom_bg_color = false
+              assign has_color_overlay = false
+
+              if carousel
+                assign animation_delay = forloop.index0
+              else
+                assign animation_delay = forloop.index0 | modulo: columns | times: 1
+              endif
+
+              capture placeholder_index
+                cycle 1, 2, 3
+              endcapture
+
+              render 'collection-grid-item', collection: collection, item_width: item_width, item_width_mobile: item_width_mobile, custom_collection_image: custom_collection_image, custom_bg_color: custom_bg_color, has_color_overlay: has_color_overlay, animation_delay: animation_delay, animation_anchor: animation_anchor, carousel: carousel, image_shape: image_shape, block_shopify_attributes: block.shopify_attributes, placeholder_index: placeholder_index, text_over_image: text_over_image, text_color: text_color, unique: unique
+            endfor
+        -%}
+      </div>
+    </div>
+  </div>
+</section>
+    {% endif %}
+{% schema %}
+  {
+    "name": "Meta Collections",
+    "class": "collection-list",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "All collections will be shown if no blocks added"
+      },
+      {
+        "type": "header",
+        "content": "Layout"
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "label": "Layout",
+        "default": "carousel",
+        "options": [
+          { "value": "grid", "label": "Grid" },
+          { "value": "carousel", "label": "Carousel" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "columns",
+        "label": "Collections per row",
+        "default": 3,
+        "min": 2,
+        "max": 4,
+        "step": 1
+      },
+      {
+        "type": "range",
+        "id": "height",
+        "label": "Height",
+        "min": 25,
+        "max": 150,
+        "step": 5,
+        "unit": "%",
+        "default": 80
+      },
+      {
+        "type": "range",
+        "id": "text_size",
+        "label": "Text size",
+        "default": 100,
+        "min": 75,
+        "max": 150,
+        "step": 5,
+        "unit": "%"
+      },
+      {
+        "type": "header",
+        "content": "Text"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Collections"
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Text",
+        "default": "Shop All",
+        "info": "Desktop only"
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Style",
+        "default": "btn--secondary btn--small",
+        "options": [
+          { "label": "Text", "value": "btn--text" },
+          { "label": "Small button", "value": "btn--primary btn--small" },
+          { "label": "Large button", "value": "btn--primary" },
+          { "label": "Small secondary button", "value": "btn--secondary btn--small" },
+          { "label": "Large secondary button", "value": "btn--secondary" }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Colors"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background"
+      },
+      {
+        "type": "select",
+        "id": "text_color",
+        "label": "Text",
+        "default": "text-light",
+        "options": [
+          { "value": "text-light", "label": "Light" },
+          { "value": "text-dark", "label": "Dark" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "overlay_opacity",
+        "label": "Text contrast",
+        "info": "Improves readability of text",
+        "min": 0,
+        "max": 95,
+        "step": 5,
+        "unit": "%",
+        "default": 10
+      },
+      {
+        "type": "header",
+        "content": "Mobile layout"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_slider_mobile",
+        "label": "Enable slider",
+        "default": true,
+        "info": "Horizontal slider in mobile layout."
+      },
+      {
+        "type": "header",
+        "content": "Section spacing"
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper--full-padded",
+        "options": [
+          { "value": "wrapper--full-padded", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 60
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 60
+      }
+    ],
+    "presets": [
+      {
+        "name": "Meta Collections"
+      }
+    ]
+  }
+{% endschema %}

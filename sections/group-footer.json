@@ -1,0 +1,92 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-block-0": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "footer",
+            "title": "Customer Information",
+            "column_width": "20"
+          }
+        },
+        "footer-block-2": {
+          "type": "newsletter",
+          "settings": {
+            "alignment": "text-left",
+            "title": "Newsletter",
+            "uppercase_heading": false,
+            "heading_size": 100,
+            "text": "<p>Stay up to date with the new collections, products and exclusive offers.</p>",
+            "button_text": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid",
+            "column_width": "30"
+          }
+        },
+        "footer-block-1": {
+          "type": "text",
+          "settings": {
+            "alignment": "text-left",
+            "title": "Contact Us",
+            "footer_text": "<p>customerservice@rivendelldistribution.com</p><p>(970) 945-2568</p><p>3961 County Road 114 </p><p>Glenwood Springs, CO 81601</p>",
+            "column_width": "30"
+          }
+        },
+        "ba00b197-8e35-44ec-8497-f6cf08166e04": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "footer-info",
+            "title": "Ordering Information",
+            "column_width": "20"
+          }
+        }
+      },
+      "block_order": [
+        "footer-block-0",
+        "footer-block-2",
+        "footer-block-1",
+        "ba00b197-8e35-44ec-8497-f6cf08166e04"
+      ],
+      "settings": {
+        "show_footer_wave": false,
+        "enable_footer_parallax": false,
+        "increase_border_radius": false,
+        "bottom_bar_alignment": "text-center",
+        "show_social_links": true,
+        "enable_follow_on_shop": false,
+        "show_payment_icons": true,
+        "enable_greyscale": false,
+        "bottom_menu": "",
+        "color_text": "#ffffff",
+        "color_bg": "#253734",
+        "color_border": "#ffffff",
+        "show_locale_selector": false,
+        "show_locale_code": false,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

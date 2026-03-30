@@ -1,0 +1,841 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ffd2082d-5b8e-4061-973a-41b69e1c01b0": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--16035510223037__ffd2082d-5b8e-4061-973a-41b69e1c01b0-16729332987ab67908-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text_position": "middle-center",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "heading_size": 100,
+            "image_text": "<p>Describe in a few words your special products, collection, or brand.</p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--medium"
+          }
+        },
+        "template--16035510223037__ffd2082d-5b8e-4061-973a-41b69e1c01b0-16729332987ab67908-1": {
+          "type": "text",
+          "settings": {
+            "text_position": "center",
+            "top_image_width": 50,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Shop By Brands Below",
+            "heading_size": 100,
+            "text": "<p>Our selection of Premier Products include everything from Tools to Pond Supplies. With all of these Brands, Rivendell can order other non-inventory products if preffered. For custom or bulk orders, feel free to contact our staff at 970-945-2568.</p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--medium",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16035510223037__ffd2082d-5b8e-4061-973a-41b69e1c01b0-16729332987ab67908-0",
+        "template--16035510223037__ffd2082d-5b8e-4061-973a-41b69e1c01b0-16729332987ab67908-1"
+      ],
+      "settings": {
+        "height": "one-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "six-fifty-height-mobile",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "list-collections",
+      "disabled": true,
+      "settings": {
+        "title": "Our Brands",
+        "heading_size": 100,
+        "layout": "grid",
+        "alignment": "left",
+        "collections_per_row": 4,
+        "columns_mobile": "1",
+        "image_shape": "circle",
+        "image_aspect_ratio": 1,
+        "text_size": 105,
+        "overlay_text": false,
+        "enable_slider_mobile": true,
+        "section_bg_color": "",
+        "section_text_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "16fdeecc-e749-4f7d-b428-ff97f2aa87e9": {
+      "type": "section-collection-marbles",
+      "blocks": {
+        "template--16035510223037__16fdeecc-e749-4f7d-b428-ff97f2aa87e9-16727700896e0caf41-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "acme-manufacturing",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__16fdeecc-e749-4f7d-b428-ff97f2aa87e9-16727700896e0caf41-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "age-old",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__16fdeecc-e749-4f7d-b428-ff97f2aa87e9-16727700896e0caf41-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "agfinity",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__16fdeecc-e749-4f7d-b428-ff97f2aa87e9-16727700896e0caf41-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "alliance",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__16fdeecc-e749-4f7d-b428-ff97f2aa87e9-16727700896e0caf41-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "alligare",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_4V8GXy": {
+          "type": "collection",
+          "settings": {
+            "collection": "alpha-one",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_Mhgz3d": {
+          "type": "collection",
+          "settings": {
+            "collection": "alpine-corp",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_eVzHmf": {
+          "type": "collection",
+          "settings": {
+            "collection": "am-leonard",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        }
+      },
+      "block_order": [
+        "template--16035510223037__16fdeecc-e749-4f7d-b428-ff97f2aa87e9-16727700896e0caf41-1",
+        "template--16035510223037__16fdeecc-e749-4f7d-b428-ff97f2aa87e9-16727700896e0caf41-0",
+        "template--16035510223037__16fdeecc-e749-4f7d-b428-ff97f2aa87e9-16727700896e0caf41-2",
+        "template--16035510223037__16fdeecc-e749-4f7d-b428-ff97f2aa87e9-16727700896e0caf41-3",
+        "template--16035510223037__16fdeecc-e749-4f7d-b428-ff97f2aa87e9-16727700896e0caf41-4",
+        "collection_4V8GXy",
+        "collection_Mhgz3d",
+        "collection_eVzHmf"
+      ],
+      "settings": {
+        "layout": "carousel",
+        "columns": 6,
+        "image_size": 90,
+        "image_shape": "square",
+        "title": "Brands A - C",
+        "text_size": 100,
+        "overlay_text": false,
+        "text_color": "#000000",
+        "overlay_opacity": 0,
+        "enable_slider_mobile": true,
+        "columns_mobile": "2",
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "10a8995a-8713-4900-add8-f1845f49f2ea": {
+      "type": "section-collection-marbles",
+      "blocks": {
+        "collection_YdRnix": {
+          "type": "collection",
+          "settings": {
+            "collection": "applewood-seed",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__10a8995a-8713-4900-add8-f1845f49f2ea-16727700896e0caf41-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "arkansas-valley",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__10a8995a-8713-4900-add8-f1845f49f2ea-16727700896e0caf41-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "atlantic-oase",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__10a8995a-8713-4900-add8-f1845f49f2ea-16727700896e0caf41-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "auraco-1",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__10a8995a-8713-4900-add8-f1845f49f2ea-16727700896e0caf41-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "bobbex",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__10a8995a-8713-4900-add8-f1845f49f2ea-16727700896e0caf41-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "bonide",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__10a8995a-8713-4900-add8-f1845f49f2ea-16727700896e0caf41-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "buffalo-seed",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_R66wYH": {
+          "type": "collection",
+          "settings": {
+            "collection": "corona-tools",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        }
+      },
+      "block_order": [
+        "collection_YdRnix",
+        "template--16035510223037__10a8995a-8713-4900-add8-f1845f49f2ea-16727700896e0caf41-0",
+        "template--16035510223037__10a8995a-8713-4900-add8-f1845f49f2ea-16727700896e0caf41-1",
+        "template--16035510223037__10a8995a-8713-4900-add8-f1845f49f2ea-16727700896e0caf41-2",
+        "template--16035510223037__10a8995a-8713-4900-add8-f1845f49f2ea-16727700896e0caf41-3",
+        "template--16035510223037__10a8995a-8713-4900-add8-f1845f49f2ea-16727700896e0caf41-4",
+        "template--16035510223037__10a8995a-8713-4900-add8-f1845f49f2ea-16727700896e0caf41-5",
+        "collection_R66wYH"
+      ],
+      "settings": {
+        "layout": "carousel",
+        "columns": 6,
+        "image_size": 90,
+        "image_shape": "square",
+        "title": "",
+        "text_size": 100,
+        "overlay_text": false,
+        "text_color": "#000000",
+        "overlay_opacity": 0,
+        "enable_slider_mobile": true,
+        "columns_mobile": "2",
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "422ddac4-7c82-4141-8456-e2c0a5a800e5": {
+      "type": "section-collection-marbles",
+      "blocks": {
+        "template--16035510223037__422ddac4-7c82-4141-8456-e2c0a5a800e5-16727700896e0caf41-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "dewitt",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__422ddac4-7c82-4141-8456-e2c0a5a800e5-16727700896e0caf41-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "dlf",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__422ddac4-7c82-4141-8456-e2c0a5a800e5-16727700896e0caf41-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "dramm",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__422ddac4-7c82-4141-8456-e2c0a5a800e5-16727700896e0caf41-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "enviroscape",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_J4N3bw": {
+          "type": "collection",
+          "settings": {
+            "collection": "firestone",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_xYVJb6": {
+          "type": "collection",
+          "settings": {
+            "collection": "fiskars-tools",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_yy3CEW": {
+          "type": "collection",
+          "settings": {
+            "collection": "fox-farms",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        }
+      },
+      "block_order": [
+        "template--16035510223037__422ddac4-7c82-4141-8456-e2c0a5a800e5-16727700896e0caf41-0",
+        "template--16035510223037__422ddac4-7c82-4141-8456-e2c0a5a800e5-16727700896e0caf41-1",
+        "template--16035510223037__422ddac4-7c82-4141-8456-e2c0a5a800e5-16727700896e0caf41-2",
+        "template--16035510223037__422ddac4-7c82-4141-8456-e2c0a5a800e5-16727700896e0caf41-3",
+        "collection_J4N3bw",
+        "collection_xYVJb6",
+        "collection_yy3CEW"
+      ],
+      "settings": {
+        "layout": "carousel",
+        "columns": 6,
+        "image_size": 90,
+        "image_shape": "square",
+        "title": "Brands D - H",
+        "text_size": 100,
+        "overlay_text": false,
+        "text_color": "#000000",
+        "overlay_opacity": 0,
+        "enable_slider_mobile": true,
+        "columns_mobile": "2",
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "6083ff5d-5957-4688-84e7-ffe7618cdb4c": {
+      "type": "section-collection-marbles",
+      "blocks": {
+        "template--16035510223037__6083ff5d-5957-4688-84e7-ffe7618cdb4c-16727700896e0caf41-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "knives",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__6083ff5d-5957-4688-84e7-ffe7618cdb4c-16727700896e0caf41-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "hanes-geo",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__6083ff5d-5957-4688-84e7-ffe7618cdb4c-16727700896e0caf41-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "helena",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__6083ff5d-5957-4688-84e7-ffe7618cdb4c-16727700896e0caf41-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "hort-industries",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_PBAdq9": {
+          "type": "collection",
+          "settings": {
+            "collection": "hulton-tools-1",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__6083ff5d-5957-4688-84e7-ffe7618cdb4c-16727700896e0caf41-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "hydro-straw",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        }
+      },
+      "block_order": [
+        "template--16035510223037__6083ff5d-5957-4688-84e7-ffe7618cdb4c-16727700896e0caf41-1",
+        "template--16035510223037__6083ff5d-5957-4688-84e7-ffe7618cdb4c-16727700896e0caf41-2",
+        "template--16035510223037__6083ff5d-5957-4688-84e7-ffe7618cdb4c-16727700896e0caf41-3",
+        "template--16035510223037__6083ff5d-5957-4688-84e7-ffe7618cdb4c-16727700896e0caf41-4",
+        "collection_PBAdq9",
+        "template--16035510223037__6083ff5d-5957-4688-84e7-ffe7618cdb4c-16727700896e0caf41-0"
+      ],
+      "settings": {
+        "layout": "carousel",
+        "columns": 6,
+        "image_size": 90,
+        "image_shape": "square",
+        "title": "",
+        "text_size": 100,
+        "overlay_text": false,
+        "text_color": "#000000",
+        "overlay_opacity": 0,
+        "enable_slider_mobile": true,
+        "columns_mobile": "2",
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "32bce401-cd28-41eb-843e-473ffd306bfd": {
+      "type": "section-collection-marbles",
+      "blocks": {
+        "template--16035510223037__32bce401-cd28-41eb-843e-473ffd306bfd-16727700896e0caf41-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "jobe",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__32bce401-cd28-41eb-843e-473ffd306bfd-16727700896e0caf41-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "kill-cliff",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__32bce401-cd28-41eb-843e-473ffd306bfd-16727700896e0caf41-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "lebanon",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__32bce401-cd28-41eb-843e-473ffd306bfd-16727700896e0caf41-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "little-giant",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_KpBhNr": {
+          "type": "collection",
+          "settings": {
+            "collection": "matala",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_jxLLKQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "microbe-lift",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_eaYTrx": {
+          "type": "collection",
+          "settings": {
+            "collection": "mountain-west-products",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_WF4936": {
+          "type": "collection",
+          "settings": {
+            "collection": "nature-safe",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        }
+      },
+      "block_order": [
+        "template--16035510223037__32bce401-cd28-41eb-843e-473ffd306bfd-16727700896e0caf41-0",
+        "template--16035510223037__32bce401-cd28-41eb-843e-473ffd306bfd-16727700896e0caf41-1",
+        "template--16035510223037__32bce401-cd28-41eb-843e-473ffd306bfd-16727700896e0caf41-2",
+        "template--16035510223037__32bce401-cd28-41eb-843e-473ffd306bfd-16727700896e0caf41-3",
+        "collection_KpBhNr",
+        "collection_jxLLKQ",
+        "collection_eaYTrx",
+        "collection_WF4936"
+      ],
+      "settings": {
+        "layout": "carousel",
+        "columns": 6,
+        "image_size": 90,
+        "image_shape": "square",
+        "title": "Brands J - Z",
+        "text_size": 100,
+        "overlay_text": false,
+        "text_color": "#000000",
+        "overlay_opacity": 0,
+        "enable_slider_mobile": true,
+        "columns_mobile": "2",
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "3183e64a-b797-4e10-b816-c1c2e04893dd": {
+      "type": "section-collection-marbles",
+      "blocks": {
+        "template--16035510223037__3183e64a-b797-4e10-b816-c1c2e04893dd-16727700896e0caf41-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "nds",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__3183e64a-b797-4e10-b816-c1c2e04893dd-16727700896e0caf41-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "nutri-mulch",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__3183e64a-b797-4e10-b816-c1c2e04893dd-16727700896e0caf41-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "oly-ola",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__3183e64a-b797-4e10-b816-c1c2e04893dd-16727700896e0caf41-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "organix",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__3183e64a-b797-4e10-b816-c1c2e04893dd-16727700896e0caf41-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "pavestone",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_hDLR3W": {
+          "type": "collection",
+          "settings": {
+            "collection": "paonia-soils",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "template--16035510223037__3183e64a-b797-4e10-b816-c1c2e04893dd-16727700896e0caf41-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "rainier",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_JfKgtM": {
+          "type": "collection",
+          "settings": {
+            "collection": "sungro",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "collection_gPTpCr": {
+          "type": "collection",
+          "settings": {
+            "collection": "zenport",
+            "custom_collection_image": "shopify://shop_images/Logo-No-BG.png",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
+          }
+        }
+      },
+      "block_order": [
+        "template--16035510223037__3183e64a-b797-4e10-b816-c1c2e04893dd-16727700896e0caf41-0",
+        "template--16035510223037__3183e64a-b797-4e10-b816-c1c2e04893dd-16727700896e0caf41-1",
+        "template--16035510223037__3183e64a-b797-4e10-b816-c1c2e04893dd-16727700896e0caf41-2",
+        "template--16035510223037__3183e64a-b797-4e10-b816-c1c2e04893dd-16727700896e0caf41-3",
+        "template--16035510223037__3183e64a-b797-4e10-b816-c1c2e04893dd-16727700896e0caf41-4",
+        "collection_hDLR3W",
+        "template--16035510223037__3183e64a-b797-4e10-b816-c1c2e04893dd-16727700896e0caf41-5",
+        "collection_JfKgtM",
+        "collection_gPTpCr"
+      ],
+      "settings": {
+        "layout": "carousel",
+        "columns": 6,
+        "image_size": 100,
+        "image_shape": "square",
+        "title": "",
+        "text_size": 100,
+        "overlay_text": false,
+        "text_color": "#000000",
+        "overlay_opacity": 0,
+        "enable_slider_mobile": true,
+        "columns_mobile": "2",
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_promo_JkjTGb": {
+      "type": "section-promo",
+      "blocks": {
+        "heading_f38aC9": {
+          "type": "heading",
+          "settings": {
+            "promo_heading": "Save up to 10% on Clearance",
+            "heading_size": 150
+          }
+        },
+        "text_Nxpbba": {
+          "type": "text",
+          "settings": {
+            "promo_content": "Check out our best sale of the year!",
+            "text_size": 200
+          }
+        },
+        "button_3aGzB6": {
+          "type": "button",
+          "settings": {
+            "promo_btn_text": "Shop Clearance Deals",
+            "promo_btn_link": "shopify://collections/clearance-products",
+            "promo_btn_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f38aC9",
+        "text_Nxpbba",
+        "button_3aGzB6"
+      ],
+      "settings": {
+        "height": "one-fifty-height",
+        "overlay_opacity": 10,
+        "promo_text_color": "text-light",
+        "text_position": "center",
+        "promo_layout": "stacked",
+        "bg_color": "#638981",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_tab_collections_PD8x9g": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_YmdV6x": {
+          "type": "collection",
+          "settings": {
+            "title": "New Arrivals",
+            "tab_collection": "new-arrivals-1",
+            "number_of_products": 6,
+            "show_image": false,
+            "overlay_opacity": 10,
+            "heading": "",
+            "heading_size": 100,
+            "text_color": "text-light",
+            "button_text": "View All",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--medium"
+          }
+        },
+        "collection_zy9JF6": {
+          "type": "collection",
+          "settings": {
+            "title": "Clearance",
+            "tab_collection": "clearance-products",
+            "number_of_products": 6,
+            "show_image": false,
+            "overlay_opacity": 10,
+            "heading": "",
+            "heading_size": 100,
+            "text_color": "text-light",
+            "button_text": "View All",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "collection_YmdV6x",
+        "collection_zy9JF6"
+      ],
+      "settings": {
+        "columns_mobile": "1",
+        "image_aspect_ratio": 1.3,
+        "text_alignment": "text-center",
+        "title": "Best Sellers",
+        "heading_size": 100,
+        "text": "Our favorite picks for the season",
+        "text_size": 100,
+        "type_style": "subheading-text",
+        "tab_heading_size": 100,
+        "button_position": "top",
+        "show_buttons": true,
+        "collection_button_text": "Shop Now",
+        "collection_button_color": "btn--black",
+        "collection_button_style": "btn--solid",
+        "collection_button_size": "btn--medium",
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_icons_row_eKJg3c": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_LLG8ty": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "icon_image": "shopify://shop_images/svgviewer-png-output_1.png",
+            "title": "Over 30+ Years in Business",
+            "text": "<p>Since 1989, Rivendell Distribution began a tradition of bringing high-quality sod and products to the Western Slopes with integrity and the highest degree of Quality.</p>"
+          }
+        },
+        "text_HjRbdb": {
+          "type": "text",
+          "settings": {
+            "icon_name": "dollar-sign",
+            "icon_image": "shopify://shop_images/price.png",
+            "title": "Competitive Pricing",
+            "text": "<p>At Rivendell Distribution, we strive to offer the best quality products with the most competitive pricing in the Industry.</p>"
+          }
+        },
+        "text_tLeMY9": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clipboard",
+            "icon_image": "shopify://shop_images/copyboard.png",
+            "title": "Wide Selection of Products",
+            "text": "<p>Whether you're a Garden Center, Contractor, or Retail customer, Rivendell has what you are looking for. If it's Soils, Mulches, Composts, Seeds, Tools, Fertilizers, Pond Supplies or Hardscape Supplies, we got it all!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_LLG8ty",
+        "text_HjRbdb",
+        "text_tLeMY9"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "alignment": "left",
+        "columns": 3,
+        "icons_width": 30,
+        "show_vertical_borders": false,
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color": "#f7f7ef",
+        "gradient": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "color_border": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--secondary btn--small",
+        "button_size": "btn--medium",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "ffd2082d-5b8e-4061-973a-41b69e1c01b0",
+    "main",
+    "16fdeecc-e749-4f7d-b428-ff97f2aa87e9",
+    "10a8995a-8713-4900-add8-f1845f49f2ea",
+    "422ddac4-7c82-4141-8456-e2c0a5a800e5",
+    "6083ff5d-5957-4688-84e7-ffe7618cdb4c",
+    "32bce401-cd28-41eb-843e-473ffd306bfd",
+    "3183e64a-b797-4e10-b816-c1c2e04893dd",
+    "section_promo_JkjTGb",
+    "section_tab_collections_PD8x9g",
+    "section_icons_row_eKJg3c"
+  ]
+}

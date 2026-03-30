@@ -1,0 +1,48 @@
+  {{ 'section-blog.css' | asset_url | stylesheet_tag }}
+{% schema %}
+{
+    "name": "Featured Article",
+    "settings": [
+        {
+        "type": "article",
+        "id": "featured_article",
+        "label": "Choose article"
+        }
+    ],
+    "presets": [
+    {
+      "category": "Blog",
+      "name": "Featured Article"
+    }
+  ]
+}
+{% endschema %}
+{% if section.settings.featured_article %}
+  {% assign article = section.settings.featured_article %}
+
+  <div class="blog_banner">
+    {% if article.image %}
+      <img 
+        src="{{ article.image | img_url: '1600x' }}"
+        alt="{{ article.title }}"
+        loading="lazy"
+      >
+    {% endif %}
+
+    <div class="blog_banner_text">
+      <span>
+        By {{ article.author }}  
+        |  
+        {{ article.published_at | date: "%B %d, %Y" }}
+      </span>
+
+      <h2>{{ article.title }}</h2>
+
+      <p>{{ article.excerpt | strip_html | truncate: 150 }}</p>
+
+      <a href="{{ article.url }}">Read Article</a>
+    </div>
+  </div>
+
+
+{% endif %}

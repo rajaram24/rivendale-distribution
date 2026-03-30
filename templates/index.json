@@ -1,0 +1,1900 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_slideshow_b6WjzR": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_nxbccf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/home-desktop.png",
+            "image_mobile": "shopify://shop_images/home-mobile.png",
+            "overlay_opacity": 10,
+            "content_width": 55,
+            "text_position": "center",
+            "text_alignment": "text-center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "<p>Quality Landscaping Supplies You Can Trust.</p>",
+            "heading_size": 110,
+            "heading_mobsize": 100,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "text": "Check out our Premier line of Products and Vendors below.",
+            "text_size": 100,
+            "text_mobsize": 80,
+            "stacked_button": false,
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--primary",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "image_icaQ8y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pexels-anna-shvets-5231236.jpg",
+            "image_mobile": "shopify://shop_images/pexels-anna-shvets-5231242.jpg",
+            "overlay_opacity": 10,
+            "content_width": 65,
+            "text_position": "center",
+            "text_alignment": "text-center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "<p>Beautiful Landscape Projects Start Here!</p>",
+            "heading_size": 110,
+            "heading_mobsize": 80,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "text": "Check out our Premier line of Products and Vendors below.",
+            "text_size": 100,
+            "text_mobsize": 50,
+            "stacked_button": false,
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--primary",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--primary",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "image_8Qcrwx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pexels-anna-shvets-5027619.jpg",
+            "image_mobile": "shopify://shop_images/pexels-anna-shvets-5027614.jpg",
+            "overlay_opacity": 10,
+            "content_width": 65,
+            "text_position": "center",
+            "text_alignment": "text-center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "<p>Your One-Stop Landscaping Supplies Store.</p>",
+            "heading_size": 110,
+            "heading_mobsize": 100,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "text": "Check out our Premier line of Products and Vendors below.",
+            "text_size": 100,
+            "text_mobsize": 80,
+            "stacked_button": false,
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--primary",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "image_44cyiK": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/pexels-fox-750830.jpg",
+            "image_mobile": "shopify://shop_images/pexels-fox-750830_2.jpg",
+            "overlay_opacity": 10,
+            "content_width": 60,
+            "text_position": "center",
+            "text_alignment": "text-center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "<p>Transform Your Outdoors with Trustworthy Gardeners Supply.</p>",
+            "heading_size": 110,
+            "heading_mobsize": 100,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "text": "Check out our Premier line of Products and Vendors below.",
+            "text_size": 100,
+            "text_mobsize": 50,
+            "stacked_button": false,
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--primary",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "image_k36pKQ": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/sandie-clarke-q13Zq1Jufks-unsplash.jpg",
+            "overlay_opacity": 10,
+            "content_width": 80,
+            "text_position": "center",
+            "text_alignment": "text-center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "<p>Get Premium Landscape Materials Delivered to Your Door.</p>",
+            "heading_size": 150,
+            "heading_mobsize": 100,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "text": "Check out our Premier line of Products and Vendors below.",
+            "text_size": 100,
+            "text_mobsize": 50,
+            "stacked_button": false,
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--primary",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nxbccf",
+        "image_icaQ8y",
+        "image_8Qcrwx",
+        "image_44cyiK",
+        "image_k36pKQ"
+      ],
+      "settings": {
+        "slide_height": "four-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_slide_height": "four-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": true,
+        "show_arrow_down": false,
+        "autoplay": true,
+        "duration": 4,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "enable_card_scrolling": false,
+        "increase_border_radius": true
+      }
+    },
+    "4dd1ce1e-3cf2-4048-93af-1591fdf9755d": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_height": "five-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "six-fifty-height-mobile",
+        "text_width": "normal",
+        "text_position": "bottom-left",
+        "video_link_bg": "https://cdn.shopify.com/videos/c/o/v/c7642de9a2c14709989a1f04f460f16e.mp4",
+        "video_link": "",
+        "image": "shopify://shop_images/Sod_Lady.jpg",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "<p>Beautiful Projects Start Here!</p>",
+        "heading_size": 100,
+        "heading_highlight_type": "italics",
+        "highlight_color": "#000000",
+        "highlight_text_color": "",
+        "text": "Check out our Premier line of Products and Vendors below.",
+        "text_size": 100,
+        "button_1_text": "Welcome",
+        "button_1_link": "",
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--solid-border",
+        "button_1_size": "btn--medium",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--solid",
+        "button_2_size": "btn--medium"
+      }
+    },
+    "section-marquee": {
+      "type": "section-marquee",
+      "blocks": {
+        "section-marquee-0": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "message": "Free Shipping on full truck orders of 8 Pallets or more!",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "section-marquee-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Current Memeber? - <a href=\"https://www.rivendelldistribution.com/account/login?return_url=%2Faccount\" title=\"Account Page\">Login Here</a></p>",
+            "text_color": "",
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "section-marquee-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use code <strong>TENOFF</strong> for 10% off first purchase</p>",
+            "text_color": "",
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "c1f7df16-ce60-413a-a4cd-88cd4b10d1b5": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Are you a Wholesale, Contractor, or Dealer? - </strong></em><a href=\"https://www.rivendelldistribution.com/account/login?return_url=%2Faccount\" title=\"Account Page\"><em><strong>Create a business account here</strong></em></a></p>",
+            "text_color": "",
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "section-marquee-0",
+        "section-marquee-1",
+        "section-marquee-2",
+        "c1f7df16-ce60-413a-a4cd-88cd4b10d1b5"
+      ],
+      "settings": {
+        "layout": "marquee",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 20,
+        "marquee_speed": 100,
+        "direction": "ticker-ltr",
+        "slider_speed": 7,
+        "show_arrows": false,
+        "text_caps": false,
+        "type_font": "dm_sans_n4",
+        "text_size": 110,
+        "letter_spacing": 0,
+        "message_spacing": 25,
+        "bg_color": "#0a493e",
+        "gradient": "",
+        "color": "#ffffff",
+        "border_color": "#000000",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_icons_row_zb8Fn7": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_tVKRdf": {
+          "type": "text",
+          "settings": {
+            "icon_name": "smile",
+            "icon_image": "shopify://shop_images/Group_3.svg",
+            "title": "",
+            "text": "<h2><a href=\"/collections/soils-mulches\" title=\"Soils & Mulches\">Soils & <br/>Mulches</a></h2>"
+          }
+        },
+        "text_FLgDNq": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "icon_image": "shopify://shop_images/Sesame.svg",
+            "title": "",
+            "text": "<h2><a href=\"/collections/wildflower-amp-grass-seeds\" title=\"Wildflower & Grass Seeds\">Wildflower & <br/>Grass Seeds</a></h2>"
+          }
+        },
+        "text_nAB4rU": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "icon_image": "shopify://shop_images/Fertilizer.svg",
+            "title": "",
+            "text": "<h2><a href=\"/collections/fertilizer-amendments\" title=\"Fertilizer & Amendments\">Fertilizers &<br/>Amendments</a></h2>"
+          }
+        },
+        "text_e4tYYb": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "icon_image": "shopify://shop_images/Farming.svg",
+            "title": "",
+            "text": "<h2><a href=\"/collections/landscape-supplies\" title=\"Landscape Materials\">Landscape <br/>Materials</a></h2>"
+          }
+        },
+        "text_PX4g7Y": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "icon_image": "shopify://shop_images/Group_4.svg",
+            "title": "",
+            "text": "<h2><a href=\"/collections/chemicals\" title=\"Liquid & Granular Chemicals\">Liquid & Granular<br/>Chemicals</a></h2>"
+          }
+        },
+        "text_6RyggK": {
+          "type": "text",
+          "settings": {
+            "icon_name": "refresh-cw",
+            "icon_image": "shopify://shop_images/Building.svg",
+            "title": "",
+            "text": "<h2><a href=\"/collections/hardscape-supplies\" title=\"Hardscape Materials\">Hardscape<br/>Materials</a><br/></h2>"
+          }
+        },
+        "text_788hiA": {
+          "type": "text",
+          "settings": {
+            "icon_name": "heart",
+            "icon_image": "shopify://shop_images/Pruning_shears.svg",
+            "title": "",
+            "text": "<h2><a href=\"/collections/tools-more\" title=\"Tools & More\">Tools & <br/>More</a></h2>"
+          }
+        }
+      },
+      "block_order": [
+        "text_tVKRdf",
+        "text_FLgDNq",
+        "text_nAB4rU",
+        "text_e4tYYb",
+        "text_PX4g7Y",
+        "text_6RyggK",
+        "text_788hiA"
+      ],
+      "name": "Icons row",
+      "settings": {
+        "custom_class": "icon-row-sec",
+        "heading": "",
+        "subheading": "",
+        "alignment": "left",
+        "columns": 10,
+        "icons_width": 30,
+        "show_vertical_borders": false,
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "heading_size": 100,
+        "text_size": 100,
+        "bg_color": "#dbe4e3",
+        "gradient": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "color_border": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--secondary btn--small",
+        "button_size": "btn--medium",
+        "layout_mobile": "carousel",
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "39e5aa24-4091-459c-9ad9-e0822fb444f4": {
+      "type": "section-list-collection",
+      "blocks": {
+        "template--16023681695933__39e5aa24-4091-459c-9ad9-e0822fb444f4-1670277989e121436b-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "soils-mulches",
+            "custom_collection_image": "shopify://shop_images/iStock-118613053666.jpg",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16023681695933__39e5aa24-4091-459c-9ad9-e0822fb444f4-1670277989e121436b-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "wildflower-amp-grass-seeds",
+            "custom_collection_image": "shopify://shop_images/Spreading_Seed_1.jpg",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16023681695933__39e5aa24-4091-459c-9ad9-e0822fb444f4-1670277989e121436b-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "fertilizer-amendments",
+            "custom_collection_image": "shopify://shop_images/Fertilizer_1.jpg",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16023681695933__39e5aa24-4091-459c-9ad9-e0822fb444f4-1670277989e121436b-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "landscape-supplies",
+            "custom_collection_image": "shopify://shop_images/Shovel_1.jpg",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16023681695933__39e5aa24-4091-459c-9ad9-e0822fb444f4-1670277989e121436b-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "chemicals",
+            "custom_collection_image": "shopify://shop_images/Spray_1_alt.jpg",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16023681695933__39e5aa24-4091-459c-9ad9-e0822fb444f4-1670277989e121436b-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "hardscape-supplies",
+            "custom_collection_image": "shopify://shop_images/iStock-1041070742.jpg",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "d99d190a-90d9-4af1-bc24-84df3f57cbdc": {
+          "type": "collection",
+          "settings": {
+            "collection": "tools-more",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--16023681695933__39e5aa24-4091-459c-9ad9-e0822fb444f4-1670277989e121436b-0",
+        "template--16023681695933__39e5aa24-4091-459c-9ad9-e0822fb444f4-1670277989e121436b-1",
+        "template--16023681695933__39e5aa24-4091-459c-9ad9-e0822fb444f4-1670277989e121436b-2",
+        "template--16023681695933__39e5aa24-4091-459c-9ad9-e0822fb444f4-1670277989e121436b-3",
+        "template--16023681695933__39e5aa24-4091-459c-9ad9-e0822fb444f4-1670277989e121436b-4",
+        "template--16023681695933__39e5aa24-4091-459c-9ad9-e0822fb444f4-1670277989e121436b-5",
+        "d99d190a-90d9-4af1-bc24-84df3f57cbdc"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": 100,
+        "button_text": "Shop All",
+        "button_style": "btn--secondary btn--solid-border",
+        "layout": "carousel",
+        "alignment": "center",
+        "collections_per_row": 4,
+        "columns_mobile": "1",
+        "image_shape": "square",
+        "image_aspect_ratio": 1.2,
+        "enable_product_count": false,
+        "text_size": 90,
+        "overlay_text": true,
+        "enable_slider_mobile": true,
+        "section_bg_color": "",
+        "gradient": "",
+        "section_text_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_promotion_row_749LF6": {
+      "type": "section-promotion-row",
+      "blocks": {
+        "column_XEAALw": {
+          "type": "column",
+          "settings": {
+            "subheading": "<p>2025 Paonia Soils Discount</p>",
+            "subheading_size": 120,
+            "heading": "<p>Up to 5% OFF</p>",
+            "heading_size": 295,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "description": "Additional savings on all Paonia Soil Co. Use code \"DIRTCHEAP.\"",
+            "description_size": 100,
+            "disclaimer": "*Order online or call the office for more details on full FTL savings and additional products that apply.",
+            "disclaimer_size": 90,
+            "button_text": "Order Here",
+            "button_link": "shopify://collections/paonia-soils",
+            "button_color": "btn--black",
+            "button_style": "btn--secondary btn--small",
+            "button_size": "btn--medium",
+            "bg_color": "#faf7f3",
+            "gradient_background": "",
+            "text_color": "#98560d",
+            "overlay_opacity": 0
+          }
+        },
+        "column_W86FJL": {
+          "type": "column",
+          "settings": {
+            "subheading": "<p>Extra Savings</p>",
+            "subheading_size": 120,
+            "heading": "<p><em>10% off</em></p>",
+            "heading_size": 350,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "description": "on your first order!",
+            "description_size": 100,
+            "disclaimer": "*Use Code TENOFF at checkout",
+            "disclaimer_size": 90,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--medium",
+            "bg_color": "#f8f3f3",
+            "gradient_background": "",
+            "text_color": "#900e0e",
+            "overlay_opacity": 0
+          }
+        },
+        "column_7L7Jy9": {
+          "type": "column",
+          "settings": {
+            "subheading": "<p>New for 2025!</p>",
+            "subheading_size": 110,
+            "heading": "<p>Rivendell has added to our shipping services. Quicker shipping times on orders of 4 Pallets or Less.</p>",
+            "heading_size": 125,
+            "heading_highlight_type": "squiggle",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "description": "Pallet pricing only for small fleet & discounts available for full FTL's",
+            "description_size": 75,
+            "disclaimer": "*For full Semi deliveries only to 1 drop location. Dealers excluded from shipping discounts.",
+            "disclaimer_size": 75,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--medium",
+            "bg_color": "#f4f5f5",
+            "gradient_background": "",
+            "text_color": "#253734",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "column_XEAALw",
+        "column_W86FJL",
+        "column_7L7Jy9"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "3",
+        "count_up_enabled": true,
+        "count_up_duration": 100,
+        "height": "200",
+        "enable_mobile_height": false,
+        "mobile_height": "400",
+        "bg_color": "",
+        "gradient": "",
+        "enable_slider_mobile": true,
+        "columns_mobile": "1",
+        "width": "wrapper--full-padded",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
+    "section_image_with_text_6BTD3P": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "show_accordion_divider": true,
+        "increase_border_radius": false,
+        "section_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "layout": "inline",
+        "image_location": "left",
+        "image_background": false,
+        "image_width": "standard",
+        "image": "shopify://shop_images/Sod_123.jpg",
+        "block_bg_color": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-promotion-row-0": {
+      "type": "section-promotion-row",
+      "blocks": {
+        "section-promotion-row-0": {
+          "type": "column",
+          "settings": {
+            "subheading": "<p>2025 Paonia Soils Discount</p>",
+            "subheading_size": 120,
+            "heading": "<p>Up to 5% OFF</p>",
+            "heading_size": 255,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "description": "Additional savings on all Paonia Soil Co. Use code \"DIRTCHEAP.\"",
+            "description_size": 100,
+            "disclaimer": "*Order online or call the office for more details on full FTL savings and additional products that apply.",
+            "disclaimer_size": 90,
+            "button_text": "Order Here",
+            "button_link": "shopify://collections/paonia-soils",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--medium",
+            "bg_color": "#faf7f3",
+            "gradient_background": "",
+            "text_color": "#98560d",
+            "overlay_opacity": 100
+          }
+        },
+        "section-promotion-row-1": {
+          "type": "column",
+          "settings": {
+            "subheading": "<p>Extra Savings</p>",
+            "subheading_size": 120,
+            "heading": "<p><em>10% off</em></p>",
+            "heading_size": 350,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#b47373",
+            "highlight_text_color": "",
+            "description": "on your first order!",
+            "description_size": 100,
+            "disclaimer": "*Use Code TENOFF at checkout",
+            "disclaimer_size": 90,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--medium",
+            "bg_color": "#f8f3f3",
+            "gradient_background": "",
+            "text_color": "#900e0e",
+            "overlay_opacity": 0
+          }
+        },
+        "section-promotion-row-2": {
+          "type": "column",
+          "settings": {
+            "subheading": "<p>New for 2025!</p>",
+            "subheading_size": 120,
+            "heading": "<p>Rivendell has added to our shipping services. Quicker shipping times on orders of 4 Pallets or Less.</p>",
+            "heading_size": 240,
+            "heading_highlight_type": "squiggle",
+            "highlight_color": "#0a493e",
+            "highlight_text_color": "",
+            "description": "Pallet pricing only for small fleet & discounts available for full FTL's",
+            "description_size": 90,
+            "disclaimer": "*For full Semi deliveries only to 1 drop location. Dealers excluded from shipping discounts.",
+            "disclaimer_size": 75,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--primary btn--small",
+            "button_size": "btn--medium",
+            "bg_color": "#f4f5f5",
+            "gradient_background": "",
+            "text_color": "#253734",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "section-promotion-row-0",
+        "section-promotion-row-1",
+        "section-promotion-row-2"
+      ],
+      "settings": {
+        "layout": "3",
+        "count_up_enabled": false,
+        "count_up_duration": 100,
+        "height": "200",
+        "enable_mobile_height": false,
+        "mobile_height": "400",
+        "bg_color": "",
+        "gradient": "",
+        "enable_slider_mobile": true,
+        "columns_mobile": "1",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "fd6b19f6-b241-480c-991f-e323e5b3a814": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "subheading_N8NfYQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Best Bluegrass Sod in the Valley!",
+            "size": 75,
+            "text_position": "left",
+            "spacing_bottom": 12
+          }
+        },
+        "heading_aL6VED": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>Rivendell's Bluegrass Sod</p>",
+            "size": 90,
+            "text_position": "left",
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "spacing_bottom": 12
+          }
+        },
+        "text_JyVELn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rivendell produces a premium turf of elite bluegrass varieties. It is drought tolerant, winter hardy, and disease resistant. Product is cut fresh daily; install is recommended same day.</p><p><strong>*Call ahead to place your order as availability is limited throughout the year.*</strong></p>",
+            "size": 100,
+            "text_position": "left",
+            "spacing_bottom": 12
+          }
+        },
+        "button_XAmEhB": {
+          "type": "button",
+          "settings": {
+            "button_text": "Learn More",
+            "button_link": "shopify://collections/sod",
+            "button_color": "btn--primary",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "video_link": "",
+            "text_position": "left",
+            "spacing_bottom": 12
+          }
+        }
+      },
+      "block_order": [
+        "subheading_N8NfYQ",
+        "heading_aL6VED",
+        "text_JyVELn",
+        "button_XAmEhB"
+      ],
+      "settings": {
+        "show_accordion_divider": true,
+        "increase_border_radius": false,
+        "section_height": "five-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_height": "four-fifty-height-mobile",
+        "layout": "overlay",
+        "image_location": "right",
+        "image_background": true,
+        "image_width": "extra-wide",
+        "image": "shopify://shop_images/606ead2df2f89818a0fd6ce2a6de8bc420c22319.jpg",
+        "block_bg_color": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section-collection-0": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "top-products",
+        "products_layout": "carousel",
+        "products_limit": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "1",
+        "text_alignment": "text-left",
+        "title": "<p>Best Sellers</p>",
+        "heading_size": 100,
+        "heading_highlight_type": "underline-hand-drawn",
+        "highlight_color": "#000000",
+        "highlight_text_color": "",
+        "text": "<p>Top Products that are tried and trusted by industry professionals.</p>",
+        "text_size": 100,
+        "button_position": "bottom",
+        "button_text": "Shop All",
+        "button_color": "btn--primary",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--medium",
+        "bg_color": "rgba(0,0,0,0)",
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-look": {
+      "type": "section-look",
+      "blocks": {
+        "section-look-0": {
+          "type": "product",
+          "settings": {
+            "product": "mountain-west-soil-pep-copy",
+            "position_x_desktop": 50,
+            "position_y_desktop": 90,
+            "position_x_mobile": 50,
+            "position_y_mobile": 90,
+            "info_bubbles_position_desktop": 30,
+            "info_bubbles_position_mobile": 30
+          }
+        },
+        "section-look-1": {
+          "type": "product",
+          "settings": {
+            "product": "black-gold-all-purpose-potting-mix",
+            "position_x_desktop": 73,
+            "position_y_desktop": 67,
+            "position_x_mobile": 73,
+            "position_y_mobile": 67,
+            "info_bubbles_position_desktop": 30,
+            "info_bubbles_position_mobile": 30
+          }
+        },
+        "section-look-2": {
+          "type": "product",
+          "settings": {
+            "product": "harington-retaining-wall-3-piece-set",
+            "position_x_desktop": 35,
+            "position_y_desktop": 35,
+            "position_x_mobile": 35,
+            "position_y_mobile": 35,
+            "info_bubbles_position_desktop": 30,
+            "info_bubbles_position_mobile": 30
+          }
+        },
+        "7277e054-96cc-445f-bd81-b6a149890d37": {
+          "type": "product",
+          "settings": {
+            "product": "drammatic-one-organic-fertilizer-4-4-1",
+            "position_x_desktop": 34,
+            "position_y_desktop": 70,
+            "position_x_mobile": 34,
+            "position_y_mobile": 70,
+            "info_bubbles_position_desktop": 30,
+            "info_bubbles_position_mobile": 30
+          }
+        }
+      },
+      "block_order": [
+        "section-look-0",
+        "section-look-1",
+        "section-look-2",
+        "7277e054-96cc-445f-bd81-b6a149890d37"
+      ],
+      "custom_css": [
+        ".hotspot__info-bubble,span.hotspot__line {display: none;}"
+      ],
+      "settings": {
+        "products_on_row": 2,
+        "image": "shopify://shop_images/RetainingWalls_RockFace_FCombo_6_03.jpg",
+        "image_position": "is-reversed",
+        "enable_aspect_ratio": true,
+        "main_image_aspect_ratio": 1,
+        "title": "Set up a backyard Oasis of your own!",
+        "heading_size": 90,
+        "text": "<p>Our most popular backyard products!</p>",
+        "text_size": 100,
+        "text_alignment": "text-left",
+        "show_hotspots": true,
+        "show_arrow": false,
+        "popup_heading": "Shop the Look",
+        "show_free_shipping_message": false,
+        "content_color": "text-dark",
+        "hotspot_color": "",
+        "bg_color": "",
+        "gradient": "",
+        "hotspot_contents_text_color": "text-dark",
+        "hotspot_contents_bg_color": "#ffffff",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--primary",
+        "button_style": "btn--solid",
+        "button_size": "btn--medium",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "176970101734f0dd0f": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_EdxBhi": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_EdxBhi"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-products-list": {
+      "type": "section-products-list",
+      "blocks": {
+        "section-products-list-1": {
+          "type": "product",
+          "settings": {
+            "product": "nature-safe-all-season-lawn-fertilizer-10-2-8-3",
+            "title": "Nature Safe Organic Lawn Fertilizer",
+            "product_description": "",
+            "button_text": "View Product",
+            "show_second_image": true,
+            "show_circle": false,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150
+          }
+        },
+        "section-products-list-0": {
+          "type": "product",
+          "settings": {
+            "product": "dramm-7-liter-watering-can",
+            "title": "Dramm 7 Liter Watering Can",
+            "product_description": "",
+            "button_text": "View Product",
+            "show_second_image": true,
+            "show_circle": false,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150
+          }
+        },
+        "section-products-list-2": {
+          "type": "product",
+          "settings": {
+            "product": "nutri-mulch-compost",
+            "title": "Nutri-Mulch Organic Compost",
+            "product_description": "",
+            "button_text": "View Product",
+            "show_second_image": true,
+            "show_circle": false,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate",
+            "circle_text": "New Arrival ~ New Arrival ~",
+            "circle_word_spacing": 3,
+            "circle_size": 150
+          }
+        }
+      },
+      "block_order": [
+        "section-products-list-1",
+        "section-products-list-0",
+        "section-products-list-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 100,
+        "button_style": "btn--solid",
+        "image_aspect_ratio": 1,
+        "bg_color": "#f2f2f2",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section-logo-list": {
+      "type": "section-logo-list",
+      "blocks": {
+        "logo-1": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/acme-manufacturing_e575cf04-ecbb-4ed0-a2d2-78e2bd7de1b1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/acme-manufacturing"
+          }
+        },
+        "8a55b7ed-ae8f-4574-b6d7-a81f19fb0203": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/age-old.png",
+            "logos_width": 120,
+            "url": "shopify://collections/age-old"
+          }
+        },
+        "d759cbab-ddb5-4d1d-8526-f21a4b4d0190": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/agfinity-logo.png",
+            "logos_width": 120,
+            "url": "shopify://collections/agfinity"
+          }
+        },
+        "1105a8bd-1aa6-400b-886f-2b320750af61": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/Layer_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/alliance"
+          }
+        },
+        "e8b41ddb-26e4-4659-90be-959cd6bab660": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/alligare_6a2b66ea-6668-45fb-96f1-c19a6008e2bb.png",
+            "logos_width": 120,
+            "url": "shopify://collections/alligare"
+          }
+        },
+        "06165016-2c03-48ac-aad0-a541b5cc8e67": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/Alphaone.png",
+            "logos_width": 120,
+            "url": "shopify://collections/alpha-one"
+          }
+        },
+        "f442d037-e528-4465-9418-3c28ca59ad4b": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/alpine_1_97a631dd-c09c-4f51-a361-6650095b25c4.png",
+            "logos_width": 120,
+            "url": "shopify://collections/alpine-corp"
+          }
+        },
+        "5680dd61-94a2-4a3f-a6a7-7b4794a5f59b": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/am_leonard.png",
+            "logos_width": 120,
+            "url": "shopify://collections/am-leonard"
+          }
+        },
+        "ba9ca2ce-0cdb-4dcc-8bb4-e76e6ba56e04": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/applewood-seed_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/applewood-seed"
+          }
+        },
+        "f1b2f30c-87f2-4284-a109-90d35c22c1d8": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/arkansas-valley_seeds_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/arkansas-valley"
+          }
+        },
+        "d45ca90b-cae7-4cb1-bf66-5a63d24d31ce": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/atlantic-oase_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/atlantic-oase"
+          }
+        },
+        "567ebb24-8568-4cd7-b82f-68bb13b15078": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/auraco-logo.png",
+            "logos_width": 120,
+            "url": "shopify://collections/auraco-1"
+          }
+        },
+        "a299ad34-f33f-45e9-a226-3994a4e8988d": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/bobbex_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/bobbex"
+          }
+        },
+        "logo-2": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/bonide_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/bonide"
+          }
+        },
+        "9034bfdc-b9cd-415e-b5c2-53ce78fcb620": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/Buffalo_Seed_1_50abe69a-8584-41a6-b751-c4c5c379df5e.png",
+            "logos_width": 120,
+            "url": "shopify://collections/buffalo-seed"
+          }
+        },
+        "23bad4d5-42f6-4483-9095-b88bd4504d64": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/Corona-seed_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/corona-tools"
+          }
+        },
+        "8d3f4a71-6deb-462e-9af9-f6e7aca19601": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/Dewitt.png",
+            "logos_width": 120,
+            "url": "shopify://collections/dewitt"
+          }
+        },
+        "2548209e-7f04-45d1-800b-a2bd48cbf714": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/DLF_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/dlf"
+          }
+        },
+        "ddf61435-ae35-455c-b9c8-66a80bea863d": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/DRAMM_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/dramm"
+          }
+        },
+        "76d651fb-5c6f-4d1f-9ab7-9fe6272b7a34": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/enviroscape_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/enviroscape"
+          }
+        },
+        "e2aa72c0-290f-4697-95e7-2683ec6df095": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/Firestone_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/firestone"
+          }
+        },
+        "d3525a06-ba8a-4cc5-bf2f-8435d4e2c42e": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/fiskars_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/fiskars-tools"
+          }
+        },
+        "670e7978-5041-4df0-a901-e3c843717650": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/logo-hero.png",
+            "logos_width": 120,
+            "url": "shopify://collections/fox-farms"
+          }
+        },
+        "logo-4": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/gerber-logo.png",
+            "logos_width": 120,
+            "url": "shopify://collections/knives"
+          }
+        },
+        "762d7fce-112a-4b4d-a150-35ced730e245": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/HanesGeo-logo.png",
+            "logos_width": 120,
+            "url": "shopify://collections/hanes-geo"
+          }
+        },
+        "c2809807-4009-4cd7-890e-abf565acd0ee": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/helena-logo.png",
+            "logos_width": 120,
+            "url": "shopify://collections/helena"
+          }
+        },
+        "8b230d71-902d-4de8-b607-0a13a33a47c2": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/Hort_jpeg.png",
+            "logos_width": 120,
+            "url": "shopify://collections/hort-industries"
+          }
+        },
+        "83b2ecbb-524d-466d-b573-7c71a8d9c987": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/Hulton_Tools_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/hulton-tools-1"
+          }
+        },
+        "2d5610f3-0dcf-4db0-9b90-49589fd80ab0": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/hydro-straw_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/hydro-straw"
+          }
+        },
+        "20cf1eec-0dcd-4417-a36e-1ef9430f582e": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/jobe-valves_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/jobe"
+          }
+        },
+        "logo-3": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/kill-cliff_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/kill-cliff"
+          }
+        },
+        "5a6f5d49-545b-45df-b3d1-26349d1d7c3a": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/lebanon-seaboard-corp_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/lebanon"
+          }
+        },
+        "1650d971-40cc-4f62-a438-db6090c50428": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/LittleGiant_06a96037-7f0b-4837-af3f-d3bacb426e38.gif",
+            "logos_width": 120,
+            "url": "shopify://collections/little-giant"
+          }
+        },
+        "c5f37f98-7add-4284-bfb5-941028e4f94d": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/matala_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/matala"
+          }
+        },
+        "941303eb-4c25-4b0d-a1c7-ef9f9b2dae12": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/Mountain-West-Products_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/mountain-west-products"
+          }
+        },
+        "2654025e-a462-41ba-bee9-cdbaf76d28f5": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/microbe-lift-blue_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/microbe-lift"
+          }
+        },
+        "ab25dd40-3467-4166-8a84-63f935d91fa8": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/NS_logo_updated_FullColour_CMYK.png",
+            "logos_width": 120,
+            "url": "shopify://collections/nature-safe"
+          }
+        },
+        "04fbb019-0350-42db-a40d-72e3a10fce7c": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/NDS3.png",
+            "logos_width": 120,
+            "url": "shopify://collections/nds"
+          }
+        },
+        "bb9afcec-4746-42fe-84f5-d5fe85fdd545": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_nutri-mulch_400_ol.png",
+            "logos_width": 120,
+            "url": "shopify://collections/nutri-mulch"
+          }
+        },
+        "6b9674d9-6b82-4112-be2d-eb0c8ec4c94b": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/oly-ola_2.png",
+            "logos_width": 120,
+            "url": "shopify://collections/oly-ola"
+          }
+        },
+        "97767e6a-93b6-4a08-88fd-28581fe16fef": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/Organix_13d18454-1628-4b94-b617-d6bdcd51aac4.jpg",
+            "logos_width": 120,
+            "url": "shopify://collections/organix"
+          }
+        },
+        "item_logo_jjef76": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/small_lossgo-01.webp",
+            "logos_width": 120,
+            "url": "shopify://collections/paonia-soils"
+          }
+        },
+        "a9b3cbd2-7f4f-4017-bf0a-40f45b02c0d3": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/pavestone_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/pavestone"
+          }
+        },
+        "afb23e27-a386-4a92-8e96-cb7228978ea1": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/rainier-fiber_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/rainier"
+          }
+        },
+        "2f3ebc05-18d2-45af-9c6c-c05782b76ef3": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/sungro_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/sungro"
+          }
+        },
+        "27522afc-b74d-493d-a793-ea23862e42d7": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-01-03_101719.png",
+            "logos_width": 120,
+            "url": "shopify://collections/superthrive"
+          }
+        },
+        "item_logo_NUPRLW": {
+          "type": "item_logo",
+          "settings": {
+            "image": "shopify://shop_images/zenport_1.png",
+            "logos_width": 120,
+            "url": "shopify://collections/zenport"
+          }
+        }
+      },
+      "block_order": [
+        "logo-1",
+        "8a55b7ed-ae8f-4574-b6d7-a81f19fb0203",
+        "d759cbab-ddb5-4d1d-8526-f21a4b4d0190",
+        "1105a8bd-1aa6-400b-886f-2b320750af61",
+        "e8b41ddb-26e4-4659-90be-959cd6bab660",
+        "06165016-2c03-48ac-aad0-a541b5cc8e67",
+        "f442d037-e528-4465-9418-3c28ca59ad4b",
+        "5680dd61-94a2-4a3f-a6a7-7b4794a5f59b",
+        "ba9ca2ce-0cdb-4dcc-8bb4-e76e6ba56e04",
+        "f1b2f30c-87f2-4284-a109-90d35c22c1d8",
+        "d45ca90b-cae7-4cb1-bf66-5a63d24d31ce",
+        "567ebb24-8568-4cd7-b82f-68bb13b15078",
+        "a299ad34-f33f-45e9-a226-3994a4e8988d",
+        "logo-2",
+        "9034bfdc-b9cd-415e-b5c2-53ce78fcb620",
+        "23bad4d5-42f6-4483-9095-b88bd4504d64",
+        "8d3f4a71-6deb-462e-9af9-f6e7aca19601",
+        "2548209e-7f04-45d1-800b-a2bd48cbf714",
+        "ddf61435-ae35-455c-b9c8-66a80bea863d",
+        "76d651fb-5c6f-4d1f-9ab7-9fe6272b7a34",
+        "e2aa72c0-290f-4697-95e7-2683ec6df095",
+        "d3525a06-ba8a-4cc5-bf2f-8435d4e2c42e",
+        "670e7978-5041-4df0-a901-e3c843717650",
+        "logo-4",
+        "762d7fce-112a-4b4d-a150-35ced730e245",
+        "c2809807-4009-4cd7-890e-abf565acd0ee",
+        "8b230d71-902d-4de8-b607-0a13a33a47c2",
+        "83b2ecbb-524d-466d-b573-7c71a8d9c987",
+        "2d5610f3-0dcf-4db0-9b90-49589fd80ab0",
+        "20cf1eec-0dcd-4417-a36e-1ef9430f582e",
+        "logo-3",
+        "5a6f5d49-545b-45df-b3d1-26349d1d7c3a",
+        "1650d971-40cc-4f62-a438-db6090c50428",
+        "c5f37f98-7add-4284-bfb5-941028e4f94d",
+        "941303eb-4c25-4b0d-a1c7-ef9f9b2dae12",
+        "2654025e-a462-41ba-bee9-cdbaf76d28f5",
+        "ab25dd40-3467-4166-8a84-63f935d91fa8",
+        "04fbb019-0350-42db-a40d-72e3a10fce7c",
+        "bb9afcec-4746-42fe-84f5-d5fe85fdd545",
+        "6b9674d9-6b82-4112-be2d-eb0c8ec4c94b",
+        "97767e6a-93b6-4a08-88fd-28581fe16fef",
+        "item_logo_jjef76",
+        "a9b3cbd2-7f4f-4017-bf0a-40f45b02c0d3",
+        "afb23e27-a386-4a92-8e96-cb7228978ea1",
+        "2f3ebc05-18d2-45af-9c6c-c05782b76ef3",
+        "27522afc-b74d-493d-a793-ea23862e42d7",
+        "item_logo_NUPRLW"
+      ],
+      "settings": {
+        "bg_color": "rgba(0,0,0,0)",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section-grid": {
+      "type": "section-grid",
+      "blocks": {
+        "section-grid-0": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify://shop_images/Outdoor-patio-1024x682.jpg",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "Shop Trending",
+            "text": "This products are loved by local professionals!",
+            "button_1_text": "Shop here",
+            "button_1_link": "shopify://collections/trending-products",
+            "button_2_text": "",
+            "button_2_link": "",
+            "overlay_text_color": "text-light"
+          }
+        },
+        "section-grid-1": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify://shop_images/soil.png",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "Shop Clearance",
+            "text": "Check out some great pricing on premier products!",
+            "button_1_text": "Shop here",
+            "button_1_link": "shopify://collections/clearance-products",
+            "button_2_text": "",
+            "button_2_link": "",
+            "overlay_text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "section-grid-0",
+        "section-grid-1"
+      ],
+      "settings": {
+        "desktop_height": "six-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_height": "three-fifty-height-mobile",
+        "heading_size": 100,
+        "text_size": 100,
+        "button_1_color": "btn--secondary",
+        "button_1_style": "btn--solid-border",
+        "button_1_size": "btn--medium",
+        "button_2_color": "btn--secondary",
+        "button_2_style": "btn--solid-border",
+        "button_2_size": "btn--medium",
+        "section_bg_color": "",
+        "gradient": "",
+        "enable_slider_mobile": true,
+        "columns_mobile": "1",
+        "overlay_text": true,
+        "width": "wrapper--full",
+        "add_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "35ee8946-390b-47ea-b887-657434aadef1": {
+      "type": "section-split-images",
+      "blocks": {
+        "template--16035510190269__35ee8946-390b-47ea-b887-657434aadef1-1673626501353c64c7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Outdoor-patio-1024x682.jpg"
+          }
+        },
+        "template--16035510190269__35ee8946-390b-47ea-b887-657434aadef1-1673626501353c64c7-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/soil.png",
+            "image_mobile": "shopify://shop_images/soil.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--16035510190269__35ee8946-390b-47ea-b887-657434aadef1-1673626501353c64c7-0",
+        "template--16035510190269__35ee8946-390b-47ea-b887-657434aadef1-1673626501353c64c7-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_image_height": "five-fifty-height-mobile",
+        "mobile_layout": "split",
+        "text_position": "bottom-right",
+        "overlay_opacity": 10,
+        "width": "wrapper--narrow",
+        "text_color": "text-light",
+        "title": "<p>Shop Clearance</p>",
+        "heading_size": 120,
+        "heading_highlight_type": "italics",
+        "highlight_color": "#000000",
+        "highlight_text_color": "",
+        "text": "Check out some great prices on these products!",
+        "text_size": 100,
+        "button_1_text": "Learn More",
+        "button_1_link": "",
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--solid-border",
+        "button_1_size": "btn--medium",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--solid",
+        "button_2_size": "btn--medium"
+      }
+    },
+    "section-image-with-text": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "subheading_6cn7x8": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Location and Hours",
+            "size": 75,
+            "text_position": "left",
+            "spacing_bottom": 12
+          }
+        },
+        "heading_chCUYp": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>Our Store</p>",
+            "size": 100,
+            "text_position": "left",
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "spacing_bottom": 12
+          }
+        },
+        "text_bAiE3E": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our office is located at:</p><p>3961 County Road 114, Glenwood Springs, CO 81601</p><p>Monday - Friday: 7:00 a.m. - 5:00 p.m.</p><p>Saturday: Closed</p><p>Sunday: Closed</p>",
+            "size": 100,
+            "text_position": "left",
+            "spacing_bottom": 12
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6cn7x8",
+        "heading_chCUYp",
+        "text_bAiE3E"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_accordion_divider": true,
+        "increase_border_radius": false,
+        "section_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "layout": "inline",
+        "image_location": "left",
+        "image_background": false,
+        "image_width": "extra-wide",
+        "image": "shopify://shop_images/cover1.jpg",
+        "block_bg_color": "",
+        "text_color": "text-dark",
+        "bg_color": "#d3d3d3",
+        "gradient": "",
+        "section_width": "wrapper--full",
+        "add_gutter": true,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "00ff3e46-2492-4cbb-bf8d-d25e1bc7a6e9": {
+      "type": "section-icons-row",
+      "blocks": {
+        "template--16035510190269__00ff3e46-2492-4cbb-bf8d-d25e1bc7a6e9-16736265129042e8e1-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "icon_image": "shopify://shop_images/svgviewer-png-output_1.png",
+            "title": "Over 30+ Years in Business",
+            "text": "<p>Since 1989, Rivendell Distribution began a tradition of bringing high-quality sod and products to the Western Slopes with integrity and the highest degree of Quality.</p>"
+          }
+        },
+        "template--16035510190269__00ff3e46-2492-4cbb-bf8d-d25e1bc7a6e9-16736265129042e8e1-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "icon_image": "shopify://shop_images/price.png",
+            "title": "Competitive Pricing",
+            "text": "<p>At Rivendell Distribution, we strive to offer the best quality products with the most competitive pricing in the Industry. </p>"
+          }
+        },
+        "template--16035510190269__00ff3e46-2492-4cbb-bf8d-d25e1bc7a6e9-16736265129042e8e1-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "icon_image": "shopify://shop_images/copyboard.png",
+            "title": "Wide Selection of Products",
+            "text": "<p>Whether you're a Garden Center, Contractor, or Retail customer, Rivendell has what you are looking for. If it's Soils, Mulches, Composts, Seeds, Tools, Fertilizers, Pond Supplies or Hardscape Supplies, we got it all!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16035510190269__00ff3e46-2492-4cbb-bf8d-d25e1bc7a6e9-16736265129042e8e1-0",
+        "template--16035510190269__00ff3e46-2492-4cbb-bf8d-d25e1bc7a6e9-16736265129042e8e1-1",
+        "template--16035510190269__00ff3e46-2492-4cbb-bf8d-d25e1bc7a6e9-16736265129042e8e1-2"
+      ],
+      "settings": {
+        "custom_class": "",
+        "heading": "",
+        "subheading": "",
+        "alignment": "left",
+        "columns": 3,
+        "icons_width": 30,
+        "show_vertical_borders": false,
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "heading_size": 110,
+        "text_size": 100,
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "color_border": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--secondary btn--small",
+        "button_size": "btn--medium",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-banner-text-columns": {
+      "type": "section-banner-text-columns",
+      "blocks": {
+        "section-banner-text-columns-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sod_1.jpg",
+            "overlay_opacity": 10,
+            "subheading": "Watering issues?",
+            "heading": "Lawn Watering Tips",
+            "text": "<p>Use these Tips and Tricks to maintain a healthy lawn through even the toughest drought. </p>",
+            "button_text": "Learn More",
+            "button_link": "shopify://blogs/news/tips-to-maintain-a-healthy-lawn-in-western-colorado"
+          }
+        },
+        "section-banner-text-columns-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Turret-Anna-Bea-closer.png",
+            "overlay_opacity": 10,
+            "subheading": "Selecting the best Fertilizer for your yard.",
+            "heading": "The breakdown and benefits of NPK in Fertilizer",
+            "text": "<p>NPK... What is that? We breakdown what each element does and why its prescense is needed in Fertilizer at different proportions for different locations.</p>",
+            "button_text": "Learn More",
+            "button_link": "shopify://blogs/news/n-p-k-blog-post"
+          }
+        },
+        "section-banner-text-columns-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Hairy_Vetch_Crimson_Clover.jpg",
+            "overlay_opacity": 10,
+            "subheading": "Not sure what to plant?",
+            "heading": "Cover Cropping for increase Soil Fertility",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_text": "Learn More",
+            "button_link": "shopify://blogs/news/cover-cropping-occultation-for-increased-soil-fertility"
+          }
+        },
+        "section-banner-text-columns-3": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "subheading": "Add a subheading",
+            "heading": "Add a heading",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_text": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "section-banner-text-columns-0",
+        "section-banner-text-columns-1",
+        "section-banner-text-columns-2",
+        "section-banner-text-columns-3"
+      ],
+      "settings": {
+        "appearance": "columns",
+        "content_alignment": "bottom",
+        "text_alignment": "text-left",
+        "section_height": "four-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_section_height": "four-fifty-height-mobile",
+        "text_color": "text-light",
+        "button_color": "btn--white",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "show_single_image": true,
+        "heading_size": 100,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_gQzmkQ": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_XLNQzH": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 100,
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "Your Trusted Partner for Landscaping Supplies",
+            "heading_size": 110,
+            "text": "<p>Our team has decades of experience in the landscaping industry. We carry over the industry's leading brands and proudly serving Colorado's Western Slope for over 30 years.</p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--medium",
+            "bg_color": ""
+          }
+        },
+        "liquid_HLiMLP": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"globo-formbuilder\" data-id=\"MTMwMDI1\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XLNQzH",
+        "liquid_HLiMLP"
+      ],
+      "disabled": true,
+      "name": "Custom content",
+      "settings": {
+        "customid": "homepage-form",
+        "height": "four-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "six-fifty-height-mobile",
+        "bg_color": "#4d6c67",
+        "reverse_blocks": false,
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_qtpHT7": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"GardenStore\",\n  \"name\": \"Rivendell Distribution\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"3961 County Road 114\",\n    \"addressLocality\": \"Glenwood Springs\",\n    \"addressRegion\": \"CO\",\n    \"postalCode\": \"81601\",\n    \"addressCountry\": \"US\"\n  },\n  \"geo\": {\n    \"@type\": \"GeoCoordinates\",\n    \"latitude\": \"39.48414384420298\",\n    \"longitude\": \"-107.22835935767166\"\n  },\n  \"url\": \"https://www.rivendelldistribution.com/\",\n  \"openingHoursSpecification\": [\n    {\n      \"@type\": \"OpeningHoursSpecification\",\n      \"dayOfWeek\": [\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\"],\n      \"opens\": \"8:00\",\n      \"closes\": \"16:00\"\n    }\n  ]\n}\n</script>",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_slideshow_b6WjzR",
+    "4dd1ce1e-3cf2-4048-93af-1591fdf9755d",
+    "section-marquee",
+    "section_icons_row_zb8Fn7",
+    "39e5aa24-4091-459c-9ad9-e0822fb444f4",
+    "section_promotion_row_749LF6",
+    "section_image_with_text_6BTD3P",
+    "section-promotion-row-0",
+    "fd6b19f6-b241-480c-991f-e323e5b3a814",
+    "section-collection-0",
+    "section-look",
+    "176970101734f0dd0f",
+    "section-products-list",
+    "section-logo-list",
+    "section-grid",
+    "35ee8946-390b-47ea-b887-657434aadef1",
+    "section-image-with-text",
+    "00ff3e46-2492-4cbb-bf8d-d25e1bc7a6e9",
+    "section-banner-text-columns",
+    "section_custom_content_gQzmkQ",
+    "section_custom_html_qtpHT7"
+  ]
+}

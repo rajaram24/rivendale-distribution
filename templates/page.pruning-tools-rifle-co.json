@@ -1,0 +1,288 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collection_MJhCMB": {
+      "type": "section-list-collection",
+      "blocks": {
+        "collection_ezAwyX": {
+          "type": "collection",
+          "settings": {
+            "collection": "soils-mulches",
+            "custom_collection_image": "shopify://shop_images/iStock-118613053666.jpg"
+          }
+        },
+        "collection_kPmQbb": {
+          "type": "collection",
+          "settings": {
+            "collection": "wildflower-amp-grass-seeds",
+            "custom_collection_image": "shopify://shop_images/Spreading_Seed_1_3d8f46a2-f8fa-4138-81b9-680a4dccb73b.jpg"
+          }
+        },
+        "collection_rLAzeP": {
+          "type": "collection",
+          "settings": {
+            "collection": "fertilizer-amendments",
+            "custom_collection_image": "shopify://shop_images/Fertilizer_1.jpg"
+          }
+        },
+        "collection_AXTwWM": {
+          "type": "collection",
+          "settings": {
+            "collection": "landscape-supplies",
+            "custom_collection_image": "shopify://shop_images/Shovel_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ezAwyX",
+        "collection_kPmQbb",
+        "collection_rLAzeP",
+        "collection_AXTwWM"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "title": "Collections",
+        "layout": "grid",
+        "text_size": 100,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_ggJyrr": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "image": "shopify://shop_images/Broken.webp",
+        "bg_color": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_content_Drzi99": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_7n3WwG": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/landscaping_tools.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        },
+        "text_n6debM": {
+          "type": "text",
+          "settings": {
+            "text_position": "center",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Shop Tree Trimmer Tools in Rifle, Colorado",
+            "text": "<p>Tired of tools that slow you down or leave jagged cuts on your trees and shrubs? We’ve seen how tough Rifle yards can be on cheap pruners, which is why we only stock tools that hold up to real work and rough branches. From<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling&filter.p.tag=Loppers\" target=\"_blank\"> loppers</a> for thick limbs to<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling&filter.p.tag=Snips\" target=\"_blank\"> snips</a> for detail work, we’ve got reliable gear that helps you trim cleaner and move faster. You’ll also find<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling&filter.p.tag=Hedge+Shears\" target=\"_blank\"> hedge shears</a>,<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling&filter.p.tag=Tree+Pruners\" target=\"_blank\"> tree pruners</a>,<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling\" target=\"_blank\"> striking tools</a>, and<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling&filter.p.tag=Hand+Saws\" target=\"_blank\"> hand saws</a> designed to keep your yard in shape through every season. </p><p>Each tool is made to give you better control, more power, and long-term value without the frustration. All tools are available in-store and online through Rivendell Distribution, so you can shop however it’s most convenient. We also deliver straight to Rifle, CO and the surrounding areas—making it easy to get the right tools without the extra trip.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--primary btn--small",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7n3WwG",
+        "text_n6debM"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1747982975c5655b42": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_DBXHdh": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_DBXHdh"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "map_info_yfAYTC": {
+      "type": "map-info",
+      "name": "Map Info",
+      "settings": {
+        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.353465116034!2d-107.230921288779!3d39.48393251176575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8741a857da136551%3A0xe31190bbf15ca07c!2sRivendell%20Distribution%2C%20Inc.!5e0!3m2!1sen!2sin!4v1747990714935!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "heading": "",
+        "content": "<h5><strong>Address:</strong></h5><p><strong>3961 Co Rd 114, Glenwood Springs, CO 81601, United States</strong></p><h4><br/><strong>Email:</strong> </h4><p><a href=\"mailto:office@rivendelldistribution.com\" title=\"mailto:office@rivendelldistribution.com\"><strong>office@rivendelldistribution.com</strong></a></p><h4><a href=\"mailto:office@rivendelldistribution.com\" title=\"mailto:office@rivendelldistribution.com\"><br/></a><strong>Phone:</strong></h4><p><a href=\"tel:(970) 945-2568.\" title=\"tel:(970) 945-2568.\"><strong>(970) 945-2568</strong></a></p>",
+        "btn1": "Our Store",
+        "btnurl1": "",
+        "btn2": "Contact us",
+        "btnurl2": "shopify://pages/contact-us-1"
+      }
+    },
+    "section_accordions_xDeiqR": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_WEhTVR": {
+          "type": "text",
+          "settings": {
+            "title": "What are the most essential pruning tools I should have for basic yard care?",
+            "text": "<p>If you're just getting started, a few basic tools can cover most of your yard work throughout the year. Here's a solid setup for everyday pruning and cleanup:</p><ul><li>Pruners for trimming small branches and stems</li><li>Loppers for cutting thicker limbs that need more power</li><li>Hand saws for older, larger cuts that need reach and control</li><li>Garden scissors for shaping plants and working in tight spots</li><li>Garden rakes to clear out leaves and cuttings or prep garden beds</li><li>Wheelbarrow for hauling soil, clippings, or trimmed branches</li><li>Striking tools like hatchets or small axes for heavy cuts and brush removal</li><li>Lawn mower for finishing the job and keeping your space tidy</li></ul><p>These essential gardening tools are easy to use, and as your property needs grow, you can add more specialized equipment to handle larger tasks.</p>"
+          }
+        },
+        "text_czN6Mm": {
+          "type": "text",
+          "settings": {
+            "title": "What is the best tool for pruning small trees and shrubs?",
+            "text": "<p>For small trees, shrubs, and delicate stems, you’ll want something that gives you control and clean cuts without damaging nearby growth. Bypass pruners like the<a href=\"https://www.rivendelldistribution.com/products/corona-classiccut-bypass-pruner-3-4-inch?_pos=2&_sid=36054cd85&_ss=r\" target=\"_blank\"> Corona ClassicCUT Bypass Pruner (¾ inch)</a> work well for green stems and younger branches. If you're working on finer trimming around garden beds or herbs, a precision tool like<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling&filter.p.tag=Snips\" target=\"_blank\"> snip tools</a> will help you reach tight spots. These hand tools are part of every set of essential gardening tools and are easy to operate for everyday yard maintenance.</p>"
+          }
+        },
+        "text_BA96Pr": {
+          "type": "text",
+          "settings": {
+            "title": "How do I choose between pruning shears, loppers, and saws?",
+            "text": "<p>It depends on what you’re trimming and how thick the branches are. Use<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling&filter.p.tag=Pruners\" target=\"_blank\"> pruning shears</a> for thin, soft stems;<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling&filter.p.tag=Loppers\" target=\"_blank\"> loppers</a> for medium branches that need a bit more power; and<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling&filter.p.tag=Hand+Saws\" target=\"_blank\"> hand saws</a> when you’re dealing with larger or dead limbs. For example, the<a href=\"https://www.rivendelldistribution.com/products/corona-dualcut-bypass-lopper-2-inch-max-forged?_pos=1&_sid=f44a67b0f&_ss=r\" target=\"_blank\"> Corona DualCUT Bypass Lopper</a> is great for thicker shrubs and tree limbs. If you're cutting anything over 2 inches in diameter, something like the<a href=\"https://www.rivendelldistribution.com/products/zenport-folding-saw-8-5-inch?_pos=1&_sid=e35b61291&_ss=r\" target=\"_blank\"> Zenport Folding Saw</a> offers smoother, more controlled cuts.</p>"
+          }
+        },
+        "text_rtUkF7": {
+          "type": "text",
+          "settings": {
+            "title": "Which tool should I use for cutting thick branches or dense growth?",
+            "text": "<p>Thicker branches often need more power than standard hand tools can provide. A<a href=\"https://www.rivendelldistribution.com/blogs/news/landscaping-tools-you-need-when-starting-your-business-in-colorado\" target=\"_blank\"> landscaping tools</a> like the<a href=\"https://www.rivendelldistribution.com/products/corona-razortooth-folding-saw-10-inch-curved-blade?_pos=1&_sid=582e44523&_ss=r\" target=\"_blank\"> Corona RazorTOOTH Folding Saw (10-inch)</a> is designed to tackle dense wood with less fatigue, thanks to its curved blade and high carbon steel teeth. If you prefer something motorized for bigger jobs, the<a href=\"https://www.rivendelldistribution.com/products/1-inch-cordless-electric-hand-pruner?_pos=1&_sid=31588f9c1&_ss=r\" target=\"_blank\"> Cordless Electric Hand-Pruner</a> gives you precise cuts with less effort, making it ideal for longer pruning sessions. These types of tree trimmer tools are perfect for maintaining larger trees or overgrown areas in your backyard.</p>"
+          }
+        },
+        "text_QcDyz7": {
+          "type": "text",
+          "settings": {
+            "title": "Are pruning tools different for Colorado’s dry soil and backyard conditions?",
+            "text": "<p>Yes, Colorado’s dry climate and rocky ground can wear down cheap tools fast. That’s why it helps to use quality garden tools made with stronger materials and comfortable grips. Our<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling&filter.p.tag=Hand+Tools\" target=\"_blank\"> hand tools</a> and<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools\" target=\"_blank\"> gardening tools</a> are picked specifically for tasks around Rifle yards, from trimming branches and stems to clearing out overgrowth around garden beds. Durability matters when you're working in dry soil or tackling older shrubs, and using tools that are built to last makes the job smoother and more efficient. Learn more about<a href=\"https://www.rivendelldistribution.com/blogs/news/tips-to-maintain-a-healthy-lawn-in-western-colorado\" target=\"_blank\"> maintaining Colorado yards</a> in our blog on seasonal lawn care.</p>"
+          }
+        },
+        "text_PgeKF8": {
+          "type": "text",
+          "settings": {
+            "title": "Do high-carbon steel blades help with smoother, more precise cuts?",
+            "text": "<p>Absolutely. Blades made with high-carbon steel are harder, stay sharper longer, and make precise cuts that reduce plant damage. This is especially useful when pruning fruit trees, shaping hedges, or working around delicate stems. Tools like the<a href=\"https://www.rivendelldistribution.com/products/corona-bypass-pruner-1-inch-max-forged?_pos=1&_sid=6e731326e&_ss=r\" target=\"_blank\"> Corona Bypass Pruner – 1 Inch MAX Forged</a> or the<a href=\"https://www.rivendelldistribution.com/products/fiskars-multi-purpose-garden-shears?_pos=1&_sid=3fb8c6048&_ss=r\" target=\"_blank\"> Fiskars Multi Purpose Garden Shears</a> are good examples of pruners made with durable blades that help you cut smoother with less effort. Clean cuts also speed up plant recovery and make trimming tasks more efficient.</p>"
+          }
+        },
+        "text_fefCcQ": {
+          "type": "text",
+          "settings": {
+            "title": "When is the right time to prune trees in Western Colorado?",
+            "text": "<p>In most of Colorado, including Rifle, the best time to prune is during late winter or early spring, before new growth starts. This allows you to see the structure of your trees more clearly and helps the plant heal faster. Fall pruning is okay too, especially if you need to remove dead or damaged branches before snow or cold weather.</p><p>If you're planning to prep your lawn or garden beds at the same time, it might also be a good opportunity to schedule planting or cleanup. For more guidance on timing seasonal tasks, check out our blog on<a href=\"https://www.rivendelldistribution.com/blogs/news/when-to-plant-bulk-grass-seed-for-best-results\" target=\"_blank\"> seasonal timing for yard work</a>.</p>"
+          }
+        },
+        "text_hCzz3i": {
+          "type": "text",
+          "settings": {
+            "title": "What are some common pruning mistakes to avoid around trees and hedges?",
+            "text": "<p>One common mistake is trimming too much at once, which can stress the plant and leave it vulnerable. Cutting too close to the trunk or ignoring the natural shape of a tree can also cause long-term damage. It’s important to use the right pruners or shears based on branch thickness and always work with sharp, clean hand tools. After pruning, many homeowners overlook the importance of clearing away debris, which can affect nearby soil and plants. Learn more <a href=\"https://www.rivendelldistribution.com/blogs/news/best-type-of-mulch-weed-control?_cd=5030c5e567d068ac869985c098b2e984b09510e513fb2f4c35f412f1bc6efddb&_uid=91710914749&preview_theme_id=138674733245&preview_token=q3v6k850af57so9np8ea65cje3ec0qeu\" target=\"_blank\">how mulch can help control weeds</a> around garden beds and hedges.</p>"
+          }
+        },
+        "text_cfe7R3": {
+          "type": "text",
+          "settings": {
+            "title": "Is a curved pruning saw better than a straight one for cutting branches?",
+            "text": "<p>Each type has its advantage. A curved saw is better for pull cuts and works well when cutting smaller to medium branches from a standing position. It gives you more control and power in tight spaces. A straight pruning saw is better for longer, straighter cuts, especially on larger limbs. If you’re trimming from above or working on awkward angles, a curved blade like the<a href=\"https://www.rivendelldistribution.com/products/corona-razortooth-folding-saw-10-inch-curved-blade?_pos=1&_sid=582e44523&_ss=r\" target=\"_blank\"> Corona RazorTOOTH Folding Saw</a> or a compact tool like the<a href=\"https://www.rivendelldistribution.com/products/zenport-pocket-boy-folding-pruning-saw-5-inch?_pos=1&_sid=b4b399bd6&_ss=r\" target=\"_blank\"> Zenport Pocket Boy Folding Saw</a> gives you the flexibility you need. Both are specifically designed to handle tough trees and dense growth.</p>"
+          }
+        },
+        "text_3t3m4P": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I find replacement blades or parts for tools I already own?",
+            "text": "<p>Keeping your landscaping tools sharp and well-maintained saves time and improves the quality of your work. If a blade becomes dull or damaged, it’s better to replace the part than to keep forcing cuts and risking strain. You’ll find<a href=\"https://www.rivendelldistribution.com/collections/replacement-parts\" target=\"_blank\"> replacement parts</a> in our tools and accessories section. These parts are made to fit pruners, saws, and tree trimmer tools, so you don’t have to replace your whole setup. A few small updates can help you maintain cutting precision and reduce tool fatigue over time.</p>"
+          }
+        },
+        "text_4rtn83": {
+          "type": "text",
+          "settings": {
+            "title": "Do you carry tools in Rifle that are made for reaching taller trees?",
+            "text": "<p>Yes, there are pruning tools specifically made to help you reach high branches without needing a ladder. For example, the<a href=\"https://www.rivendelldistribution.com/products/corona-dual-compound-action-tree-pruner-14-feet?_pos=1&_sid=82c1f4544&_ss=r\" target=\"_blank\"> Corona Dual Compound Action Tree Pruner (14 ft)</a> gives you more power and control when trimming overhead. For electric options, the<a href=\"https://www.rivendelldistribution.com/products/long-reach-pole-epruner-99-5-inch?_pos=1&_sid=91d6ff469&_ss=r\" target=\"_blank\"> Long Reach Pole ePruner (99.5-Inch)</a> is lightweight and easy to operate, especially if you're maintaining taller trees around your backyard or property. You can explore more in our<a href=\"https://www.rivendelldistribution.com/collections/long-handle-tools\" target=\"_blank\"> long handle tools</a> and<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling&filter.p.tag=Tree+Pruners\" target=\"_blank\"> tree pruners collections</a> to find gear that fits your space. These tools are helpful when working near fences, garden beds, or areas that are hard to access with traditional hand tools.</p>"
+          }
+        },
+        "text_64QjL8": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I shop pruning tools and gardening equipment near Rifle, CO?",
+            "text": "<p>You can shop pruning tools and gardening equipment at our store located at<a href=\"https://www.google.com/maps/place/Rivendell+Distribution,+Inc./@39.4839284,-107.228341,17z/data=!4m6!3m5!1s0x8741a857da136551:0xe31190bbf15ca07c!8m2!3d39.4839284!4d-107.228341!16s%2Fg%2F1tdh4bgk?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\"> 3961 Co Rd 114, Glenwood Springs, CO</a>. We carry quality garden tools from trusted brands like Corona, Fiskars, and Zenport, including hand tools, shears, and long-handle tools for everything from trimming trees to clearing brush. </p><p><a href=\"https://www.rivendelldistribution.com/collections/pruning-tools\" target=\"_blank\">Browse our collection online</a> or stop by, our team is here to help you find the right tools for your yard. We also deliver straight to Rifle, CO and the surrounding areas, so getting what you need is quick and easy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_WEhTVR",
+        "text_czN6Mm",
+        "text_BA96Pr",
+        "text_rtUkF7",
+        "text_QcDyz7",
+        "text_PgeKF8",
+        "text_fefCcQ",
+        "text_hCzz3i",
+        "text_cfe7R3",
+        "text_3t3m4P",
+        "text_4rtn83",
+        "text_64QjL8"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "subheading": "",
+        "title": "Common Questions About Pruning Tools and Yard Care in Rifle, CO",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color": "",
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_list_collection_MJhCMB",
+    "section_image_with_text_ggJyrr",
+    "section_custom_content_Drzi99",
+    "1747982975c5655b42",
+    "map_info_yfAYTC",
+    "section_accordions_xDeiqR"
+  ]
+}

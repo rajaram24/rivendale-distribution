@@ -1,0 +1,313 @@
+<!-- /sections/featured-collection.liquid -->
+{%- liquid
+  assign collection = collections[section.settings.featured_collection] | default: false
+  assign columns = settings.products_per_row_on_desktop | plus: 0
+  assign columns_mobile = settings.products_per_row_mobile | plus: 0
+  assign columns_small = 2
+  assign products_rows = section.settings.products_rows | plus: 0
+  assign products_limit = columns | times: products_rows
+  assign layout = section.settings.products_layout
+  assign bg_color = section.settings.bg_color
+  
+  case columns
+    when 1
+      assign size_desktop = 'one-whole'
+      assign columns_small = 1
+    when 2
+      assign size_desktop = 'one-half'
+    when 3
+      assign size_desktop = 'one-third'
+    when 4
+      assign size_desktop = 'one-quarter'
+  endcase
+
+  case columns_mobile
+    when 1
+      assign size_mobile = 'mobile--one-whole'
+      assign columns_mobile = 1
+    when 2
+      assign size_mobile = 'mobile--one-half'
+      assign columns_mobile = 2
+  endcase
+
+  assign carousel = false
+  if layout == 'carousel'
+    assign carousel = true
+  endif
+
+  if collection == false
+    assign collection_title = 'homepage.onboarding.collection_title' | t
+  else
+    assign collection_title = collection.title | escape
+  endif
+-%}
+
+{%- style -%}
+  {%- if bg_color != 'rgba(0,0,0,0)' and bg_color != '' -%}
+    #FeaturedCollection--{{ section.id }} {
+      background-color: {{ bg_color }};
+    }
+    #FeaturedCollection--{{ section.id }} .product-grid-item {
+      --bg: {{ bg_color }};
+    }
+  {%- endif -%}
+
+  @media screen and (min-width: 1024px) {
+    #FeaturedCollection--{{ section.id }} {
+      --grid: repeat({{ columns }}, minmax(0, 1fr));
+    }
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 1023px) {
+    #FeaturedCollection--{{ section.id }} {
+      --grid: repeat({{ columns_small }}, minmax(0, 1fr));
+    }
+  }
+
+  @media screen and (max-width: 479px) {
+    #FeaturedCollection--{{ section.id }} {
+      --grid-mobile: repeat({{ columns_mobile }}, minmax(0, 1fr));
+    }
+  }
+{%- endstyle -%}
+
+<section
+  id="FeaturedCollection--{{ section.id }}"
+  class="mulch_cstm_container_main custom-mulch-format featured-collection featured-collection--{{ layout }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="featured-collection">
+
+  {%- if section.settings.show_title and collection.handle != 'all' -%}
+    <div class=" featured-collection__title">
+      <div class="wrapper">
+        <h2 class="section__heading">{{ collection_title }}</h2>
+
+        {%- if settings.show_spacer_lines -%}
+          <hr>
+        {%- endif -%}
+      </div>
+    </div>
+  {%- endif -%}
+
+  <div class="wrapper">
+    <div class="mulch_cstm_container featured-collection__container {% if carousel %}carousel__container{% else %}grid__container{% endif %}">
+      <div class="mulch_cstm_grid">
+         {% assign collection1 = collections[section.settings.collection1] | default: false %}        
+        <h3 class="cstm_collection">{{ collection1.title }}</h3>
+        {%- assign product1 = all_products[section.settings.product_mc1] -%}
+        {%- render 'product-grid-item-mulch', product: product1, size_desktop: size_desktop, size_mobile: size_mobile, carousel: carousel -%}
+        <a class="btn btn--{{ section.settings.button_style }} btn--view-all" href="{{ collection1.url }}">{{ 'collections.general.view_collection' | t }}</a>
+       </div>
+        <div class="mulch_cstm_grid">
+          {% assign collection2 = collections[section.settings.collection2] | default: false %}
+        <h3 class="cstm_collection">{{ collection2.title }}</h3>
+        {%- assign product2 = all_products[section.settings.product_mc2] -%}
+        {%- render 'product-grid-item-mulch', product: product2, size_desktop: size_desktop, size_mobile: size_mobile, carousel: carousel -%}
+        <a class="btn btn--{{ section.settings.button_style }} btn--view-all" href="{{ collection2.url }}">{{ 'collections.general.view_collection' | t }}</a>
+       </div>
+        <div class="mulch_cstm_grid">
+          {% assign collection3 = collections[section.settings.collection3] | default: false %}
+        <h3 class="cstm_collection">{{ collection3.title }}</h3>
+        {%- assign product3 = all_products[section.settings.product_mc3] -%}
+        {%- render 'product-grid-item-mulch', product: product3, size_desktop: size_desktop, size_mobile: size_mobile, carousel: carousel -%}
+        <a class="btn btn--{{ section.settings.button_style }} btn--view-all" href="{{ collection3.url }}">{{ 'collections.general.view_collection' | t }}</a>
+       </div>
+        <div class="mulch_cstm_grid">
+          {% assign collection4 = collections[section.settings.collection4] | default: false %}
+        <h3 class="cstm_collection">{{ collection4.title }}</h3>
+        {%- assign product4 = all_products[section.settings.product_mc4] -%}
+        {%- render 'product-grid-item-mulch', product: product4, size_desktop: size_desktop, size_mobile: size_mobile, carousel: carousel -%}
+        <a class="btn btn--{{ section.settings.button_style }} btn--view-all" href="{{ collection4.url }}">{{ 'collections.general.view_collection' | t }}</a>
+       </div>
+        <div class="mulch_cstm_grid">
+          {% assign collection5 = collections[section.settings.collection5] | default: false %}
+        <h3 class="cstm_collection">{{ collection5.title }}</h3>
+        {%- assign product5 = all_products[section.settings.product_mc5] -%}
+        {%- render 'product-grid-item-mulch', product: product5, size_desktop: size_desktop, size_mobile: size_mobile, carousel: carousel -%}
+        <a class="btn btn--{{ section.settings.button_style }} btn--view-all" href="{{ collection5.url }}">{{ 'collections.general.view_collection' | t }}</a>
+       </div>
+     </div>
+  </div>
+</section>
+<style>
+  .mulch_cstm_grid .product-grid-item .btn-wrapper {
+    opacity: 1;
+    position: relative;
+    bottom: unset;
+     left: unset; 
+     right: unset; 
+     top: unset;
+    	    height: unset;
+  }
+    section#FeaturedCollection--mulch_collection_selector {
+      padding-top: 25px;
+  }
+  .mulch_cstm_grid .product-grid-item .btn-wrapper a.btn.btn--quick-view {
+      color: var(--button-primary-bg);
+      background: #fff;
+      border: 1px solid #fff;
+      padding: 0;
+      margin-top: 20px;
+      font-weight: 600;
+      font-size: 16px;
+  }
+    .mulch_cstm_grid  .btn.btn--.btn--view-all {
+      margin-top: 25px;
+  }
+  .mulch_cstm_grid .product-grid-item__image .btn-wrapper {
+      opacity: 1 !important;
+  }
+  .mulch_cstm_grid .product-grid-item {
+      margin: auto;
+  }
+  .mulch_cstm_container {
+      display: flex;
+      width: 100%;
+  }
+  .mulch_cstm_grid {
+      width: 20%;
+  }
+  @media only screen and (min-width : 1450px)
+  {
+  	.mulch_cstm_container_main .wrapper {
+ 	   padding: 0;
+       width: 100%;
+   	 /*  max-width: 1430px; */
+	}
+  }
+  @media only screen and (max-width : 520px)
+  {
+  	.mulch_cstm_container {
+        display: block;
+        width: 100%;
+      	    margin: auto;
+    }
+    .mulch_cstm_grid {
+      width: 100%;
+  	}
+    .mulch_cstm_grid .product-grid-item.one-quarter.mobile--one-half {
+  	  width: 100%;
+    }
+    .mulch_cstm_grid .product__media {
+        background-position: center center;
+       padding-top: 28vh;
+        }
+     .mulch_cstm_grid .featured-collection .btn--view-all {
+        margin-top: 21px;
+        margin-bottom: 70px;
+    }
+  }
+  @media only screen and (min-width : 521px) and (max-width : 1199px)
+  {
+  	.mulch_cstm_grid {
+    width: 50%;
+    padding: 10px;
+	}
+    .mulch_cstm_container {
+        flex-wrap: wrap;
+      	    margin: auto;
+    }
+  }
+  @media only screen and (min-width : 1200px) amd (max-width : 1399px)
+  {
+  		.mulch_cstm_container {
+            flex-wrap: wrap;
+            margin: auto;
+        }
+    	.mulch_cstm_grid {
+            width: 25%;
+        }
+  
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Mulch collections",
+  "class":"mulch-collection-selector",
+  "settings": [
+    
+    {
+      "type": "checkbox",
+      "id": "show_title",
+      "label": "Show collection title"
+    },
+    
+	{
+      "type": "header",
+      "content": "Collection Compost"
+    },
+	{
+      "type": "collection",
+      "id": "collection1",
+      "label": "Collection"
+    },
+	{
+          "type": "product",
+          "id": "product_mc1",
+          "label": "Product",
+          "info": "Choose a specific product to be displayed"
+    },
+	{
+      "type": "header",
+      "content": "Collection Mulch"
+    },
+	{
+      "type": "collection",
+      "id": "collection2",
+      "label": "Collection"
+    },
+	{
+          "type": "product",
+          "id": "product_mc2",
+          "label": "Product",
+          "info": "Choose a specific product to be displayed"
+    },
+	{
+      "type": "header",
+      "content": "Collection Potting"
+    },
+	{
+      "type": "collection",
+      "id": "collection3",
+      "label": "Collection"
+    },
+	{
+          "type": "product",
+          "id": "product_mc3",
+          "label": "Product",
+          "info": "Choose a specific product to be displayed"
+    },
+	{
+      "type": "header",
+      "content": "Collection Specialty Mix"
+    },
+	{
+      "type": "collection",
+      "id": "collection4",
+      "label": "Collection"
+    },
+	{
+          "type": "product",
+          "id": "product_mc4",
+          "label": "Product",
+          "info": "Choose a specific product to be displayed"
+    },
+	{
+      "type": "header",
+      "content": "Collection Top Soil"
+    },
+	{
+      "type": "collection",
+      "id": "collection5",
+      "label": "Collection"
+    },
+	{
+          "type": "product",
+          "id": "product_mc5",
+          "label": "Product",
+          "info": "Choose a specific product to be displayed"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,75 @@
+{{ 'map.css' | asset_url | stylesheet_tag }}
+{% schema %}
+  {
+    "name": "Map Info",
+    "settings": [
+      {
+        "type": "liquid",
+        "label": "Map Embed code",
+        "id": "map"
+      },
+      {
+        "type": "text",
+        "label": "Heading",
+        "id": "heading"
+      },
+      {
+        "type": "richtext",
+        "label": "Content",
+        "id": "content"
+      },
+      {
+        "type": "text",
+        "label": "Button 1",
+        "id": "btn1"
+      },
+      {
+        "type": "url",
+        "label": "Button Url 1",
+        "id": "btnurl1"
+      },
+      {
+        "type": "text",
+        "label": "Button 2",
+        "id": "btn2"
+      },
+      {
+        "type": "url",
+        "label": "Button Url 2",
+        "id": "btnurl2"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Map Info"
+      }
+    ]
+  }
+{% endschema %}
+<div class="page-width">
+    <div class="map_Sec">
+          <div class="left_map_sec">
+              <div class="map_bx">
+                {{ section.settings.map }}
+                  </div>
+            <!--div class="direction_sec">
+                <h3>Map & directions </h3>
+              <span>Do you Deliver to Eagen, MN?</span>
+               <span>What types of uphoistery fabric do carry?</span>
+          </div-->
+        </div>
+      <div class="right_map_sec">
+          <h2>{{ section.settings.heading }}</h2>
+        {{ section.settings.content }}
+       
+        <div class="fabric_btn">
+          {% if section.settings.btn1 != blank %}
+            <a href="{{ section.settings.btnurl1 }}">{{ section.settings.btn1 }}</a>
+          {% endif %}
+          {% if section.settings.btn2 != blank %}
+          <a href="{{ section.settings.btnurl2 }}">{{ section.settings.btn2 }}</a>
+           {% endif %}
+        </div>
+      </div>
+    </div>
+</div>

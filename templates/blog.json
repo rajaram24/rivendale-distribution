@@ -1,0 +1,237 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "featured_article_YkHjhP": {
+      "type": "featured-article",
+      "name": "Featured Article",
+      "settings": {
+        "featured_article": "news/landscape-design-principles"
+      }
+    },
+    "section_banner_image_TL36xN": {
+      "type": "section-banner-image",
+      "blocks": {
+        "heading_DQGt9i": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Professional vs Retail Grade Fertilizers - Differences and Advantages</p>",
+            "size": 180,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": ""
+          }
+        },
+        "text_djXPg9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A lush, vibrant garden, lawn, or flourishing field is often the result of careful cultivation and, of course, the right fertilizer. </p>",
+            "size": 100
+          }
+        },
+        "button_6t9NJq": {
+          "type": "button",
+          "settings": {
+            "stacked_button": false,
+            "button_1_text": "Read Article",
+            "button_1_link": "shopify://blogs/news/professional-vs-retail-grade-fertilizers-differences-and-advantages",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DQGt9i",
+        "text_djXPg9",
+        "button_6t9NJq"
+      ],
+      "disabled": true,
+      "name": "Banner image",
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/blog-deskto.png",
+        "image_mobile": "shopify://shop_images/mobile-blog.png",
+        "overlay_opacity": 10,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "enable_card_scrolling": false,
+        "increase_border_radius": true,
+        "content_width": 80,
+        "text_position": "center",
+        "text_alignment": "text-center",
+        "text_color": "text-light",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "blog",
+      "settings": {
+        "default_image": "shopify://shop_images/Landscape_Design_Principles.webp",
+        "default_color": "accent",
+        "blog_style": "photo",
+        "post_columns": 3,
+        "image_aspect_ratio": 1,
+        "show_rss_icon": false,
+        "show_date": false,
+        "show_author": false,
+        "show_tags": true,
+        "show_comments_count": false,
+        "tag_alignment": "left",
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "b03e25bb-a917-4e70-963e-4a47d2a857f7": {
+      "type": "section-blog",
+      "disabled": true,
+      "settings": {
+        "blog": "news",
+        "blog_style": "standard",
+        "image_aspect_ratio": 0.7,
+        "rows": 2,
+        "columns": 3,
+        "columns_mobile": "1",
+        "show_tags": false,
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": false,
+        "default_color": "none",
+        "heading": "",
+        "button_text": "View all posts",
+        "button_color": "btn--black",
+        "button_style": "btn--primary btn--small",
+        "button_size": "btn--medium",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 20
+      }
+    },
+    "8fe86feb-bd2a-43c3-be19-c685756f4c2a": {
+      "type": "section-text",
+      "blocks": {
+        "image_WKAL4F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Vector.svg",
+            "image_width": 50,
+            "image_link": ""
+          }
+        },
+        "template--16035509797053__8fe86feb-bd2a-43c3-be19-c685756f4c2a-1673046393c8941f0a-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Staff and Professionals in the Roaring Fork Valley discuss from Watering issues during a drought to upgrading your backyard to an outdoor living oasis. Stay tuned for more information on these topics and more.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "image_WKAL4F",
+        "template--16035509797053__8fe86feb-bd2a-43c3-be19-c685756f4c2a-1673046393c8941f0a-2"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color": "#cfddda",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_icons_row_LAt9JH": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_hg4Wmk": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "icon_image": "shopify://shop_images/svgviewer-png-output_1.png",
+            "title": "Over 30+ Years in Business",
+            "text": "<p>Since 1989, Rivendell Distribution began a tradition of bringing high-quality sod and products to the Western Slopes with integrity and the highest degree<br/>of Quality.</p>"
+          }
+        },
+        "text_dNU7my": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "icon_image": "shopify://shop_images/price.png",
+            "title": "Competitive Pricing",
+            "text": "<p>At Rivendell Distribution, we strive to offer the bestquality products with the most competitive pricing inthe Industry.</p>"
+          }
+        },
+        "text_G6Ajw3": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_image": "shopify://shop_images/copyboard.png",
+            "title": "Wide Selection of Products",
+            "text": "<p>Whether you're a Garden Center, Contractor, or Retailcustomer, Rivendell has what you are looking for. If it'sSoils, Mulches, Composts, Seeds, Tools, Fertilizers,Pond Supplies or Hardscape Supplies, we got it all!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_hg4Wmk",
+        "text_dNU7my",
+        "text_G6Ajw3"
+      ],
+      "name": "Icons row",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "alignment": "left",
+        "columns": 3,
+        "icons_width": 20,
+        "show_vertical_borders": false,
+        "show_top_border": true,
+        "show_bottom_border": true,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color": "#b6c9c6",
+        "gradient": "",
+        "text_color": "#333",
+        "box_color": "",
+        "color_border": "#333",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--medium",
+        "layout_mobile": "grid",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "featured_article_YkHjhP",
+    "section_banner_image_TL36xN",
+    "main",
+    "b03e25bb-a917-4e70-963e-4a47d2a857f7",
+    "8fe86feb-bd2a-43c3-be19-c685756f4c2a",
+    "section_icons_row_LAt9JH"
+  ]
+}

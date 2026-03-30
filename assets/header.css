@@ -1,0 +1,157 @@
+header#SiteHeader {
+    background: #0A493E;
+}
+.site-header .menu__item.kids-7 a:after,
+.site-header .menu__item.kids-2 a:after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: url('https://cdn.shopify.com/s/files/1/0530/9615/3277/files/down-arrow.png?v=1766383623');
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 3px;
+    transition:ease 0.5s;
+}
+
+.site-header .menu__item.kids-7.is-visible a:after,
+.site-header .menu__item.kids-2.is-visible a:after {
+    transform:rotate(180deg);
+}
+.site-header  .header__dropdown__inner .dropdown__family a:after {
+    display:none;
+}
+.grandparent .navlink--child>.navtext {
+    font-size: 16px;
+    font-weight: 600;
+}
+.header__dropdown__inner .header__grandparent__links {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__dropdown__inner .header__grandparent__links .dropdown__family.logo-menu-section .menu__block--narrow {
+    flex: unset;
+    width: 19%;
+    margin: 0;
+    margin-top:-40px;
+}
+.header__dropdown__inner .header__grandparent__links .dropdown__family.logo-menu-section {
+    width: 60%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 0;
+    column-gap: 30px;
+}
+.header__dropdown__inner .header__grandparent__links .dropdown__family.logo-menu-section h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    display: block;
+    width: 100%;
+}
+
+.header__dropdown__inner .header__grandparent__links .dropdown__family.logo-menu-section .menu__block--narrow .background-size-cover {
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: unset;
+    background-color: transparent;
+}
+
+.grandparent .header__dropdown__inner .dropdown__family {
+    width: 20%;
+    margin: 0;
+}
+.grandparent .header__dropdown__wrapper {
+    padding-top: 30px;
+}
+
+.menu__item .header__dropdown__wrapper::-webkit-scrollbar {
+    background-color: transparent;
+    border-radius: 1px;
+    height: 40px;
+    width: 7px;
+}
+.menu__item .header__dropdown__wrapper::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 2px;
+    height: 70px;
+    margin-right: 10px;
+    width: 2px;
+}
+/**/
+.grandparent.no-images.kids-2 .header__dropdown__inner {
+    width: 100%;
+}
+.grandparent.kids-2 .header__grandparent__links {
+        justify-content: space-between;
+    flex: unset;
+    width: 100%;
+}
+.grandparent.kids-2 .header__grandparent__links .dropdown__family.logo-menu-section {
+    display: none;
+}
+.left-side-menu {
+    width: 16%;
+}
+.right-side-menus {
+    width: 80%;
+}
+.grandparent .header__dropdown__inner  .left-side-menu  .dropdown__family {
+    width: 100%;
+    justify-content: center;
+}
+.grandparent .header__dropdown__inner .left-side-menu .dropdown__family a.navlink {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration:none;
+    transition:ease 0.2s;
+    cursor:pointer;
+}
+
+.grandparent .header__dropdown__inner .left-side-menu .dropdown__family a.navlink:hover,
+.grandparent .header__dropdown__inner .left-side-menu .dropdown__family a.navlink.active{
+   background:rgba(255,255,225,0.2);
+}
+.grandparent .header__dropdown__inner .left-side-menu .dropdown__family a.navlink span:after{display:none;}
+.right-side-menus .right-side-menus-inner{display:none;}
+.right-side-menus .right-side-menus-inner.is-active{display:block;}
+.right-side-menus ul { 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.right-side-menus ul li a {
+    font-size: 14px;
+    padding: 0; line-height:0;
+}
+.right-side-menus ul li {
+    width: 25%;
+}
+.menu__item.grandparent.kids-2 .header__dropdown {
+    height: auto !important;
+}
+.nav::before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	content: "";
+	background: #0A493E;
+	height: 100%;
+	z-index: 9;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+}
+.grandparent .header__dropdown__inner .dropdown__family a {
+    padding: 3px 0;
+    margin: 0;
+}
+popout-select.select-popout.select-popout--country {
+    display: none;
+}

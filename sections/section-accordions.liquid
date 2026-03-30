@@ -1,0 +1,510 @@
+{% if section.settings.use_collection_metafield %}
+  {% if collection.metafields.custom.faq != blank %}
+ {%- liquid
+  assign section_width = section.settings.width
+  assign animations_enabled = settings.animations_enabled
+  assign animation_anchor = '#Accordions--' | append: section.id
+  assign animation_delay = 150
+  assign heading = section.settings.title
+  assign type_style = section.settings.type_style
+  assign heading_size = section.settings.heading_size | times: 0.01
+  assign subheading = section.settings.subheading
+  assign text = section.settings.text
+  assign layout = section.settings.layout
+  assign content_alignment = section.settings.content_alignment
+  assign show_accordion_divider = section.settings.show_accordion_divider
+  assign text_color = section.settings.text_color
+  assign color_body_bg = settings.color_body_bg
+  assign bg_color = section.settings.bg_color
+  assign gradient = section.settings.gradient | default: 'none'
+  assign border_color = section.settings.border_color
+
+  if bg_color.alpha == 0.0 or bg_color == ''
+    assign bg_color = color_body_bg
+  endif
+
+  assign bg_color_set = false
+  if gradient != 'none' or bg_color.alpha != 0.0 and bg_color != ''
+    assign bg_color_set = true
+  endif
+
+  assign tabs_bg_color = section.settings.tabs_bg_color
+  assign padded = true
+  assign border_opacity = 0
+  assign margin_bottom = 10
+  if bg_color == tabs_bg_color or tabs_bg_color == '' or tabs_bg_color.alpha == 0.0
+    assign padded = false
+    assign margin_bottom = 0
+
+    if show_accordion_divider
+      assign border_opacity = 1
+    endif
+  endif
+
+  assign block_size = section.blocks.size
+  assign blocks_count_round = block_size | modulo: 2
+  assign blocks_in_column = block_size | divided_by: 2
+
+  if blocks_count_round == 1
+    assign blocks_in_column = blocks_in_column | plus: 1
+  endif
+
+  assign border_width = 1
+  if section.settings.line_thickness == 'bold'
+    assign border_width = 2
+  endif
+
+  capture type_adjustment
+    case type_style
+      when 'font-heading'
+        echo 'var(--adjust-heading)'
+      when 'font-body'
+        echo 'var(--adjust-body)'
+      when 'subheading-text'
+        echo 'var(--adjust-accent)'
+    endcase
+  endcapture
+-%}
+
+{{ 'section-accordions.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  #Accordions--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+    --border-opacity: {{ border_opacity }};
+    --border-width: {{ border_width }}px;
+    --MB: {{ margin_bottom }}px;
+    --padding-left: 0;
+
+    {% if bg_color_set -%}
+      {%- if gradient != 'none' -%}
+        --bg: {{ gradient }};
+      {%- else -%}
+        --bg: {{ bg_color }};
+      {%- endif -%}
+    {%- endif %}
+
+    {% if padded -%}
+      {%- unless tabs_bg_color.alpha != 0.0 -%}
+        --bg-padded-line: #fff;
+      {%- else -%}
+        --bg-padded-line: var(--bg);
+      {%- endunless -%}
+    {%- endif %}
+
+    {% if border_color.alpha != 0.0 and border_color != '' and border_color != blank %}
+      --border: {{ border_color }};
+    {% endif %}
+  }
+  #Accordions--{{ section.id }} .section__heading { --heading-size: calc({{ type_adjustment }} * {{ heading_size }}); }
+
+  {% if tabs_bg_color.alpha != 0.0 and tabs_bg_color != '' -%}
+    #Accordions--{{ section.id }} .accordion__item { --bg-item: {{ tabs_bg_color }}; }
+  {%- endif %}
+{%- endstyle -%}
+    
+    {% capture section__heading %}
+      {%- unless heading == blank and subheading == blank and text == blank -%}
+        <div class="accordion__header">
+          <div class="{{ section_width }}">
+            <div class="section__header">
+              {%- if heading != blank -%}
+                <h2 class="section__heading h2"
+                  {% if animations_enabled %}
+                    data-aos="fade-up"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-delay="{{ animation_delay }}"
+                    {%- assign animation_delay = animation_delay | plus: 150 -%}
+                  {% endif %}>{{ collection.title }} {{ heading }}</h2>
+    
+                {%- if settings.show_spacer_lines -%}
+                  <hr class="section__heading-line"
+                    {% if animations_enabled %}
+                      data-aos="fade-up"
+                      data-aos-anchor="{{ animation_anchor }}"
+                      data-aos-delay="{{ animation_delay }}"
+                      {%- assign animation_delay = animation_delay | plus: 150 -%}
+                    {% endif %}>
+                {%- endif -%}
+              {%- endif -%}
+    
+              {%- if subheading != blank -%}
+                <h4 class="accordion__subheading subheading-text"
+                  {% if animations_enabled %}
+                    data-aos="fade-up"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-delay="{{ animation_delay }}"
+                    {%- assign animation_delay = animation_delay | plus: 150 -%}
+                {% endif %}>{{ subheading }}</h4>
+              {%- endif -%}
+    
+              {%- if text != blank -%}
+                <div class="rte"
+                  {% if animations_enabled %}
+                    data-aos="fade-up"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-delay="{{ animation_delay }}"
+                    {%- assign animation_delay = animation_delay | plus: 150 -%}
+                  {% endif %}>{{ text }}</div>
+              {%- endif -%}
+                <button class="custom-toggle-button">Learn More +</button>
+           
+            </div>
+          </div>
+        </div>
+      {%- endunless -%}
+      
+      {%- assign animation_delay_header = animation_delay -%}
+      {%- assign animation_delay_mobile = animation_delay -%}
+    {% endcapture %}
+    
+    {% capture accordions %}
+      {%- if layout == 'one-column' -%}
+        <ul class="accordion__list">
+      {%- else -%}
+        <div class="accordion__columns">
+          <div class="accordion__column">
+            <ul class="accordion__list">
+      {%- endif -%}
+          {% assign questions = collection.metafields.custom.faq | metafield_tag | split: "Q: " %}
+          {% for question in questions offset: 1 %}
+            {%- assign title = question | split: "A: " | first | remove: "<p>" | remove: "</p>" -%}
+            {%- assign block_text = question | split: "A: " | last | remove_last: "<p>" -%}
+            {%- assign block_index = forloop.index -%}
+            {%- assign accordion_id = 'Accordion--' | append: block.id -%}
+            {%- unless title == blank -%}
+            
+              <li id="{{ accordion_id }}" class="accordion__item{% if forloop.index == 1 %} accordion__item--first{% endif %}{% if padded %} accordion__item--padded{% endif %}"
+                aria-haspopup="true"
+                {% if animations_enabled %}
+                  style="--AD: {{ animation_delay_mobile }}ms"
+                  data-aos="fade-up"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-delay="{{ animation_delay }}"
+                  {%- assign animation_delay = animation_delay | plus: 150 -%}
+                  {%- assign animation_delay_mobile = animation_delay_mobile | plus: 150 -%}
+                {% endif %}
+                {{ block.shopify_attributes }}>
+                <button class="accordion__item__title h5" aria-controls="Accordions-item--{{ forloop.index0 }}-{{ section.id }}" data-collapsible-trigger>
+                  <h3 class="accordion__item__title__text">{{ title }}</h3>
+    
+                  {%- render 'icon-toggle-plus' -%}
+                  {%- render 'icon-toggle-minus' -%}
+                </button>
+    
+                <div class="accordion__item__text-wrapper" id="Accordions-item--{{ forloop.index0 }}-{{ section.id }}" aria-hidden="true" data-collapsible-container>
+                  <div class="accordion__item__text rte" data-collapsible-content>
+                    {{- block_text -}}
+                  </div>
+                </div>
+              </li>
+            {%- endunless -%}
+            
+            {%- if block_index == blocks_in_column and layout == 'two-columns' -%}
+              {% comment %} Close the column and start a new one when reaching half of the blocks {% endcomment %}
+                </ul>
+              </div>
+    
+              <div class="accordion__column">
+                {%- assign animation_delay = animation_delay_header -%}
+                <ul class="accordion__list accordion__list--{{ layout }}">
+            {%- endif -%}
+          {%- endfor -%}
+      {%- if layout == 'one-column' -%}
+        </ul>
+      {%- else -%}
+            </ul>
+          </div>
+        </div>
+      {%- endif -%}
+    {% endcapture %}
+    
+    <section data-section-id="{{ section.id }}" id="Accordions--{{ section.id }}" data-section-type="accordions" class="section-padding accordions-section {{ text_color }}" >
+      {{ section__heading }}
+      
+      <div class="accordion__content"  style="display: none;">
+        <div class="{{ section_width }}" data-collapsible-single>
+          {{ accordions }}
+        </div>
+      </div>
+    </section>
+  {% endif %}
+
+  {% if section.settings.use_collection_metafield and collection.metafields.custom.faq != blank %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+   {% for question in questions offset: 1 %}
+    {
+      "@type": "Question",
+      "name": "{{ question | split: "A: " | first | remove: "<p>" | remove: "</p>"  | strip_html }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ question | split: "A: " | last | remove_last: "<p>" | strip_html }}"
+      }
+    }  {% unless forloop.last %},{% endunless %}
+   {% endfor %}
+  ]
+}
+</script>
+ {% endif %}
+{% else %}
+  {%- render 'accordions' -%}
+ {% endif %}
+ <script>
+   document.addEventListener('DOMContentLoaded', function() {
+  const toggleButton = document.querySelector('.custom-toggle-button');
+  const additionalContent = document.querySelector('.accordion__content');
+
+  if (toggleButton) {
+    toggleButton.addEventListener('click', function() {
+      if (additionalContent.style.display === 'none' || additionalContent.style.display === '') {
+        additionalContent.style.display = 'block';
+        toggleButton.textContent = 'Learn More -';
+      } else {
+        additionalContent.style.display = 'none';
+        toggleButton.textContent = 'Learn More +';
+      }
+    });
+  }
+});
+ </script>   
+{% schema %}
+{
+  "name": "Accordions",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "use_collection_metafield",
+      "label": "Use collection FAQ metafield"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout",
+      "default": "two-columns",
+      "options": [
+        {"label": "One column", "value": "one-column"},
+        {"label": "Two columns", "value": "two-columns"}
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "show_accordion_divider",
+      "label": "Show divider lines",
+      "default": false,
+      "info": "For transparent accordions background only"
+    },
+    {
+      "type": "select",
+      "id": "line_thickness",
+      "label": "Border thickness",
+      "default": "normal",
+      "options": [
+        {
+          "label": "Normal",
+          "value": "normal"
+        },
+        {
+          "label": "Bold",
+          "value": "bold"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Text"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Frequently Asked Questions"
+    },
+    {
+      "type": "select",
+      "label": "FAQ heading style",
+      "id": "type_style",
+      "default": "font-heading",
+      "options": [
+        {"label": "Heading", "value": "font-heading"},
+        {"label": "Body", "value": "font-body"},
+        {"label": "Accent", "value": "subheading-text"}
+      ]
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "FAQ heading size",
+      "default": 120,
+      "min": 100,
+      "max": 200,
+      "step": 5,
+      "unit": "%"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "tabs_bg_color",
+      "label": "Tabs",
+      "default": "#fafafa"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "gradient",
+      "label": "Overlay gradient"
+    },
+    {
+      "type": "select",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "text-dark",
+      "options": [
+        {"value": "text-light", "label": "Light"},
+        {"value": "text-dark", "label": "Dark"}
+      ]
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color"
+    },
+    {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper",
+      "options": [
+        {"value": "wrapper--full-padded", "label": "Full width padded"},
+        {"value": "wrapper", "label": "Page width"},
+        {"value": "wrapper--narrow", "label": "Page width narrow"}
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 60
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Text",
+      "type": "text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Use this text block to discuss some commonly asked questions like shipping and returns, sizing, warranties, or product and company details.</p>"
+        }
+      ]
+    },
+    {
+      "name": "Page",
+      "type": "page",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Page",
+          "info": "Example: Size chart"
+        },
+        {
+          "type": "page",
+          "id": "raw_content",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Accordions",
+      "blocks": [
+        {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to get my products?",
+            "text": "<p>Domestic shipping can take up to 5 business days.<br\/><br\/>Foreign shipping could take up to 14 business days.<br\/><br\/>Due to global supply chain challenges, shipping times could be longer than usual.<\/p>"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer warranty for your products?",
+            "text": "<p>All our products are subject to quality control.<br\/><br\/>Our warranty provides a guarantee against manufacturer defects.<br\/><br\/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br\/><br\/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.<\/p>"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "text": "<p>Yes, we offer full and partial refunds.<br\/><br\/>Please enquire for more information about our Refund policy.<\/p>"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "title": "What shipping methods do you offer?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.<\/p>"
+          }
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header", "aside", "footer"]
+  }
+}
+{% endschema %}

@@ -1,0 +1,42 @@
+.promo-banner  .promo-banner__content {
+    background: #638981;
+    padding: 30px 0;
+}
+.promo-banner  .promo-banner__content .promo-banner__text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.promo-banner  .promo-banner__buttons a.btn.btn--secondary {
+    border: 1px solid #000;
+}
+.promo-banner  .promo-banner__buttons a.btn.btn--secondary::before{
+	content: "";
+	position: absolute;
+	display: flex;
+	left: -1px;
+	top: 0;
+	right: -1px;
+	bottom: 0;
+	background: #000;
+	transform: scaleY(0);
+	transform-origin: top center;
+	will-change: transform;
+	z-index: -1;
+	transition: transform .3s ease;
+}
+.promo-banner  .promo-banner__buttons a.btn.btn--secondary:hover::before {
+	transform-origin: bottom center;
+	transform: none;
+}
+.promo-banner  .promo-banner__buttons a.btn.btn--secondary:hover {
+    color: #fff;
+}
+@media only screen and (max-width:767px){
+.promo-banner .promo-banner__content .promo-banner__text {
+	font-size: 19px;
+}
+.promo-banner__buttons {
+	max-width: 80%;
+	margin: auto;
+}
+}

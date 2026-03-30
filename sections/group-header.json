@@ -1,0 +1,215 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>NEWS ALERT  -  Welcome aboard Paonia Soils Co.! Rivendell will be stocking Paonia Soils for the upcoming season. Place your orders now for an additional 5% off savings! Use the code: DIRTCHEAP at checkout. </p>",
+            "text_color": "#ffffff",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 15,
+            "target_url_enabled": false,
+            "target_url": "shopify://collections/2024-pre-order-products",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "layout": "slider",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 10,
+        "slider_speed": 7,
+        "show_arrows": false,
+        "marquee_speed": 100,
+        "direction": "ticker-ltr",
+        "text_caps": false,
+        "type_font": "dm_sans_n4",
+        "text_size": 100,
+        "letter_spacing": 100,
+        "message_spacing": 25,
+        "bg_color": "#b25a27",
+        "gradient": "",
+        "color": "#ffffff",
+        "border_color": "rgba(0,0,0,0)"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "heading_MqhCej": {
+          "type": "heading",
+          "settings": {
+            "position": "2",
+            "heading": "why choose us"
+          }
+        },
+        "image_EaPA3h": {
+          "type": "image",
+          "settings": {
+            "position": "2",
+            "image_second_menu": false,
+            "image": "shopify://shop_images/DESIGNED_BY_FREEPIK.png",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "title": "",
+            "heading_size": 100,
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "image_GykYqP": {
+          "type": "image",
+          "settings": {
+            "position": "2",
+            "image_second_menu": false,
+            "image": "shopify://shop_images/cnga-membership_1.png",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "title": "",
+            "heading_size": 100,
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "image_JAPgQR": {
+          "type": "image",
+          "settings": {
+            "position": "2",
+            "image_second_menu": false,
+            "image": "shopify://shop_images/AMAZON_1.png",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "title": "",
+            "heading_size": 100,
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "image_Q9bFfU": {
+          "type": "image",
+          "settings": {
+            "position": "2",
+            "image_second_menu": false,
+            "image": "shopify://shop_images/YEARS-ICON_1.png",
+            "aspect_ratio": 1.5,
+            "wide_image": false,
+            "title": "",
+            "heading_size": 100,
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_MqhCej",
+        "image_EaPA3h",
+        "image_GykYqP",
+        "image_JAPgQR",
+        "image_Q9bFfU"
+      ],
+      "settings": {
+        "sticky_header": true,
+        "link_hover_effect": "dot",
+        "header_border": false,
+        "header_border_color": "",
+        "border_opacity": 50,
+        "logo_not_home": "shopify://shop_images/Link_-_Rivendell_Distribution_Primary_Logo_White_medium_a9f5bbb3-7dd6-4772-8733-b1697b65fa4a_100x_png.png",
+        "logo_max_width": 100,
+        "main-menu": "mega-menu-new",
+        "main_menu_secondary": "",
+        "show_images": true,
+        "image_aspect_ratio": 0.5,
+        "menu_alignment": "right",
+        "header_icons_as_text": false,
+        "show_locale_selector": true,
+        "show_locale_code": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "highlight_item": "Sale",
+        "enable_custom_badge": false,
+        "custom_badge_text": "10% OFF",
+        "highlight_item_color": "#b25a27",
+        "header_transparent": true,
+        "logo": "shopify://shop_images/Primary_Logo_White_medium_a9f5bbb3-7dd6-4772-8733-b1697b65fa4a.png",
+        "header_text_color": "black",
+        "header_gradient": true
+      }
+    },
+    "mobile-menu": {
+      "type": "mobile-menu",
+      "blocks": {
+        "menu-0": {
+          "type": "menu",
+          "settings": {
+            "mobile_menu_linklist": "mega-menu-new",
+            "text_size": 100,
+            "show_images": true,
+            "image_aspect_ratio": 0.5,
+            "highlight_item": "Sale",
+            "enable_custom_badge": false,
+            "custom_badge_text": "10% OFF",
+            "highlight_item_color": "#d02e2e",
+            "padding": true,
+            "padding_bottom": 10
+          }
+        },
+        "login_VtHx9L": {
+          "type": "login",
+          "settings": {
+            "text_size": 100,
+            "pin_to_bottom": true,
+            "padding_bottom": 10
+          }
+        },
+        "search_hGAhyq": {
+          "type": "search",
+          "settings": {
+            "text_size": 100,
+            "pin_to_bottom": true,
+            "padding_bottom": 10
+          }
+        }
+      },
+      "block_order": [
+        "menu-0",
+        "login_VtHx9L",
+        "search_hGAhyq"
+      ],
+      "settings": {
+        "logo_not_home": "shopify://shop_images/Link_-_Rivendell_Distribution_Primary_Logo_White_medium_a9f5bbb3-7dd6-4772-8733-b1697b65fa4a_100x_png.png",
+        "logo_max_width": 100
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "mobile-menu"
+  ]
+}

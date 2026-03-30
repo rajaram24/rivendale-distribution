@@ -1,0 +1,80 @@
+.brick__section .rich-text__container h3.rich-text__heading {
+    font-size: 36px;
+    font-weight:600;
+}
+.brick__section .globo-form-app .header {
+    display: none;
+}
+.brick__section .globo-form-app label.classic-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.brick__section .globo-form-app .globo-form-control input,
+.brick__section .globo-form-app .globo-form-control textarea,
+ .brick__section .globo-form-app.globo-form-control select {
+    background-color: #fff;
+    box-shadow: none;
+    border: 1px solid #000000;
+    border-radius: 0;
+}
+.brick__section .globo-form-app .globo-form-control input::placeholder,
+.brick__section .globo-form-app .globo-form-control textarea::placeholder
+{
+    opacity:0.5;
+}
+.brick__section .gfb__footer.wizard__footer {
+    padding: 0 5px;
+}
+.brick__block.brick__block--text .rich-text__text p {
+    max-width: 530px;
+}
+body#collections .brick__block.brick__block--text .rich-text__text p {
+    max-width: unset;
+}
+.brick__section  .gfb__footer.wizard__footer button.action {
+    min-height: 55px;
+    border-radius: 0;
+}
+body .brick__section .globo-form-app {
+    background: none;
+}
+body .brick__section .globo-form-control .gfb__dropzone {
+    border: 1px solid #000;
+    background: #fff;
+    border-radius: 0;
+}
+.icons-row .responsive-image {
+	padding: 0 !important;
+	height: auto;
+	min-height: unset;
+}
+.icons-row .responsive-image img {
+	position: static;
+	min-height: 40px;
+	max-height: 40px;
+	object-fit: contain;
+	min-width: 40px;
+	max-width: 40px;
+}
+.brick__section .gfb__footer.wizard__footer button.action {
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, .17);
+    max-width: 350px;
+}
+@media only screen and (max-width:767px){
+.brick__section .rich-text__container h3.rich-text__heading {
+	font-size: 29px;
+}
+.brick__block__inner {
+	padding-top: 0;
+}
+.brick__section .rich-text {
+	padding-bottom: 0;
+}
+#place-bid .slider  .slide__heading.main-heading {
+	font-size: 32px;
+}
+#place-bid .slider  .slide__text.main-text {
+	font-size: 16px;
+}
+}

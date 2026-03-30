@@ -1,0 +1,272 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collection_MJhCMB": {
+      "type": "section-list-collection",
+      "blocks": {
+        "collection_ezAwyX": {
+          "type": "collection",
+          "settings": {
+            "collection": "soils-mulches",
+            "custom_collection_image": "shopify://shop_images/iStock-118613053666.jpg"
+          }
+        },
+        "collection_kPmQbb": {
+          "type": "collection",
+          "settings": {
+            "collection": "wildflower-amp-grass-seeds",
+            "custom_collection_image": "shopify://shop_images/Spreading_Seed_1_3d8f46a2-f8fa-4138-81b9-680a4dccb73b.jpg"
+          }
+        },
+        "collection_rLAzeP": {
+          "type": "collection",
+          "settings": {
+            "collection": "fertilizer-amendments",
+            "custom_collection_image": "shopify://shop_images/Fertilizer_1.jpg"
+          }
+        },
+        "collection_AXTwWM": {
+          "type": "collection",
+          "settings": {
+            "collection": "landscape-supplies",
+            "custom_collection_image": "shopify://shop_images/Shovel_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ezAwyX",
+        "collection_kPmQbb",
+        "collection_rLAzeP",
+        "collection_AXTwWM"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "title": "Collections",
+        "layout": "grid",
+        "text_size": 100,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_ggJyrr": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "image": "shopify://shop_images/Broken.webp",
+        "bg_color": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_content_Drzi99": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_7n3WwG": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/grass_landscape.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        },
+        "text_n6debM": {
+          "type": "text",
+          "settings": {
+            "text_position": "center",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Serving Colorado with Reliable Grass Seed for Lawns and Pastures Since 1989",
+            "text": "<p>Finding the right seed mix for your lawn, pasture, or project in Colorado can be a challenge, especially with our dry climate and wide elevation ranges. Rivendell Distribution worked closely with landscapers, growers, and local farms who need dependable seed that actually grows strong in this region. </p><p>Our collection includes<a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Grass\" target=\"_blank\"> custom seed mixes</a>,<a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Native+Grass\" target=\"_blank\"> native grass</a>,<a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Turf+Grass\" target=\"_blank\"> turf grass</a>, and<a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Wildflowers+%26+Grass+Seed\" target=\"_blank\"> specialty blends</a> selected to thrive across Colorado’s Western Slope<strong>.</strong> You’ll find options for everything from cover crops and forage to sun and shade blends for Colorado lawns. We keep our stock fresh, offer competitive pricing, and help you pick the seed mix that fits your land, your timing, and the way you want it to grow.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--primary btn--small",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7n3WwG",
+        "text_n6debM"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1747982975c5655b42": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_DBXHdh": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_DBXHdh"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "map_info_yfAYTC": {
+      "type": "map-info",
+      "name": "Map Info",
+      "settings": {
+        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.353465116034!2d-107.230921288779!3d39.48393251176575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8741a857da136551%3A0xe31190bbf15ca07c!2sRivendell%20Distribution%2C%20Inc.!5e0!3m2!1sen!2sin!4v1747990714935!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "heading": "",
+        "content": "<h5><strong>Address:</strong></h5><p><strong>3961 Co Rd 114, Glenwood Springs, CO 81601, United States</strong></p><h4><br/><strong>Email:</strong> </h4><p><a href=\"mailto:office@rivendelldistribution.com\" title=\"mailto:office@rivendelldistribution.com\"><strong>office@rivendelldistribution.com</strong></a></p><h4><a href=\"mailto:office@rivendelldistribution.com\" title=\"mailto:office@rivendelldistribution.com\"><br/></a><strong>Phone:</strong></h4><p><a href=\"tel:(970) 945-2568.\" title=\"tel:(970) 945-2568.\"><strong>(970) 945-2568</strong></a></p>",
+        "btn1": "Our Store",
+        "btnurl1": "",
+        "btn2": "Contact us",
+        "btnurl2": "shopify://pages/contact-us-1"
+      }
+    },
+    "section_accordions_xDeiqR": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_WEhTVR": {
+          "type": "text",
+          "settings": {
+            "title": "What types of grass seed grow best in Colorado’s climate?",
+            "text": "<p>Colorado’s high elevation, dry air, and wide temperature swings call for grass seed that’s built to perform in tough conditions. The best seed type depends on what you’re planting and how you plan to use the space.</p><p>Here are the most common categories that work well in this region:</p><ul><li><strong>Lawn seed.</strong> Ideal for creating a thick, green yard that holds up through changing weather and sun exposure.</li><li><strong>Pasture and forage seed.</strong> Used for grazing areas or open land, these mixes are selected for quick growth and ground coverage.</li><li><strong>Erosion control and reclamation seed.</strong> Blends that help stabilize slopes, disturbed soil, or roadside areas while protecting against runoff.</li><li><strong>Sports turf seed.</strong> Designed for high-traffic fields, parks, or recreational spaces that need fast recovery and dense, durable grass.</li></ul>"
+          }
+        },
+        "text_czN6Mm": {
+          "type": "text",
+          "settings": {
+            "title": "How do I know which seed mix is right for my lawn, pasture, or project?",
+            "text": "<p>The right seed mix depends on your space, your goals, and how the area will be used. If you're planting a yard that gets both sun and shade,<a href=\"https://www.rivendelldistribution.com/products/mastergreen-sun-shade-carefree-seed-mix\" target=\"_blank\"> MasterGreen Sun & Shade Carefree Seed Mix </a>is a great all-around option.</p><p>For larger areas like grazing fields or farmland,<a href=\"https://www.rivendelldistribution.com/products/foragemax-pasturemax\" target=\"_blank\"> ForageMax PastureMax</a> delivers dependable forage and coverage. We also offer<a href=\"https://www.rivendelldistribution.com/collections/grass-seeds\" target=\"_blank\"> custom seed mixes</a> for more specific needs like steep slopes, limited water access, or high-traffic zones.</p><p>Every site is different, so we’re here to help you choose a mix that supports long-term success and suits the region you’re planting in.</p>"
+          }
+        },
+        "text_BA96Pr": {
+          "type": "text",
+          "settings": {
+            "title": "What’s the difference between native grasses, specialty seed, and custom seed mixes?",
+            "text": "<p>Choosing the right category depends on your land, your goal, and how much time you want to spend on upkeep. We’re here to help you make the best pick for your project.</p><ul><li>Native grasses are species that naturally grow in Colorado and are great for low-maintenance lawns, open land, and areas where you want to promote native habitat. A good example is our Rivendell<a href=\"https://www.rivendelldistribution.com/products/pitkin-county-seed-mix\" target=\"_blank\"> Pitkin County Seed Mix</a>, which is ideal for the mountain region.</li><li>Specialty seed blends are curated for specific conditions like full shade, foot traffic, or high elevation.<a href=\"https://www.rivendelldistribution.com/products/chantilly-creeping-red-fescue-seed\" target=\"_blank\"> Chantilly Creeping Red Fescue</a> is one example that handles cooler, shaded spots really well.</li><li>Custom seed mixes are blended based on your property’s exact conditions—sunlight, soil, use, and location. These are great if you’re working with a unique site or want to match a specific visual or practical goal.</li></ul>"
+          }
+        },
+        "text_rtUkF7": {
+          "type": "text",
+          "settings": {
+            "title": "Can I use bulk grass seed for cover crops or erosion control?",
+            "text": "<p>Yes, bulk grass seed is a reliable option for both cover crops and erosion control, especially in large areas or rough terrain. These seed mixes are selected for fast establishment and dense root systems, which help hold soil in place and protect against runoff. They're commonly used on slopes, roadways, and exposed ground after construction or clearing.</p><p>Options like Kodiak Annual Ryegrass and<a href=\"https://www.rivendelldistribution.com/products/buffalo-brand-low-grow-reclamation-mix\" target=\"_blank\"> Buffalo Brand Low Grow Reclamation Mix</a> are specifically made for these purposes and work well in Colorado’s dry conditions. You can also check our<a href=\"https://www.rivendelldistribution.com/collections/hydro-seeding\" target=\"_blank\"> hydroseeding blends</a> for larger-scale applications that require even coverage.</p>"
+          }
+        },
+        "text_QcDyz7": {
+          "type": "text",
+          "settings": {
+            "title": "When is the best time to plant grass seed in Colorado?",
+            "text": "<p>Planting time depends on the type of seed. For cool-season grasses, fall is ideal, specifically September through October when the soil is still warm, and the cooler air helps the grass establish.</p><p>For warm-season grasses, aim for late spring after the ground has warmed up. Colorado’s climate can be unpredictable, so planning your timing around the seed type matters. Our guide on<a href=\"https://www.rivendelldistribution.com/blogs/news/when-to-plant-bulk-grass-seed-for-best-results\" target=\"_blank\"> when to plant grass seed in Colorado</a> gives more detail on how to match your planting to the season and get the best results.</p>"
+          }
+        },
+        "text_PgeKF8": {
+          "type": "text",
+          "settings": {
+            "title": "Do I need to prep the soil or add topsoil before planting grass seed?",
+            "text": "<p>Yes, preparing the soil ahead of time makes a big difference in how well your grass seed grows. Loosen the top layer so seeds can settle in and make contact with the soil, then rake gently to even it out. You don’t always need to add topsoil, but a thin layer helps if the area is patchy, compacted, or low in nutrients. </p><p>For the best results, start prepping at least a couple of weeks before planting, especially during spring or fall, when conditions are right for seed to take root. Even outside of planting season, you can apply <a href=\"https://www.rivendelldistribution.com/collections/fertilizer-amendments\" target=\"_blank\">fertilizer and soil amendments</a> to improve soil health and get your site ready for the next round.</p>"
+          }
+        },
+        "text_nWK7KG": {
+          "type": "text",
+          "settings": {
+            "title": "How much seed do I need for one acre or a typical backyard?",
+            "text": "<p>For lawns, most cool-season grass seed blends require 1 to 2 pounds per 1,000 square feet. A 50-pound bag typically covers up to 10,000 square feet, which works for large yards or overseeding. For pasture seed or native grasses, plan for 50 to 100 pounds per acre, depending on the species and soil conditions. It’s always smart to check the label for specific seeding rates. If your site has special needs or you want to optimize coverage, we can help with<a href=\"https://www.rivendelldistribution.com/collections/grass-seeds\" target=\"_blank\"> custom seed mixes</a> built for your land and planting goals.</p>"
+          }
+        },
+        "text_fefCcQ": {
+          "type": "text",
+          "settings": {
+            "title": "What’s the best grass seed if I’m planting in shady areas or at high elevation?",
+            "text": "<p>In shady spots or higher elevations, you’ll need seed that grows well with limited sunlight and cooler soil. For areas with low light, shade-tolerant grass seed is best. If you’re planting in a mountain region or cooler climate, look for a mix that’s been proven to handle those conditions. Our<a href=\"https://www.rivendelldistribution.com/products/ark-valley-premium-shade-seed-mix\" target=\"_blank\"> Ark Valley Premium Shade Seed Mix</a> works well under tree cover or beside structures, and<a href=\"https://www.rivendelldistribution.com/products/rivendells-mountain-pasture-seed-mix\" target=\"_blank\"> Mountain Pasture Seed Mix</a> is a strong pick for higher elevations.</p>"
+          }
+        },
+        "text_hCzz3i": {
+          "type": "text",
+          "settings": {
+            "title": "How do I keep my seed from drying out or getting washed away after planting?",
+            "text": "<p>To give your grass seed the best chance at life, make sure it stays in place and doesn’t dry out too fast. After planting, lightly rake the seed into the soil, then cover it with a thin layer of straw or mulch to hold moisture and protect it from wind and rain. For bigger areas or uneven ground, products like<a href=\"https://www.rivendelldistribution.com/collections/hydro-straw\" target=\"_blank\"> Hydro Straw</a> help keep seed secure and support healthy germination. This is especially useful when planting around trees, shrubs, or slopes where soil can shift easily.</p><p>Many of our customers rely on this extra step to make sure their seed takes root and fills in evenly. You can also explore options covered in our blog on the<a href=\"https://www.rivendelldistribution.com/blogs/news/best-type-of-mulch-weed-control\" target=\"_blank\"> best mulch for weed control</a>, which includes tips that also help preserve moisture.</p>"
+          }
+        },
+        "text_cfe7R3": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I buy top quality grass seed near Colorado at wholesale pricing?",
+            "text": "<p>You can find a full range of<a href=\"https://www.rivendelldistribution.com/collections/grass-seeds\" target=\"_blank\"> top quality grass seed in Colorado</a> right here at our Glenwood Springs location. We serve local landscapers, nurseries, and property owners with reliable seed mixes for lawns, pasture, reclamation, and even wildflowers.</p><p>Rivendell Distribution is known for hands-on service and helping customers pick the right blend for their region and soil type. If you're looking for wholesale grass seed suppliers near you in Colorado, visit us at<a href=\"https://www.google.com/maps/place/Rivendell+Distribution,+Inc./@39.4839284,-107.228341,17z/data=!4m6!3m5!1s0x8741a857da136551:0xe31190bbf15ca07c!8m2!3d39.4839284!4d-107.228341!16s%2Fg%2F1tdh4bgk?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\"> 3961 Co Rd 114, Glenwood Springs, CO</a> to help you get started!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_WEhTVR",
+        "text_czN6Mm",
+        "text_BA96Pr",
+        "text_rtUkF7",
+        "text_QcDyz7",
+        "text_PgeKF8",
+        "text_nWK7KG",
+        "text_fefCcQ",
+        "text_hCzz3i",
+        "text_cfe7R3"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "subheading": "",
+        "title": "FAQs About Bulk Grass Seed in Colorado",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color": "",
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_list_collection_MJhCMB",
+    "section_image_with_text_ggJyrr",
+    "section_custom_content_Drzi99",
+    "1747982975c5655b42",
+    "map_info_yfAYTC",
+    "section_accordions_xDeiqR"
+  ]
+}

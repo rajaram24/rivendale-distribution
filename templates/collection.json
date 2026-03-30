@@ -1,0 +1,176 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {}
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "custom_css": [],
+      "settings": {
+        "banner_height": "four-fifty-height",
+        "text_position": "middle-center",
+        "show_image": false,
+        "text_color": "text-light",
+        "overlay_opacity": 10,
+        "bg_color": "",
+        "gradient": "",
+        "banner_image": "shopify://shop_images/cover1.jpg",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollections": [],
+        "limit": 8,
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 1.5,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-light",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "settings": {
+        "show_breadcrumbs": true,
+        "products_per_page": 24,
+        "enable_sorting": true,
+        "enable_filters": true,
+        "filters_layout": "closed",
+        "show_more": true,
+        "filter_mode": "default",
+        "bg_color": "",
+        "padding_top": 30,
+        "padding_bottom": 50
+      }
+    },
+    "03170e69-91a0-4d4a-8ba5-48230e8ca850": {
+      "type": "section-marquee",
+      "blocks": {
+        "template--16035509862589__03170e69-91a0-4d4a-8ba5-48230e8ca850-16729332988b436a59-0": {
+          "type": "message",
+          "settings": {
+            "message": "Spend ||amount|| more for free shipping.",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--16035509862589__03170e69-91a0-4d4a-8ba5-48230e8ca850-16729332988b436a59-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New collections just released - <a href=\"/collections\" title=\"All collections\">Shop now</a></p>",
+            "text_color": "",
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--16035509862589__03170e69-91a0-4d4a-8ba5-48230e8ca850-16729332988b436a59-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use code <strong>TENOFF</strong> for 10% off first purchase</p>",
+            "text_color": "",
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "template--16035509862589__03170e69-91a0-4d4a-8ba5-48230e8ca850-16729332988b436a59-0",
+        "template--16035509862589__03170e69-91a0-4d4a-8ba5-48230e8ca850-16729332988b436a59-1",
+        "template--16035509862589__03170e69-91a0-4d4a-8ba5-48230e8ca850-16729332988b436a59-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "marquee",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 20,
+        "marquee_speed": 100,
+        "direction": "ticker-ltr",
+        "slider_speed": 7,
+        "show_arrows": false,
+        "text_caps": false,
+        "type_font": "space_mono_n4",
+        "text_size": 150,
+        "letter_spacing": 0,
+        "message_spacing": 25,
+        "bg_color": "#000000",
+        "gradient": "",
+        "color": "#ffffff",
+        "border_color": "#000000",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {}
+    },
+    "section_accordions_BNVxgy": {
+      "type": "section-accordions",
+      "settings": {
+        "use_collection_metafield": true,
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "line_thickness": "normal",
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "type_style": "font-heading",
+        "heading_size": 120,
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "border_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "shogun-above",
+    "hero",
+    "subcollections",
+    "main",
+    "03170e69-91a0-4d4a-8ba5-48230e8ca850",
+    "shogun-below",
+    "section_accordions_BNVxgy"
+  ]
+}

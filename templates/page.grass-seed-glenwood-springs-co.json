@@ -1,0 +1,264 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collection_MJhCMB": {
+      "type": "section-list-collection",
+      "blocks": {
+        "collection_ezAwyX": {
+          "type": "collection",
+          "settings": {
+            "collection": "soils-mulches",
+            "custom_collection_image": "shopify://shop_images/iStock-118613053666.jpg"
+          }
+        },
+        "collection_kPmQbb": {
+          "type": "collection",
+          "settings": {
+            "collection": "wildflower-amp-grass-seeds",
+            "custom_collection_image": "shopify://shop_images/Spreading_Seed_1_3d8f46a2-f8fa-4138-81b9-680a4dccb73b.jpg"
+          }
+        },
+        "collection_rLAzeP": {
+          "type": "collection",
+          "settings": {
+            "collection": "fertilizer-amendments",
+            "custom_collection_image": "shopify://shop_images/Fertilizer_1.jpg"
+          }
+        },
+        "collection_AXTwWM": {
+          "type": "collection",
+          "settings": {
+            "collection": "landscape-supplies",
+            "custom_collection_image": "shopify://shop_images/Shovel_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ezAwyX",
+        "collection_kPmQbb",
+        "collection_rLAzeP",
+        "collection_AXTwWM"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "title": "Collections",
+        "layout": "grid",
+        "text_size": 100,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_ggJyrr": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "image": "shopify://shop_images/Broken.webp",
+        "bg_color": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_content_Drzi99": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_7n3WwG": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/grass_landscape.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        },
+        "text_n6debM": {
+          "type": "text",
+          "settings": {
+            "text_position": "center",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Trusted Grass Seed Experts Serving Glenwood Springs for 35 Years",
+            "text": "<p>Choosing the right grass seed in Glenwood Springs can be tricky with our dry summers, clay-like soil, and mix of full sun and shaded areas. We hear a lot of questions about how to get a green lawn in Colorado or what seed holds up best through the growing season. </p><p>Rivendell Distribution built a collection that includes cool season grasses,<a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Native+Grass\" target=\"_blank\"> drought tolerant natives</a>, and<a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Pasture+Grass\" target=\"_blank\"> blends for pastures</a>,<a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Turf+Grass\" target=\"_blank\"> sports fields</a>, and high traffic yards. Each mix is selected to work with local soil conditions and the changing seasons across the Western Slope. We’re a family-owned business here to help you grow a healthy lawn that fits your yard, your schedule, and your soil.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--primary btn--small",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7n3WwG",
+        "text_n6debM"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1747982975c5655b42": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_DBXHdh": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_DBXHdh"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "map_info_yfAYTC": {
+      "type": "map-info",
+      "name": "Map Info",
+      "settings": {
+        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.353465116034!2d-107.230921288779!3d39.48393251176575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8741a857da136551%3A0xe31190bbf15ca07c!2sRivendell%20Distribution%2C%20Inc.!5e0!3m2!1sen!2sin!4v1747990714935!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "heading": "",
+        "content": "<h5><strong>Address:</strong></h5><p><strong>3961 Co Rd 114, Glenwood Springs, CO 81601, United States</strong></p><h4><br/><strong>Email:</strong> </h4><p><a href=\"mailto:office@rivendelldistribution.com\" title=\"mailto:office@rivendelldistribution.com\"><strong>office@rivendelldistribution.com</strong></a></p><h4><a href=\"mailto:office@rivendelldistribution.com\" title=\"mailto:office@rivendelldistribution.com\"><br/></a><strong>Phone:</strong></h4><p><a href=\"tel:(970) 945-2568.\" title=\"tel:(970) 945-2568.\"><strong>(970) 945-2568</strong></a></p>",
+        "btn1": "Our Store",
+        "btnurl1": "",
+        "btn2": "Contact us",
+        "btnurl2": "shopify://pages/contact-us-1"
+      }
+    },
+    "section_accordions_xDeiqR": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_WEhTVR": {
+          "type": "text",
+          "settings": {
+            "title": "What types of grass seed grow well in Glenwood Springs and other parts of Western Colorado?",
+            "text": "<p>Cool season grasses perform best in Glenwood Springs because of the shorter growing season, cooler nights, and dry conditions common to the Western Slope. Popular options include perennial ryegrass, kentucky bluegrass, and fine fescue—all known for handling clay-like soil and early spring planting.</p><p>If you're dealing with full sun or drought-prone areas,<a href=\"https://www.rivendelldistribution.com/products/rivendells-native-low-grow-seed-mix\" target=\"_blank\"> Rivendell’s Native Low Grow Seed Mix</a> or the<a href=\"https://www.rivendelldistribution.com/products/mastergreen-bluegrass-blend-seed-mix\" target=\"_blank\"> MasterGreen Bluegrass Blend</a> are good choices for<a href=\"https://www.rivendelldistribution.com/blogs/news/tips-to-maintain-a-healthy-lawn-in-western-colorado\" target=\"_blank\"> establishing a healthy lawn</a> that lasts through the summer months. These types also hold up well during late summer heat and recover quickly from bare patches. Choosing the right grass seed Colorado mix for your property helps reduce weed growth and cuts back on long-term maintenance.</p>"
+          }
+        },
+        "text_czN6Mm": {
+          "type": "text",
+          "settings": {
+            "title": "What is the difference between turf grass, pasture grass, and native seed mixes?",
+            "text": "<p>Each grass type serves a different purpose depending on your property.</p><ul><li><a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Turf+Grass\" target=\"_blank\">Turf grass</a> mixes are made for lawns, sports fields, and high traffic areas—they grow dense, spread quickly, and give you a clean look.</li><li>If you're managing grazing land or open acreage, pasture grass blends like<a href=\"https://www.rivendelldistribution.com/products/foragemax-pasturemax\" target=\"_blank\"> ForageMax PastureMax</a> and<a href=\"https://www.rivendelldistribution.com/products/horsemax-pasturemax-seed\" target=\"_blank\"> HorseMax</a> are built for durability, livestock use, and covering large square feet.</li><li>Native grass mixes like the<a href=\"https://www.rivendelldistribution.com/products/pitkin-county-seed-mix\" target=\"_blank\"> Pitkin County Seed Mix</a> work well in areas where you don’t want to water much or mow often, like open slopes or dry corners of your property.</li></ul><p>The way each grass performs depends a lot on your soil, how much sun the area gets, and what you're hoping to grow. Some mixes are better for a tidy lawn, while others are better suited for keeping a hillside green without much effort.</p>"
+          }
+        },
+        "text_BA96Pr": {
+          "type": "text",
+          "settings": {
+            "title": "When is the best time to plant cool season grasses in Colorado?",
+            "text": "<p>The best time to plant cool season grasses in Colorado is early spring or late summer, when conditions are more forgiving and the soil holds moisture longer. In Glenwood Springs, mid-August to mid-September is a great window, since temperatures begin to cool and there’s still enough warmth for seed to take root. Planting during this time helps with germination and gives your lawn a better chance to fill in before the first fall frost. It also helps reduce weed growth early on.</p><p>While warm season grasses are better suited for lower elevations and hotter climates, cool-season blends are usually the best grass types for Colorado lawns. For more on timing and growing conditions, see our guide on the<a href=\"https://www.rivendelldistribution.com/blogs/news/when-to-plant-bulk-grass-seed-for-best-results\" target=\"_blank\"> best time to plant grass seed</a>.</p>"
+          }
+        },
+        "text_rtUkF7": {
+          "type": "text",
+          "settings": {
+            "title": "Which grass seed works best in shaded areas or around buildings and trees?",
+            "text": "<p>Areas with limited sunlight need grass species that tolerate low light and still fill in evenly. Fine fescue and creeping red fescue are great picks for shaded lawns in Colorado, especially where trees or structures block direct sun. The<a href=\"https://www.rivendelldistribution.com/products/ark-valley-premium-shade-seed-mix\" target=\"_blank\"> Ark Valley Premium Shade Seed Mix</a> and<a href=\"https://www.rivendelldistribution.com/products/chantilly-creeping-red-fescue-seed\" target=\"_blank\"> Chantilly Creeping Red Fescue Seed</a> are built for these conditions and can help reduce bare patches around the yard. These blends also hold moisture well during the summer months, making them a good option for low-light areas that still need to stay green. Picking the right grass seed Colorado mix for partial shade can make a big difference in how your lawn grows and looks.</p>"
+          }
+        },
+        "text_QcDyz7": {
+          "type": "text",
+          "settings": {
+            "title": "Can I plant grass seed in clay-like soil, or should I improve the soil first?",
+            "text": "<p>You can plant grass seed directly in clay-heavy soil, but preparing the ground first usually gives better results. Loosening the top layer and adding organic material like compost can improve drainage and help with seed-to-soil contact. This is especially helpful when planting in early spring or late summer, when soil temperature and moisture matter most for germination. The<a href=\"https://www.rivendelldistribution.com/blogs/news/what-to-know-before-buying-bagged-compost\" target=\"_blank\"> benefits of bagged compost</a> go beyond just better structure, it also supports healthy lawn growth and helps prevent weed growth. For tougher spots, pairing seed with a light layer of<a href=\"https://www.rivendelldistribution.com/collections/soils\" target=\"_blank\"> topsoil</a> or<a href=\"https://www.rivendelldistribution.com/collections/mulches\" target=\"_blank\"> mulch</a> can also help hold moisture and protect your investment.</p>"
+          }
+        },
+        "text_PgeKF8": {
+          "type": "text",
+          "settings": {
+            "title": "Do I need to use a starter fertilizer when planting a new lawn from seed?",
+            "text": "<p><a href=\"https://www.rivendelldistribution.com/blogs/news/lawn-fertilizer-guide-get-your-grass-ready-for-spring\" target=\"_blank\">Using a starter fertilizer</a> is not required, but it can definitely help if you're planting a new lawn or filling in bare patches. It supports early root development and helps seed get established faster, especially in cooler months or areas with dry conditions. In Glenwood Springs, soil can sometimes lack key nutrients, so adding a light application of starter fertilizer can improve your chances of growing a green Colorado lawns with fewer weeds.</p><p>If you're working with cool season grasses like Perennial ryegrass or kentucky bluegrass, the extra nutrients help during the early part of the growing season. Make sure the product you use is safe for new seed and follow label rates to avoid overfeeding.</p>"
+          }
+        },
+        "text_fefCcQ": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take for grass seed to germinate in cooler mountain climates?",
+            "text": "<p>In cooler parts of Colorado like Glenwood Springs, most seed cool season grasses will start to germinate in 5 to 14 days, depending on temperature, soil moisture, and seed variety. Perennial ryegrass tends to sprout faster, while kentucky bluegrass takes longer—often up to 21 days. The time it takes also depends on how well you prepare the soil and keep it consistently damp during the early stages.</p><p>Cooler spring and fall temperatures help with weed control, but they can slow germination if nighttime temps drop too low. Starting in mid-August through early September usually gives you a good balance of warm soil and mild air for steady growth.</p>"
+          }
+        },
+        "text_hCzz3i": {
+          "type": "text",
+          "settings": {
+            "title": "What kind of maintenance is needed after planting grass seed in Colorado’s dry climate?",
+            "text": "<p>After planting grass seed, the key is to keep the soil consistently moist without overwatering. In the dry conditions of Glenwood Springs, aim to water lightly several times a day during germination, then gradually shift to deeper, less frequent watering. Once the grass fills in, regular mowing, spot treatment for weed growth, and proper irrigation all help maintain a green lawn grass. If you're using drought tolerant seed blends or native grasses, you'll likely need less water long-term, especially in full sun areas.</p><p>Good soil prep, smart watering, and the right nutrients are all part of<a href=\"https://www.rivendelldistribution.com/blogs/news/how-grass-fertilizer-turns-lawns-into-stunning-green-spaces\" target=\"_blank\"> effective lawn care in dry conditions</a>, and you can also check out our<a href=\"https://www.rivendelldistribution.com/collections/fertilizer-amendments\" target=\"_blank\"> lawn maintenance products</a> to support healthy growth year-round.</p>"
+          }
+        },
+        "text_cfe7R3": {
+          "type": "text",
+          "settings": {
+            "title": "Can native and pasture seed mixes help with erosion control in sloped areas around Glenwood Springs?",
+            "text": "<p>Yes, certain native and pasture seed mixes are ideal for erosion control, especially on slopes and dry, open ground common around Glenwood Springs. These blends include hardy grass species that spread quickly, tolerate poor soil conditions, and stay in place during wind or runoff. Products like<a href=\"https://www.rivendelldistribution.com/products/rivendells-native-low-grow-seed-mix\" target=\"_blank\"> Rivendell’s Native Low Grow Seed Mix</a> and the<a href=\"https://www.rivendelldistribution.com/products/buffalo-brand-low-grow-reclamation-mix\" target=\"_blank\"> Buffalo Brand Low Grow Reclamation Mix</a> are often used on roadside banks, hillsides, or other low maintenance areas that don’t require frequent mowing or irrigation.</p><p>The key is choosing drought tolerant seed that anchors well and can grow with minimal care during the growing season. This is especially helpful in full sun locations or after construction projects where soil has been disturbed.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_WEhTVR",
+        "text_czN6Mm",
+        "text_BA96Pr",
+        "text_rtUkF7",
+        "text_QcDyz7",
+        "text_PgeKF8",
+        "text_fefCcQ",
+        "text_hCzz3i",
+        "text_cfe7R3"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "subheading": "",
+        "title": "FAQs About Grass Seed in Glenwood Springs, Colorado",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color": "",
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_list_collection_MJhCMB",
+    "section_image_with_text_ggJyrr",
+    "section_custom_content_Drzi99",
+    "1747982975c5655b42",
+    "map_info_yfAYTC",
+    "section_accordions_xDeiqR"
+  ]
+}

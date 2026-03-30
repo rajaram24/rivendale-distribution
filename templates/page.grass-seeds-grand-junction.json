@@ -1,0 +1,280 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collection_MJhCMB": {
+      "type": "section-list-collection",
+      "blocks": {
+        "collection_ezAwyX": {
+          "type": "collection",
+          "settings": {
+            "collection": "soils-mulches",
+            "custom_collection_image": "shopify://shop_images/iStock-118613053666.jpg"
+          }
+        },
+        "collection_kPmQbb": {
+          "type": "collection",
+          "settings": {
+            "collection": "wildflower-amp-grass-seeds",
+            "custom_collection_image": "shopify://shop_images/Spreading_Seed_1_3d8f46a2-f8fa-4138-81b9-680a4dccb73b.jpg"
+          }
+        },
+        "collection_rLAzeP": {
+          "type": "collection",
+          "settings": {
+            "collection": "fertilizer-amendments",
+            "custom_collection_image": "shopify://shop_images/Fertilizer_1.jpg"
+          }
+        },
+        "collection_AXTwWM": {
+          "type": "collection",
+          "settings": {
+            "collection": "landscape-supplies",
+            "custom_collection_image": "shopify://shop_images/Shovel_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ezAwyX",
+        "collection_kPmQbb",
+        "collection_rLAzeP",
+        "collection_AXTwWM"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "title": "Collections",
+        "layout": "grid",
+        "text_size": 100,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_ggJyrr": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "image": "shopify://shop_images/Broken.webp",
+        "bg_color": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_content_Drzi99": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_7n3WwG": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/grass_landscape.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "",
+            "heading_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        },
+        "text_n6debM": {
+          "type": "text",
+          "settings": {
+            "text_position": "center",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Trusted Grass Seed Supplier in Grand Junction, CO Since 1989",
+            "text": "<p>Finding the right seed can be tough when you’re dealing with dry summers, high elevations, or patchy ground that just won’t fill in. That’s why we put together a collection of grass seed that actually works for the soil, sun, and moisture conditions here in Grand Junction, CO.</p><p>Rivendell Distribution is a family-owned business that got its start with bluegrass sod and now supplies seed mixes that are proven to grow strong across Western Colorado. We carry everything from cool-season grasses for a healthy lawn to<a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Pasture+Grass\" target=\"_blank\"> pasture mixes</a> that offer fair regrowth and palatable spring forage for your animals. You’ll also find<a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Native+Grass\" target=\"_blank\"> native see</a>d,<a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Turf+Grass\" target=\"_blank\"> turf grass</a>, and<a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Wildflowers+%26+Grass+Seed\" target=\"_blank\"> wildflower blends</a> ideal for erosion control, bare spots, and tough planting areas on slopes or construction sites.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--primary btn--small",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7n3WwG",
+        "text_n6debM"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1747982975c5655b42": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_DBXHdh": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_DBXHdh"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "map_info_yfAYTC": {
+      "type": "map-info",
+      "name": "Map Info",
+      "settings": {
+        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.353465116034!2d-107.230921288779!3d39.48393251176575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8741a857da136551%3A0xe31190bbf15ca07c!2sRivendell%20Distribution%2C%20Inc.!5e0!3m2!1sen!2sin!4v1747990714935!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "heading": "",
+        "content": "<h5><strong>Address:</strong></h5><p><strong>3961 Co Rd 114, Glenwood Springs, CO 81601, United States</strong></p><h4><br/><strong>Email:</strong> </h4><p><a href=\"mailto:office@rivendelldistribution.com\" title=\"mailto:office@rivendelldistribution.com\"><strong>office@rivendelldistribution.com</strong></a></p><h4><a href=\"mailto:office@rivendelldistribution.com\" title=\"mailto:office@rivendelldistribution.com\"><br/></a><strong>Phone:</strong></h4><p><a href=\"tel:(970) 945-2568.\" title=\"tel:(970) 945-2568.\"><strong>(970) 945-2568</strong></a></p>",
+        "btn1": "Our Store",
+        "btnurl1": "",
+        "btn2": "Contact us",
+        "btnurl2": "shopify://pages/contact-us-1"
+      }
+    },
+    "section_accordions_xDeiqR": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_WEhTVR": {
+          "type": "text",
+          "settings": {
+            "title": "What type of grass seed grows best in Grand Junction’s climate and soil conditions?",
+            "text": "<p>Grand Junction has a mix of dry summers, cool fall seasons, and different soil types, so picking the right seed matters if you want reliable growth. Cool-season grasses tend to perform best here, especially in early fall when the soil is still warm but the air is cooler. These grasses handle the local elevation well and are known for strong germination and good color. If you’re dealing with shade, poor moisture, or open areas, there are also seed mixes made to handle those conditions.</p>"
+          }
+        },
+        "text_czN6Mm": {
+          "type": "text",
+          "settings": {
+            "title": "What’s the difference between lawn seed, pasture seed, and native seed mixes?",
+            "text": "<p>Each type is designed for a specific use, so the best mix depends on your planting site and purpose.</p><ul><li><a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Grass\" target=\"_blank\">Lawn seed</a> is meant for healthy, full grass in front or backyards. It usually focuses on looks, color, and comfort underfoot.</li><li><a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Pasture+Grass\" target=\"_blank\">Pasture seed</a> is designed more for farms and grazing animals. These blends grow strong forage and recover fairly well after heavy use.</li><li><a href=\"https://www.rivendelldistribution.com/collections/grass-seeds?sort_by=best-selling&filter.p.tag=Native+Grass\" target=\"_blank\">Native seed mixes</a> are low-maintenance and are often used for large, open areas like hillsides, trails, or places where erosion control is needed. They’re great for Grand Junction’s climate because they adapt to the natural environment and need less water once established.</li></ul>"
+          }
+        },
+        "text_BA96Pr": {
+          "type": "text",
+          "settings": {
+            "title": "What’s the difference between pruners, shears, and loppers?",
+            "text": "<p><a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling&filter.p.tag=Pruners\" target=\"_blank\">Pruners</a> are smaller garden hand tools used for cutting thinner branches, stems, and flower stalks—ideal for everyday garden care.<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling&filter.p.tag=Shears\" target=\"_blank\"> Shears</a>, like hedge shears, are designed for shaping bushes and hedges, giving clean, uniform cuts across larger areas.<a href=\"https://www.rivendelldistribution.com/collections/pruning-tools?sort_by=best-selling&filter.p.tag=Loppers\" target=\"_blank\"> Loppers</a> have longer handles and are built for cutting medium-sized branches that are too thick for pruners but don’t yet need a saw. For shrubs and small plants, pruners and shears are usually enough, while trees and thicker growth often call for the reach and power of loppers.</p>"
+          }
+        },
+        "text_rtUkF7": {
+          "type": "text",
+          "settings": {
+            "title": "How much grass seed do I need to cover my yard, pasture, or open areas?",
+            "text": "<p>It depends on the size of your space and the type of seed. For a typical yard, you’ll need around 1 to 2 pounds of seed for every 1,000 square feet. If you’re covering a pasture or open field, plan for 50 to 100 pounds per acre. Native seed blends often need less coverage than lawn seed, but it still depends on the soil type and your goals. Always read the planting instructions on the seed package to get the right spread rate.</p>"
+          }
+        },
+        "text_QcDyz7": {
+          "type": "text",
+          "settings": {
+            "title": "When is the best time to plant cool-season grasses in Grand Junction, CO?",
+            "text": "<p>In Grand Junction, early fall is usually the best time to plant cool-season grasses. The soil still holds warmth from summer, which helps with germination, while the cooler air supports steady growth. Planting in September or early October gives grass the chance to root before winter. Spring planting is also possible but can be trickier if the weather warms up too fast or there’s not enough moisture.</p><p>For best results, always check the seed package for the ideal planting date and make sure the ground is ready. Learn more about the<a href=\"https://www.rivendelldistribution.com/blogs/news/when-to-plant-bulk-grass-seed-for-best-results\" target=\"_blank\"> best time to plant grass seed in Colorado</a>.</p>"
+          }
+        },
+        "text_PgeKF8": {
+          "type": "text",
+          "settings": {
+            "title": "Do I need to prepare the planting area before spreading grass seed?",
+            "text": "<p>Yes, prepping the planting area makes a big difference in how well your grass grows. Loosening the topsoil improves seed-to-soil contact, which helps with germination. Rake away weeds, break up any clumps, and clear out debris.<a href=\"https://www.rivendelldistribution.com/blogs/news/what-to-know-before-buying-bagged-compost\" target=\"_blank\"> Adding compost can improve soil texture</a> and help the surface hold moisture. A light top layer of straw or mulch also helps protect the seed and keeps it from drying out too quickly.</p>"
+          }
+        },
+        "text_fefCcQ": {
+          "type": "text",
+          "settings": {
+            "title": "Should I use fertilizer or mulch along with grass seed for better germination?",
+            "text": "<p>Using a starter fertilizer gives new grass the nutrients it needs to grow strong early on. Look for fertilizer with nitrogen, phosphorus, and potassium—these help with root growth and overall lawn health. Mulch or straw helps keep the soil moist and protects the seed from wind or birds. This is especially helpful in areas with full sun, dry soil, or bare patches that dry out quickly. Together,<a href=\"https://www.rivendelldistribution.com/collections/organic\" target=\"_blank\"> fertilizer</a> and<a href=\"https://www.rivendelldistribution.com/collections/mulches\" target=\"_blank\"> mulch</a> improve seed coverage and help young grass grow faster and more evenly.</p>"
+          }
+        },
+        "text_hCzz3i": {
+          "type": "text",
+          "settings": {
+            "title": "Can I just throw grass seed on bare patches or should I rake it in?",
+            "text": "<p>You can spread grass seed by hand, but if you don’t rake it in lightly, it may not grow well. Seeds need good contact with the soil to germinate and hold moisture. If left on the surface, they can dry out, blow away, or be eaten by birds. Loosening the top layer of soil and gently raking the seed in gives it a better chance to take root and fill in those bare patches.</p><p>For added moisture control, you can also cover the area with straw or a light mulch. Learn more about the<a href=\"https://www.rivendelldistribution.com/collections/compost\" target=\"_blank\"> use of compost</a> and mulch to support seed growth and improve your lawn’s surface conditions.</p>"
+          }
+        },
+        "text_cfe7R3": {
+          "type": "text",
+          "settings": {
+            "title": "What’s the best grass seed for shaded areas or spots with poor drainage?",
+            "text": "<p>Some types of grass seed are better adapted to low sunlight and areas that stay damp after watering or rain. For shaded spots or problem areas where grass struggles to grow, a seed mix designed for partial shade or mixed light is a good choice.<a href=\"https://www.rivendelldistribution.com/products/ark-valley-premium-shade-seed-mix\" target=\"_blank\"> Ark Valley Premium Shade Mix</a> and<a href=\"https://www.rivendelldistribution.com/products/chantilly-creeping-red-fescue-seed\" target=\"_blank\"> Chantilly Creeping Red Fescue</a> are both good options for Grand Junction yards with trees, fences, or low spots that stay wet longer. These types of grass grow slowly, stay hardy through the season, and help fill in bare areas where full-sun mixes may not do well.</p><p>If your planting area has heavy soil or drainage issues,<a href=\"https://www.rivendelldistribution.com/blogs/news/what-to-know-before-buying-bagged-compost\" target=\"_blank\"> improving the soil with compost</a> can help support healthier grass growth. For more region-specific tips, check out our blog on<a href=\"https://www.rivendelldistribution.com/blogs/news/tips-to-maintain-a-healthy-lawn-in-western-colorado\" target=\"_blank\"> maintaining a healthy lawn in Western Colorado</a>.</p>"
+          }
+        },
+        "text_3t3m4P": {
+          "type": "text",
+          "settings": {
+            "title": "How do I keep moisture in the soil so the seed doesn’t dry out during germination?",
+            "text": "<p>Keeping the soil moist is one of the most important steps during germination. After planting, water lightly and often to keep the top layer damp without soaking it. Covering the area with straw or<a href=\"https://www.rivendelldistribution.com/blogs/news/what-does-mulch-do-for-your-soil\" target=\"_blank\"> mulch helps hold moisture</a> and protects the seed from wind and sun. If your soil dries out quickly, adding compost can improve water retention and support early growth. This is especially helpful in Grand Junction’s dry climate and higher elevations where the surface can dry out fast.</p>"
+          }
+        },
+        "text_VGfBJK": {
+          "type": "text",
+          "settings": {
+            "title": "What can I do if my grass grows unevenly or bare spots come back later?",
+            "text": "<p>Uneven grass growth and returning bare spots usually happen when the soil is compacted, the area is too dry, or the seed is not spread evenly. Reseeding those spots is a simple way to fix it. Look for fast-germinating options like<a href=\"https://www.rivendelldistribution.com/products/triple-star-perennial-ryegrass-blend\" target=\"_blank\"> Triple Star Perennial Ryegrass</a> for quick cover, or<a href=\"https://www.rivendelldistribution.com/products/mastergreen-bluegrass-blend-seed-mix\" target=\"_blank\"> MasterGreen Bluegrass</a> for longer-term color and thickness. Before reseeding, loosen the soil and remove any weeds so the seed can take root properly. It also helps to fertilize and water consistently during the early growth stage to give your lawn the best chance to fill in evenly.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_WEhTVR",
+        "text_czN6Mm",
+        "text_BA96Pr",
+        "text_rtUkF7",
+        "text_QcDyz7",
+        "text_PgeKF8",
+        "text_fefCcQ",
+        "text_hCzz3i",
+        "text_cfe7R3",
+        "text_3t3m4P",
+        "text_VGfBJK"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "subheading": "",
+        "title": "Grass Seed FAQs for Grand Junction, CO",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color": "",
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_list_collection_MJhCMB",
+    "section_image_with_text_ggJyrr",
+    "section_custom_content_Drzi99",
+    "1747982975c5655b42",
+    "map_info_yfAYTC",
+    "section_accordions_xDeiqR"
+  ]
+}

@@ -1,0 +1,401 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "breadcrumbs",
+            "title_size": 100,
+            "price_size": 100,
+            "bold_price": false,
+            "padding_bottom": 20
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_labels": true,
+            "show_quantity": true,
+            "show_payment_button": true,
+            "enable_subscriptions_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "inventory_countdown": {
+          "type": "inventory_countdown",
+          "settings": {
+            "max_inventory": 10,
+            "hide_inventory_count": true,
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "enable_full_width": false,
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion_x8xcph": {
+          "type": "product_accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "open_by_default": false,
+            "enable_full_width": false,
+            "tabs_bg_color": "",
+            "text_color": "text-dark",
+            "show_accordion_divider": false,
+            "line_thickness": "normal",
+            "accordion_heading": "Details",
+            "heading_style": "font-body",
+            "accordion_text": "<p>Brand: {{ product.metafields.custom.brand.value }}</p><p>Weight: {{ product.metafields.theme.weight | metafield_tag }}</p><p>SKU: {{ product.metafields.custom.sku | metafield_tag }}</p>",
+            "accordion_page": "",
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "product_list": [],
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "form",
+        "inventory_countdown",
+        "description",
+        "product_accordion_x8xcph",
+        "upsell"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "carousel",
+        "image_width": "standard",
+        "product_image_aspect_ratio": false,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color": "",
+        "gradient": "",
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 30
+      }
+    },
+    "17072522131eceed7c": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_TYVz63": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_TYVz63"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "fc7282fd-7650-4ec5-9d9a-b3da48f7259b": {
+      "type": "section-testimonials",
+      "blocks": {
+        "template--16035510419645__fc7282fd-7650-4ec5-9d9a-b3da48f7259b-1673282900394e80da-0": {
+          "type": "text",
+          "settings": {
+            "star_rating": 5,
+            "enable_border": true,
+            "heading": "We let our reviews speak for themselves.",
+            "text_size": 125,
+            "subheading": "<p>4.98 average<br>213 reviews</p>",
+            "block_color": "#000000",
+            "text_color": "text-light",
+            "text_alignment": "text-left"
+          }
+        },
+        "template--16035510419645__fc7282fd-7650-4ec5-9d9a-b3da48f7259b-1673282900394e80da-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "enable_border": true,
+            "heading": "Love it!",
+            "text_size": 125,
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "content_size": 100,
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Happy customer</p>"
+          }
+        },
+        "template--16035510419645__fc7282fd-7650-4ec5-9d9a-b3da48f7259b-1673282900394e80da-2": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "star_rating": 5,
+            "enable_border": true,
+            "heading": "Love it!",
+            "text_size": 125,
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "content_size": 100,
+            "customer_name": "Lindsay Smith",
+            "subheading": "<p>Los Angeles, CA</p>"
+          }
+        },
+        "template--16035510419645__fc7282fd-7650-4ec5-9d9a-b3da48f7259b-1673282900394e80da-3": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "star_rating": 5,
+            "enable_border": true,
+            "heading": "Love it!",
+            "text_size": 125,
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "content_size": 100,
+            "customer_name": "Eric Lopez",
+            "subheading": "<p>12 days ago</p>"
+          }
+        },
+        "template--16035510419645__fc7282fd-7650-4ec5-9d9a-b3da48f7259b-1673282900394e80da-4": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "star_rating": 5,
+            "enable_border": true,
+            "heading": "Love it!",
+            "text_size": 125,
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "content_size": 100,
+            "customer_name": "Sandy Boone",
+            "subheading": "<p>Verified customer</p>"
+          }
+        },
+        "template--16035510419645__fc7282fd-7650-4ec5-9d9a-b3da48f7259b-1673282900394e80da-5": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "star_rating": 5,
+            "enable_border": true,
+            "heading": "Love it!",
+            "text_size": 125,
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "content_size": 100,
+            "customer_name": "Dmitri Kristov",
+            "subheading": "<p>Verified customer</p>"
+          }
+        },
+        "template--16035510419645__fc7282fd-7650-4ec5-9d9a-b3da48f7259b-1673282900394e80da-6": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "star_rating": 5,
+            "enable_border": true,
+            "heading": "Love it!",
+            "text_size": 125,
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "content_size": 100,
+            "customer_name": "Amelia Ngoy",
+            "subheading": "<p>Verified customer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16035510419645__fc7282fd-7650-4ec5-9d9a-b3da48f7259b-1673282900394e80da-0",
+        "template--16035510419645__fc7282fd-7650-4ec5-9d9a-b3da48f7259b-1673282900394e80da-1",
+        "template--16035510419645__fc7282fd-7650-4ec5-9d9a-b3da48f7259b-1673282900394e80da-2",
+        "template--16035510419645__fc7282fd-7650-4ec5-9d9a-b3da48f7259b-1673282900394e80da-3",
+        "template--16035510419645__fc7282fd-7650-4ec5-9d9a-b3da48f7259b-1673282900394e80da-4",
+        "template--16035510419645__fc7282fd-7650-4ec5-9d9a-b3da48f7259b-1673282900394e80da-5",
+        "template--16035510419645__fc7282fd-7650-4ec5-9d9a-b3da48f7259b-1673282900394e80da-6"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 100,
+        "title": "Testimonials",
+        "heading_size": 100,
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "gradient": "",
+        "testimonial_block_color": "",
+        "star_color": "",
+        "testimonial_text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "d470caea-6eb9-41a9-b1ee-8499cc0d791e": {
+      "type": "section-text",
+      "blocks": {
+        "template--16035510419645__d470caea-6eb9-41a9-b1ee-8499cc0d791e-16732829006c93d0ff-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--16035510419645__d470caea-6eb9-41a9-b1ee-8499cc0d791e-16732829006c93d0ff-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Customer Reviews</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#000000",
+            "highlight_text_color": ""
+          }
+        },
+        "template--16035510419645__d470caea-6eb9-41a9-b1ee-8499cc0d791e-16732829006c93d0ff-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Here is what our Customer's have to say about this Product!</p>",
+            "size": 100
+          }
+        },
+        "template--16035510419645__d470caea-6eb9-41a9-b1ee-8499cc0d791e-16732829006c93d0ff-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--16035510419645__d470caea-6eb9-41a9-b1ee-8499cc0d791e-16732829006c93d0ff-0",
+        "template--16035510419645__d470caea-6eb9-41a9-b1ee-8499cc0d791e-16732829006c93d0ff-1",
+        "template--16035510419645__d470caea-6eb9-41a9-b1ee-8499cc0d791e-16732829006c93d0ff-2",
+        "template--16035510419645__d470caea-6eb9-41a9-b1ee-8499cc0d791e-16732829006c93d0ff-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "blocks": {
+        "related_Bm3Vhb": {
+          "type": "related",
+          "settings": {
+            "title": "You May Also Like",
+            "product_recommendations_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related_Bm3Vhb"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "layout": "carousel",
+        "columns_mobile": "1",
+        "type_style": "subheading-text",
+        "tab_heading_size": 120,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "product_faq_LVxi3f": {
+      "type": "product-faq",
+      "blocks": {
+        "text_g8ARPC": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to get my products?",
+            "text": "<p>Domestic shipping can take up to 5 business days.<br/><br/>Foreign shipping could take up to 14 business days.<br/><br/>Due to global supply chain challenges, shipping times could be longer than usual.</p>"
+          }
+        },
+        "text_Dxehcm": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer warranty for your products?",
+            "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
+          }
+        },
+        "text_itL8mc": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
+          }
+        },
+        "text_iBxfEL": {
+          "type": "text",
+          "settings": {
+            "title": "What shipping methods do you offer?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_g8ARPC",
+        "text_Dxehcm",
+        "text_itL8mc",
+        "text_iBxfEL"
+      ],
+      "name": "Product Accordions",
+      "settings": {
+        "use_product_metafield": true,
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "line_thickness": "normal",
+        "subheading": "",
+        "title": "{{ product.metafields.custom.faq_heading.value }}",
+        "type_style": "font-heading",
+        "heading_size": 120,
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "border_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17072522131eceed7c",
+    "fc7282fd-7650-4ec5-9d9a-b3da48f7259b",
+    "d470caea-6eb9-41a9-b1ee-8499cc0d791e",
+    "related",
+    "product_faq_LVxi3f"
+  ]
+}
